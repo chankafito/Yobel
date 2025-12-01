@@ -1,0 +1,66 @@
+{
+  "footer": {
+    "copyright": "© Yobel SCM Perú",
+    "navs" :{
+      "company": {
+        "title": "Company",
+        "links": [
+          { "label": "About Us", "to": "/empresa/sobre-nosotros" },
+          { "label": "Global Presence", "to": "/empresa/presencia-global" },
+          { "label": "History", "to": "/empresa/historia" }
+        ]
+      },
+      "services": {
+        "title": "Services",
+        "links": [
+          { "label": "Foreign Trade", "to": "/servicios/comercio-exterior" },
+          { "label": "Manufacturing", "to": "/servicios/manufactura" },
+          { "label": "Value-added Service", "to": "/servicios/valor-agregado" },
+          { "label": "Storage", "to": "/servicios/almacenamiento" },
+          { "label": "Distribution", "to": "/servicios/distribucion" },
+          { "label": "Courier Express", "to": "/servicios/courier-express" }
+        ]
+      },
+      "news": {
+        "title": "News",
+        "links": [
+          { "label": "All News", "to": "#" },
+          { "label": "Insights & Trends", "to": "#" },
+          { "label": "Innovation & Tech", "to": "#" },
+          { "label": "Success Cases & Guides", "to": "#" }
+        ]
+      },
+      "ethics": {
+        "title": "Ethics & Sustainability",
+        "links": [
+          { "label": "Code of Ethics", "to": "/etica/codigo-de-etica" },
+          { "label": "Ethics Line", "to": "/etica/linea-de-etica" },
+          { "label": "CSR & Sustainability", "to": "/etica/rse-sostenibilidad" }
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "links": [
+          { "label": "Offices", "to": "/contacto" },
+          { "label": "Contact Advisor", "to": "/contacto" },
+          { "label": "Work with Us", "to": "/contacto" }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": [
+          { "label": "Terms & Conditions", "to": "#" },
+          { "label": "Complaints Book", "to": "#" },
+          { "label": "Privacy Policy", "to": "#" },
+          { "label": "Cookies Policy", "to": "#" }
+        ]
+      }
+    },
+    "slogan" : {
+      "one" : "ON THE MOVE",
+      "two" : "WE CONCRETE",
+      "three": "YOUR DREAMS"
+    },
+    "contact" : "BUSINESS CONTACT"
+  }
+}

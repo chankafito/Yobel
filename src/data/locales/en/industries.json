@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Beauty & Personal Care",
+    "description": "Complete supply chain for cosmetics, fragrances and personal care products, with full traceability and sanitary control.",
+    "image": "/images/industries/bellesa-cui-personal.jpeg"
+  },
+  {
+    "title": "Food & Beverages",
+    "description": "Logistics for food products and beverages with controlled storage, cold chain and complete traceability.",
+    "image": "/images/industries/alimentos-bebidas.jpeg"
+  },
+  {
+    "title": "Construction",
+    "description": "Supply and transport of materials, spare parts and machinery with operational planning and safe handling.",
+    "image": "/images/industries/contruccion.jpeg"
+  },
+  {
+    "title": "Publishing",
+    "description": "Comprehensive logistics solutions for managing and distributing books, magazines and publications with regional coverage, timely availability and efficiency.",
+    "image": "/images/industries/editorial.jpeg"
+  },
+  {
+    "title": "Pharmaceutical",
+    "description": "Logistics flow for medicines, devices and health products with full traceability and controlled preservation.",
+    "image": "/images/industries/farmaceutica.jpeg"
+  },
+  {
+    "title": "Home & Household",
+    "description": "Supply chain for cleaning products, utensils and household items with operational efficiency and stock control.",
+    "image": "/images/industries/cuidado-hogar.jpeg"
+  },
+  {
+    "title": "Industrial Manufacturing",
+    "description": "Logistics of inputs, components and finished products with traceability, production continuity and operational flow optimization.",
+    "image": "/images/industries/manu-industrial.jpeg"
+  },
+  {
+    "title": "Footwear & Fashion",
+    "description": "Management of garments, footwear and accessories with seasonal control, collection traceability and preparation by sales channel.",
+    "image": "/images/industries/calzado-moda.jpeg"
+  },
+  {
+    "title": "Chemicals",
+    "description": "Safe logistics operations for substances and chemical products with specialized handling and environmental control for inputs and finished products.",
+    "image": "/images/industries/quimicos.jpeg"
+  },
+  {
+    "title": "Retail",
+    "description": "Comprehensive supply for stores, distribution centers and digital platforms with total visibility and reliable deliveries.",
+    "image": "/images/industries/reatil.jpeg"
+  },
+  {
+    "title": "Technology & Electronics",
+    "description": "Logistics flow of equipment, components and technology devices with serial traceability and security at each stage.",
+    "image": "/images/industries/tech-electronica.jpeg"
+  }
+]

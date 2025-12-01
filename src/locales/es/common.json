@@ -1,0 +1,11 @@
+{
+  "notFound": {
+    "message": "Página no encontrada",
+    "info": "La página que buscas no existe."
+  },
+  "flot_menu":{
+    "chatbot" : "Chatbot",
+    "tracking": "Tracking",
+    "contact": "Contacto"
+  }
+}

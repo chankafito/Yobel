@@ -1,0 +1,66 @@
+{
+  "footer": {
+    "copyright": "© Yobel SCM Perú",
+    "navs" :{
+      "company": {
+        "title": "Empresa",
+        "links": [
+          { "label": "Sobre Nosotros", "to": "/empresa/sobre-nosotros" },
+          { "label": "Presencia Global", "to": "/empresa/presencia-global" },
+          { "label": "Historia", "to": "/empresa/historia" }
+        ]
+      },
+      "services": {
+        "title": "Servicios",
+        "links": [
+          { "label": "Comercio Exterior", "to": "/servicios/comercio-exterior" },
+          { "label": "Manufactura", "to": "/servicios/manufactura" },
+          { "label": "Servicio Valor Agregado", "to": "/servicios/valor-agregado" },
+          { "label": "Almacenamiento", "to": "/servicios/almacenamiento" },
+          { "label": "Distribución", "to": "/servicios/distribucion" },
+          { "label": "Courier Express", "to": "/servicios/courier-express" }
+        ]
+      },
+      "news": {
+        "title": "Noticias",
+        "links": [
+          { "label": "Ver todas las noticias", "to": "#" },
+          { "label": "Insights y Tendencias", "to": "#" },
+          { "label": "Innovación y Tecnología", "to": "#" },
+          { "label": "Casos de Éxito y Guías Prácticas", "to": "#" }
+        ]
+      },
+      "ethics": {
+        "title": "Ética y Sostenibilidad",
+        "links": [
+          { "label": "Código de Ética", "to": "/etica/codigo-de-etica" },
+          { "label": "Línea de Ética", "to": "/etica/linea-de-etica" },
+          { "label": "RSE y Sostenibilidad", "to": "/etica/rse-sostenibilidad" }
+        ]
+      },
+      "contact": {
+        "title": "Contacto",
+        "links": [
+          { "label": "Oficinas", "to": "/contacto" },
+          { "label": "Contactar Asesor", "to": "/contacto" },
+          { "label": "Trabaja con nosotros", "to": "/contacto" }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": [
+          { "label": "Términos y Condiciones", "to": "#" },
+          { "label": "Libro de Reclamaciones", "to": "#" },
+          { "label": "Políticas de Privacidad", "to": "#" },
+          { "label": "Políticas de Cookies", "to": "#" }
+        ]
+      }
+    },
+    "slogan" : {
+      "one" : "EN MOVIMIENTO",
+      "two" : "CONCRETAMOS",
+      "three": "TUS SUEÑOS"
+    },
+    "contact" : "CONTACTO COMERCIAL"
+  }
+}
