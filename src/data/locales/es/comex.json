@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "label": "Comercio Exterior",
+    "title": "Importación, exportación y gestión aduanera",
+    "subtitle": "Soluciones de importación y exportación rápidas, seguras y a tu medida.",
+    "videoUrl": "https://circular.ws/yobel/amarillo-desktop.mp4"
+  },
+  "pitch": {
+    "text": "En YOBEL convertimos la complejidad del comercio exterior en procesos simples y eficientes. Gestionamos de principio a fin tus importaciones y exportaciones, asegurando rapidez, seguridad y ahorro en cada operación.",
+    "cta": "Optimiza tu Comercio Exterior"
+  },
+  "solutions": {
+    "title": "Soluciones",
+    "ctaText": "Ver tarifas",
+    "items": [
+      {
+        "title": "Gestión de Aduanas",
+        "desc": "Nos encargamos de todos los trámites aduaneros para que tu mercancía cumpla con la normativa sin retrasos ni complicaciones."
+      },
+      {
+        "title": "Transporte desde el Puerto",
+        "desc": "Coordinamos el traslado ágil y seguro de tus mercancías desde puertos o aeropuertos hasta el destino que necesites."
+      },
+      {
+        "title": "Transporte Internacional",
+        "desc": "Aseguramos el movimiento de tus bienes a nivel global con aliados estratégicos que garantizan seguridad y cumplimiento."
+      },
+      {
+        "title": "Nacionalización",
+        "desc": "Facilitamos la legalización de tus productos importados, evitando demoras y optimizando tus operaciones internacionales."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "subtitle": "Nos enfocamos en optimizar tiempos y costos en cada operación de comercio exterior.",
+    "items": [
+      "Seguimiento en tiempo real de tus importaciones y exportaciones con trazabilidad 24/7.",
+      "Menores costos operativos gracias a una logística internacional integrada y eficiente.",
+      "Atención personalizada de un equipo experto en comercio exterior.",
+      "Trámites y documentación simplificados, sin demoras ni complicaciones."
+    ],
+    "image": "/images/yobel-logistica.jpg"
+  },
+  "processes": {
+    "subtitle": "Llevamos tu operación al siguiente nivel",
+    "title": "Nuestros servicios de comercio exterior cubren todo el ciclo logístico, asegurando eficiencia, cumplimiento y trazabilidad en cada etapa.",
+    "label": "Procesos",
+    "items": [
+      {
+        "title": "Análisis y Planificación",
+        "desc": "Diseñamos la estrategia de operación según el tipo de carga y tus necesidades específicas."
+      },
+      {
+        "title": "Gestión Documental",
+        "desc": "Nos ocupamos de la documentación y los requisitos aduaneros para evitar retrasos."
+      },
+      {
+        "title": "Transporte",
+        "desc": "Coordinamos el movimiento de tu carga a nivel global y nacional con aliados estratégicos."
+      },
+      {
+        "title": "Entrega Final",
+        "desc": "Garantizamos la llegada de tus productos con trazabilidad completa y cumplimiento de tiempos."
+      }
+    ]
+  },
+  "faq": {
+    "title": "¿Tienes algunas preguntas? Encuentra tu respuesta",
+    "items": [
+      {
+        "question": "¿Yobel Perú gestiona todo el proceso de importación?",
+        "answer": "Sí, nos encargamos desde la llegada de la mercancía al puerto hasta su entrega final, incluyendo trámites aduaneros, transporte y nacionalización."
+      },
+      {
+        "question": "¿Yobel puede gestionar cargas con requisitos sanitarios o peligrosos?",
+        "answer": "Sí, contamos con experiencia en la manipulación de mercancías reguladas y coordinación con autoridades sanitarias y aduaneras."
+      },
+      {
+        "question": "¿Ofrecen asesoría en normativa de exportación e importación?",
+        "answer": "Sí, brindamos soporte técnico y documental para cumplir con los requisitos legales y optimizar los tiempos de despacho."
+      },
+      {
+        "question": "¿Puedo tener visibilidad del estado de mi carga en tránsito?",
+        "answer": "Sí, ofrecemos trazabilidad total con reportes en línea y actualizaciones automáticas durante cada fase del proceso."
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/services/comercio-exterior.jpeg",
+    "logistics": "https://images.unsplash.com/photo-1631388167556-55a285cc86a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
+    "hover": "/images/services/comercio-exterior.jpeg"
+  }
+}

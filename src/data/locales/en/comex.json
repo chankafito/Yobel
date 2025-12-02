@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "label": "Foreign Trade",
+    "title": "Import, export and customs management",
+    "subtitle": "Fast, secure import and export solutions tailored to your needs.",
+    "videoUrl": "https://circular.ws/yobel/amarillo-desktop.mp4"
+  },
+  "pitch": {
+    "text": "At YOBEL we turn the complexity of foreign trade into simple and efficient processes. We manage your imports and exports from start to finish, ensuring speed, security and savings in every operation.",
+    "cta": "Optimize your Foreign Trade"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "ctaText": "View rates",
+    "items": [
+      {
+        "title": "Customs Management",
+        "desc": "We handle all customs procedures so your merchandise complies with regulations without delays or complications."
+      },
+      {
+        "title": "Port Transportation",
+        "desc": "We coordinate the agile and safe transfer of your goods from ports or airports to the destination you need."
+      },
+      {
+        "title": "International Transportation",
+        "desc": "We ensure the movement of your goods globally with strategic allies that guarantee security and compliance."
+      },
+      {
+        "title": "Nationalization",
+        "desc": "We facilitate the legalization of your imported products, avoiding delays and optimizing your international operations."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "subtitle": "We focus on optimizing time and costs in every foreign trade operation.",
+    "items": [
+      "Real-time tracking of your imports and exports with 24/7 traceability.",
+      "Lower operating costs thanks to integrated and efficient international logistics.",
+      "Personalized attention from a team of foreign trade experts.",
+      "Simplified paperwork and documentation, without delays or complications."
+    ],
+    "image": "/images/yobel-logistica.jpg"
+  },
+  "processes": {
+    "subtitle": "We take your operation to the next level",
+    "title": "Our foreign trade services cover the entire logistics cycle, ensuring efficiency, compliance and traceability at every stage.",
+    "label": "Processes",
+    "items": [
+      {
+        "title": "Analysis and Planning",
+        "desc": "We design the operation strategy according to the type of cargo and your specific needs."
+      },
+      {
+        "title": "Document Management",
+        "desc": "We take care of documentation and customs requirements to avoid delays."
+      },
+      {
+        "title": "Transportation",
+        "desc": "We coordinate the movement of your cargo globally and nationally with strategic allies."
+      },
+      {
+        "title": "Final Delivery",
+        "desc": "We guarantee the arrival of your products with complete traceability and time compliance."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Have questions? Find your answer",
+    "items": [
+      {
+        "question": "Does Yobel manage the entire import process?",
+        "answer": "Yes, we take care of everything from the arrival of the merchandise at the port to its final delivery, including customs procedures, transportation and nationalization."
+      },
+      {
+        "question": "Can Yobel handle cargo with sanitary or hazardous requirements?",
+        "answer": "Yes, we have experience in handling regulated goods and coordinating with sanitary and customs authorities."
+      },
+      {
+        "question": "Do you offer advice on export and import regulations?",
+        "answer": "Yes, we provide technical and documentary support to comply with legal requirements and optimize clearance times."
+      },
+      {
+        "question": "Can I have visibility of my cargo status in transit?",
+        "answer": "Yes, we offer total traceability with online reports and automatic updates during each phase of the process."
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/services/comercio-exterior.jpeg",
+    "logistics": "https://images.unsplash.com/photo-1631388167556-55a285cc86a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
+    "hover": "/images/services/comercio-exterior.jpeg"
+  }
+}
