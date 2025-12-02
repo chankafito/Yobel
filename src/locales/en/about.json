@@ -4,6 +4,32 @@
       "name" : "About Us",
       "title" : "With over 50 years of experience in Latin America",
       "subtitle" : "At Yobel, we drive your business with logistics and manufacturing solutions that integrate innovation, efficiency, and proximity, generating real value at every stage of the supply chain."
+    },
+    "purpose" : [
+      {
+        "title": "Purpose",
+        "content": "Our purpose is to connect businesses with their customers through efficient and innovative logistics solutions."
+      },
+      {
+        "title": "Mission",
+        "content": "Our mission is to provide world-class supply chain services that exceed our clients' expectations."
+      },
+      {
+        "title": "Vision",
+        "content": "Our vision is to be the leading logistics partner in Latin America, recognized for our innovation and excellence."
+      }
+    ],
+    "values" : {
+      "title" :  "Value Proposition",
+      "description" :  "What makes us different in the market",
+      "items" : [
+        "Comprehensive logistics management",
+        "Efficient regional coverage",
+        "Total operational flexibility",
+        "Advanced technology and traceability",
+        "Cost optimization",
+        "Enhanced customer experience"
+      ]
     }
   }
 }
