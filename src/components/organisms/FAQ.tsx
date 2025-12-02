@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Section } from "../ui/section";
 import { Container } from "../ui/container";
 import { FAQItem, type FAQItemData } from "../molecules/FAQItem";

@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../Logo";
 import { useTranslation } from "react-i18next";
 

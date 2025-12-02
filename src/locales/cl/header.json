@@ -7,66 +7,73 @@
       "label" : "¿Dónde está mi envío?",
       "placeholder" : "Ingresa tu número de seguimiento acá"
     },
-    "navs" : {
-      "services": {
-        "title": "Servicios",
-        "links": [
-          { "label": "Comercio Exterior", "to": "/servicios/comercio-exterior" },
-          { "label": "Manufactura", "to": "/servicios/manufactura" },
-          { "label": "Servicio Valor Agregado", "to": "/servicios/valor-agregado" },
-          { "label": "Almacenamiento", "to": "/servicios/almacenamiento" },
-          { "label": "Distribución", "to": "/servicios/distribucion" },
-          { "label": "Courier Express", "to": "/servicios/courier-express" }
-        ]
-      },
-
-      "ethics": {
-        "title": "Ética y Sostenibilidad",
-        "links": [
-          { "label": "Código de Ética", "to": "/etica/codigo-de-etica" },
-          { "label": "Línea de Ética", "to": "/etica/linea-de-etica" },
-          { "label": "RSE y Sostenibilidad", "to": "/etica/rse-sostenibilidad" }
-        ]
-      },
-
-      "company": {
+    "navs" :[
+      {
+        "id": "01",
         "title": "Empresa",
-        "links": [
-          { "label": "Sobre Nosotros", "to": "/empresa/sobre-nosotros" },
-          { "label": "Presencia Global", "to": "/empresa/presencia-global" },
-          { "label": "Historia", "to": "/empresa/historia" }
+        "items": [
+          { "name": "Sobre Nosotros", "path": "/empresa/sobre-nosotros" },
+          { "name": "Presencia Global", "path": "/empresa/presencia-global" },
+          { "name": "Historia", "path": "/empresa/historia" },
+          { "name": "Tarifas", "path": "/tarifas" }
         ]
       },
-
-      "news": {
+      {
+        "id": "02",
+        "title": "Servicios",
+        "items": [
+          { "name": "Comercio Exterior", "path": "/servicios/comercio-exterior" },
+          { "name": "Manufactura", "path": "/servicios/manufactura" },
+          { "name": "Servicio Valor Agregado", "path": "/servicios/valor-agregado" },
+          { "name": "Almacenamiento", "path": "/servicios/almacenamiento" },
+          { "name": "Distribución", "path": "/servicios/distribucion" },
+          { "name": "Courier Express", "path": "/servicios/courier-express" }
+        ]
+      },
+      {
+        "id": "03",
+        "title": "Industrias",
+        "items": [
+          { "name": "Alimentos y Bebidas", "path": "/industrias/alimentos-y-bebidas" },
+          { "name": "Belleza y Cuidado Personal", "path": "/industrias/belleza-y-cuidado-personal" },
+          { "name": "Calzado y Moda", "path": "/industrias/calzado-y-moda" },
+          { "name": "Construcción", "path": "/industrias/construccion" },
+          { "name": "Cuidado del Hogar", "path": "/industrias/cuidado-del-hogar" },
+          { "name": "Editorial", "path": "/industrias/editorial" },
+          { "name": "Farmacéutica", "path": "/industrias/farmaceutica" },
+          { "name": "Manufactura Industrial", "path": "/industrias/manufactura-industrial" },
+          { "name": "Química", "path": "/industrias/quimica" },
+          { "name": "Retail", "path": "/industrias/retail" },
+          { "name": "Tecnología y Electrónica", "path": "/industrias/tecnologia-y-electronica" }
+        ]
+      },
+      {
+        "id": "04",
         "title": "Noticias",
-        "links": [
-          { "label": "Ver todas las noticias", "to": "#" },
-          { "label": "Insights y Tendencias", "to": "#" },
-          { "label": "Innovación y Tecnología", "to": "#" },
-          { "label": "Casos de Éxito y Guías Prácticas", "to": "#" }
+        "items": [
+          { "name": "Todas las noticias", "path": "/noticias" },
+          { "name": "Insights y Tendencias", "path": "/noticias" },
+          { "name": "Innovación y Tecnología", "path": "/noticias" }
         ]
       },
-
-      "contact": {
+      {
+        "id": "05",
+        "title": "Ética",
+        "items": [
+          { "name": "Código de Ética", "path": "/etica/codigo-de-etica" },
+          { "name": "Línea de Ética", "path": "/etica/linea-de-etica" },
+          { "name": "RSE y Sostenibilidad", "path": "/etica/rse-sostenibilidad" }
+        ]
+      },
+      {
+        "id": "06",
         "title": "Contacto",
-        "links": [
-          { "label": "Oficinas", "to": "/contacto" },
-          { "label": "Contactar Asesor", "to": "/contacto" },
-          { "label": "Trabaja con nosotros", "to": "/contacto" }
-        ]
-      },
-
-      "legal": {
-        "title": "Legal",
-        "links": [
-          { "label": "Términos y Condiciones", "to": "#" },
-          { "label": "Libro de Reclamaciones", "to": "#" },
-          { "label": "Políticas de Privacidad", "to": "#" },
-          { "label": "Políticas de Cookies", "to": "#" }
+        "items": [
+          { "name": "Oficinas", "path": "/contacto" },
+          { "name": "Contactar Asesor", "path": "/contacto" },
+          { "name": "Trabaja con nosotros", "path": "/contacto" }
         ]
       }
-
-    }
+    ]
   }
 }

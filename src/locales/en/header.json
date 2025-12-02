@@ -7,66 +7,73 @@
       "label" : "Where is my shipment?",
       "placeholder" : "Enter your tracking number here"
     },
-    "navs" : {
-      "services": {
-        "title": "Services",
-        "links": [
-          { "label": "Foreign Trade", "to": "/servicios/comercio-exterior" },
-          { "label": "Manufacturing", "to": "/servicios/manufactura" },
-          { "label": "Value-Added Service", "to": "/servicios/valor-agregado" },
-          { "label": "Storage", "to": "/servicios/almacenamiento" },
-          { "label": "Distribution", "to": "/servicios/distribucion" },
-          { "label": "Express Courier", "to": "/servicios/courier-express" }
-        ]
-      },
-
-      "ethics": {
-        "title": "Ethics & Sustainability",
-        "links": [
-          { "label": "Code of Ethics", "to": "/etica/codigo-de-etica" },
-          { "label": "Ethics Hotline", "to": "/etica/linea-de-etica" },
-          { "label": "CSR & Sustainability", "to": "/etica/rse-sostenibilidad" }
-        ]
-      },
-
-      "company": {
+    "navs" :[
+      {
+        "id": "01",
         "title": "Company",
-        "links": [
-          { "label": "About Us", "to": "/empresa/sobre-nosotros" },
-          { "label": "Global Presence", "to": "/empresa/presencia-global" },
-          { "label": "History", "to": "/empresa/historia" }
+        "items": [
+          { "name": "About Us", "path": "/empresa/sobre-nosotros" },
+          { "name": "Global Presence", "path": "/empresa/presencia-global" },
+          { "name": "History", "path": "/empresa/historia" },
+          { "name": "Rates", "path": "/tarifas" }
         ]
       },
-
-      "news": {
+      {
+        "id": "02",
+        "title": "Services",
+        "items": [
+          { "name": "Foreign Trade", "path": "/servicios/comercio-exterior" },
+          { "name": "Manufacturing", "path": "/servicios/manufactura" },
+          { "name": "Value-Added Service", "path": "/servicios/valor-agregado" },
+          { "name": "Storage", "path": "/servicios/almacenamiento" },
+          { "name": "Distribution", "path": "/servicios/distribucion" },
+          { "name": "Express Courier", "path": "/servicios/courier-express" }
+        ]
+      },
+      {
+        "id": "03",
+        "title": "Industries",
+        "items": [
+          { "name": "Food and Beverages", "path": "/industrias/alimentos-y-bebidas" },
+          { "name": "Beauty and Personal Care", "path": "/industrias/belleza-y-cuidado-personal" },
+          { "name": "Footwear and Fashion", "path": "/industrias/calzado-y-moda" },
+          { "name": "Construction", "path": "/industrias/construccion" },
+          { "name": "Home Care", "path": "/industrias/cuidado-del-hogar" },
+          { "name": "Publishing", "path": "/industrias/editorial" },
+          { "name": "Pharmaceutical", "path": "/industrias/farmaceutica" },
+          { "name": "Industrial Manufacturing", "path": "/industrias/manufactura-industrial" },
+          { "name": "Chemical", "path": "/industrias/quimica" },
+          { "name": "Retail", "path": "/industrias/retail" },
+          { "name": "Technology and Electronics", "path": "/industrias/tecnologia-y-electronica" }
+        ]
+      },
+      {
+        "id": "04",
         "title": "News",
-        "links": [
-          { "label": "All News", "to": "#" },
-          { "label": "Insights & Trends", "to": "#" },
-          { "label": "Innovation & Technology", "to": "#" },
-          { "label": "Success Cases & Guides", "to": "#" }
+        "items": [
+          { "name": "All News", "path": "/noticias" },
+          { "name": "Insights and Trends", "path": "/noticias" },
+          { "name": "Innovation and Technology", "path": "/noticias" }
         ]
       },
-
-      "contact": {
+      {
+        "id": "05",
+        "title": "Ethics",
+        "items": [
+          { "name": "Code of Ethics", "path": "/etica/codigo-de-etica" },
+          { "name": "Ethics Hotline", "path": "/etica/linea-de-etica" },
+          { "name": "CSR and Sustainability", "path": "/etica/rse-sostenibilidad" }
+        ]
+      },
+      {
+        "id": "06",
         "title": "Contact",
-        "links": [
-          { "label": "Offices", "to": "/contacto" },
-          { "label": "Contact Advisor", "to": "/contacto" },
-          { "label": "Work with Us", "to": "/contacto" }
-        ]
-      },
-
-      "legal": {
-        "title": "Legal",
-        "links": [
-          { "label": "Terms & Conditions", "to": "#" },
-          { "label": "Complaints Book", "to": "#" },
-          { "label": "Privacy Policy", "to": "#" },
-          { "label": "Cookies Policy", "to": "#" }
+        "items": [
+          { "name": "Offices", "path": "/contacto" },
+          { "name": "Contact an Advisor", "path": "/contacto" },
+          { "name": "Work With Us", "path": "/contacto" }
         ]
       }
-
-    }
+    ]
   }
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import { yobelIconAlt } from "../../assets/svg/icons";
 import { cn } from "../../utils/cn";
 

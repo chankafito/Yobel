@@ -3,36 +3,36 @@
     "id": "01",
     "title": "Foreign Trade (COMEX)",
     "description": "Agile solutions for importing and exporting. We manage the entire process: customs, international transport, and nationalization with full visibility at each stage.",
-    "image": "/assets/images/services/comercio-exterior.jpeg"
+    "image": "/services/comercio-exterior.jpeg"
   },
   {
     "id": "02",
     "title": "Manufacturing",
     "description": "Flexible mass consumption production. We manufacture and condition products in our plants, under international standards (GMP/GAP), ready for launches and high-demand seasons.",
-    "image": "/assets/images/services/manufactura.jpeg"
+    "image": "/services/manufactura.jpeg"
   },
   {
     "id": "03",
     "title": "Value-Added Service",
     "description": "More value for your products. Kitting, labeling, promotional packaging, re-packaging, shrink-wrapping, and re-conditioning with batch control for faster and more efficient campaigns.",
-    "image": "/assets/images/services/valor-agregado.jpeg"
+    "image": "/services/valor-agregado.jpeg"
   },
   {
     "id": "04",
     "title": "Storage",
     "description": "Safe and optimized inventories. Warehouses with WMS, temperature control, and 100% guaranteed traceability. Security and cross-docking to supply all your channels.",
-    "image": "/assets/images/services/almacenamiento.jpeg"
+    "image": "/services/almacenamiento.jpeg"
   },
   {
     "id": "05",
     "title": "Distribution",
     "description": "Reliable deliveries across the country. Modern B2B and wholesale, e-commerce and last-mile. We meet delivery windows with 99.6% OTIF performance at national level.",
-    "image": "/assets/images/services/distribucion.jpeg"
+    "image": "/services/distribucion.jpeg"
   },
   {
     "id": "06",
     "title": "Express Courier",
     "description": "Door-to-door pickup and delivery. Ideal for e-commerce, samples, and urgent shipments, with 24/7 traceability and full control of your deliveries.",
-    "image": "/assets/images/services/courier-express.jpeg"
+    "image": "/services/courier-express.jpeg"
   }
 ]
