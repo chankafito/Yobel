@@ -1,14 +1,13 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 import EmblaCarousel from "embla-carousel-react";
 import { Section } from "../../../components/ui/section";
 import { Container } from "../../../components/ui/container";
 import { useIndustries } from "../../../hooks/useIndustries";
-import { useAssetPath } from "../../../hooks/useAssetPath";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export function Industries() {
   const industries = useIndustries();
-  const getAssetPath = useAssetPath();
+  
   const [emblaRef, emblaApi] = EmblaCarousel({
     align: "start",
     slidesToScroll: 1,
@@ -63,6 +62,34 @@ export function Industries() {
     [emblaApi]
   );
 
+  // Mapa de imágenes desde src (Vite genera URLs públicas)
+  const imagesMap = useMemo(() => {
+    const modules = import.meta.glob("/src/assets/imagesn/industries/*", { eager: true, as: "url" }) as Record<string, string>;
+    return modules;
+  }, []);
+
+  // Resolver por nombre de archivo (case-insensitive)
+  const resolveFromSrc = (filename?: string) => {
+    if (!filename) return "";
+    const target = filename.toLowerCase();
+    for (const fullPath in imagesMap) {
+      const file = fullPath.split("/").pop()?.toLowerCase();
+      if (file === target) return imagesMap[fullPath];
+    }
+    return "";
+  };
+
+  // Resolver la ruta final de la imagen
+  const getImageSrc = (img?: string) => {
+    if (!img) return "";
+    const lower = img.toLowerCase();
+    if (lower.startsWith("http://") || lower.startsWith("https://") || img.startsWith("/")) {
+      return img; // absoluta/externa
+    }
+    // buscar en src/assets/imagesn/industries
+    return resolveFromSrc(img);
+  };
+
   return (
     <Section className="relative bg-linear-to-b from-[#fff066] to-white overflow-hidden">
       <Container className="max-w-[1440px] flex flex-col gap-12">
@@ -111,7 +138,7 @@ export function Industries() {
                       className="flex flex-col gap-5 w-full cursor-pointer"
                     >
                       <div className="aspect-4/3 w-full rounded-[20px] overflow-hidden relative shrink-0">
-                        <img src={ind.image} alt={ind.title} className="w-full h-full object-cover" />
+                        <img src={getImageSrc(ind.image)} alt={ind.title} className="w-full h-full object-cover" />
                       </div>
                       <div className="flex flex-col gap-3 text-black">
                         <h3 className="text-2xl font-medium font-[Neue_Augenblick]">{ind.title}</h3>

@@ -1,0 +1,188 @@
+[
+  {
+    "title": "About Us",
+    "path": "/empresa/sobre-nosotros",
+    "category": "Company",
+    "keywords": "yobel mission vision purpose values"
+  },
+  {
+    "title": "Global Presence",
+    "path": "/empresa/presencia-global",
+    "category": "Company",
+    "keywords": "countries locations international offices"
+  },
+  {
+    "title": "History",
+    "path": "/empresa/historia",
+    "category": "Company",
+    "keywords": "trajectory years experience"
+  },
+  {
+    "title": "Foreign Trade",
+    "path": "/servicios/comercio-exterior",
+    "category": "Services",
+    "keywords": "customs import export comex"
+  },
+  {
+    "title": "Manufacturing",
+    "path": "/servicios/manufactura",
+    "category": "Services",
+    "keywords": "production manufacturing plant"
+  },
+  {
+    "title": "Value-Added Service",
+    "path": "/servicios/valor-agregado",
+    "category": "Services",
+    "keywords": "packaging labeling maquila"
+  },
+  {
+    "title": "Storage",
+    "path": "/servicios/almacenamiento",
+    "category": "Services",
+    "keywords": "warehouse stock inventory"
+  },
+  {
+    "title": "Distribution",
+    "path": "/servicios/distribucion",
+    "category": "Services",
+    "keywords": "transport delivery fleet last mile"
+  },
+  {
+    "title": "Express Courier",
+    "path": "/servicios/courier-express",
+    "category": "Services",
+    "keywords": "parcel shipping fast deliveries ecommerce"
+  },
+  {
+    "title": "Rates",
+    "path": "/tarifas",
+    "category": "Services",
+    "keywords": "prices costs quotation"
+  },
+  {
+    "title": "Food and Beverages",
+    "path": "/industrias/alimentos-y-bebidas",
+    "category": "Industries",
+    "keywords": "mass consumption perishables"
+  },
+  {
+    "title": "Beauty and Personal Care",
+    "path": "/industrias/belleza-y-cuidado-personal",
+    "category": "Industries",
+    "keywords": "cosmetics hygiene"
+  },
+  {
+    "title": "Footwear and Fashion",
+    "path": "/industrias/calzado-y-moda",
+    "category": "Industries",
+    "keywords": "clothing textile fashion"
+  },
+  {
+    "title": "Construction",
+    "path": "/industrias/construccion",
+    "category": "Industries",
+    "keywords": "materials works"
+  },
+  {
+    "title": "Home Care",
+    "path": "/industrias/cuidado-del-hogar",
+    "category": "Industries",
+    "keywords": "cleaning detergents"
+  },
+  {
+    "title": "Publishing",
+    "path": "/industrias/editorial",
+    "category": "Industries",
+    "keywords": "books magazines paper"
+  },
+  {
+    "title": "Pharmaceutical",
+    "path": "/industrias/farmaceutica",
+    "category": "Industries",
+    "keywords": "medicines health pharma"
+  },
+  {
+    "title": "Industrial Manufacturing",
+    "path": "/industrias/manufactura-industrial",
+    "category": "Industries",
+    "keywords": "heavy industry machinery"
+  },
+  {
+    "title": "Chemical",
+    "path": "/industrias/quimica",
+    "category": "Industries",
+    "keywords": "chemical inputs hazardous"
+  },
+  {
+    "title": "Retail",
+    "path": "/industrias/retail",
+    "category": "Industries",
+    "keywords": "stores supermarkets consumption"
+  },
+  {
+    "title": "Technology and Electronics",
+    "path": "/industrias/tecnologia-y-electronica",
+    "category": "Industries",
+    "keywords": "tech gadgets computing"
+  },
+  {
+    "title": "Code of Ethics",
+    "path": "/etica/codigo-de-etica",
+    "category": "Ethics",
+    "keywords": "conduct values standards"
+  },
+  {
+    "title": "Ethics Hotline",
+    "path": "/etica/linea-de-etica",
+    "category": "Ethics",
+    "keywords": "reports complaints anonymous"
+  },
+  {
+    "title": "CSR and Sustainability",
+    "path": "/etica/rse-sostenibilidad",
+    "category": "Ethics",
+    "keywords": "environment social responsibility"
+  },
+  {
+    "title": "Contact",
+    "path": "/contacto",
+    "category": "Contact",
+    "keywords": "offices phone email address"
+  },
+  {
+    "title": "Work With Us",
+    "path": "/contacto",
+    "category": "Contact",
+    "keywords": "jobs resume recruitment"
+  },
+  {
+    "title": "Complaints Book",
+    "path": "/libro-reclamaciones",
+    "category": "Legal",
+    "keywords": "claims complaints indecopi"
+  },
+  {
+    "title": "Terms and Conditions",
+    "path": "/terminos-y-condiciones",
+    "category": "Legal",
+    "keywords": "legal use"
+  },
+  {
+    "title": "Privacy Policy",
+    "path": "/politicas-de-privacidad",
+    "category": "Legal",
+    "keywords": "personal data protection"
+  },
+  {
+    "title": "Cookie Policy",
+    "path": "/politicas-de-cookies",
+    "category": "Legal",
+    "keywords": "tracking browsing"
+  },
+  {
+    "title": "News",
+    "path": "/noticias",
+    "category": "News",
+    "keywords": "blog updates press"
+  }
+]

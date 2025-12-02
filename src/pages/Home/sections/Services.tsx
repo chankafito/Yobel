@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useMemo } from "react";
 import {  motion, AnimatePresence } from "framer-motion";
 import { Section } from "../../../components/ui/section";
 import { Container } from "../../../components/ui/container";
@@ -6,12 +6,74 @@ import { Container } from "../../../components/ui/container";
 import { ImageWithFallback } from "../../../components/ui/ImageWithFallback";
 
 import { useServices } from "../../../hooks/useServices";
-import { useAssetPath } from "../../../hooks/useAssetPath";
 
 export function Services() {
   const [activeId, setActiveId] = useState("");
   const services = useServices();
-  const getAssetPath = useAssetPath();
+
+  // Base pública de servicios (public/assets/services)
+  const SERVICES_BASE = "assets/services/";
+
+  // Construir URL final considerando BASE_URL y casos absolutos/externos
+  const resolveServiceImage = (img?: string) => {
+    if (!img) return "";
+    const lower = img.toLowerCase();
+    if (lower.startsWith("http://") || lower.startsWith("https://") || img.startsWith("/")) {
+      return img;
+    }
+    const base = import.meta.env.BASE_URL || "/";
+    return `${base}${SERVICES_BASE}${img}`;
+  };
+
+  // Cache de imágenes pre-cargadas: { nombreArchivo => urlResuelta }
+  const [imageCache, setImageCache] = useState<Record<string, string>>({});
+
+  // Lista única de nombres de imagen desde services
+  const uniqueImages = useMemo(() => {
+    const set = new Set<string>();
+    services.forEach(s => s.image && set.add(s.image));
+    return Array.from(set);
+  }, [services]);
+
+  // Pre-carga de imágenes
+  useEffect(() => {
+    if (!uniqueImages.length) return;
+
+    let mounted = true;
+    const nextCache: Record<string, string> = { ...imageCache };
+
+    const promises = uniqueImages.map(name => {
+      // Si ya existe en cache, no recargar
+      if (nextCache[name]) return Promise.resolve();
+
+      return new Promise<void>((resolve) => {
+        const url = resolveServiceImage(name);
+        const imgEl = new Image();
+        imgEl.onload = () => {
+          nextCache[name] = url;
+          resolve();
+        };
+        imgEl.onerror = () => {
+          // en error, usar igualmente la ruta resuelta para que ImageWithFallback gestione el fallback
+          nextCache[name] = url;
+          resolve();
+        };
+        imgEl.src = url;
+      });
+    });
+
+    Promise.all(promises).then(() => {
+      if (mounted) setImageCache(nextCache);
+    });
+
+    return () => { mounted = false; };
+  }, [uniqueImages]); // intencionalmente sin imageCache para evitar bucles
+
+  // Helper para obtener la src final desde cache (o ruta resuelta si aún no carga)
+  const getServiceImage = (img?: string) => {
+    if (!img) return "";
+    return imageCache[img] || resolveServiceImage(img);
+  };
 
   return (
     <Section className="bg-white">
@@ -43,7 +105,11 @@ export function Services() {
                         >
                             <p className="text-lg text-gray-600 mb-4 font-augenblick">{service.description}</p>
                             <div className="w-full aspect-video rounded-2xl overflow-hidden shadow-sm">
-                                <ImageWithFallback src={getAssetPath(service.image)} className="w-full h-full object-cover" alt={service.title} />
+                                <ImageWithFallback
+                                  src={getServiceImage(service.image)}
+                                  className="w-full h-full object-cover"
+                                  alt={service.title}
+                                />
                             </div>
                         </motion.div>
                     )}
@@ -80,7 +146,11 @@ export function Services() {
                           transition={{ duration: 0.4, ease: "easeOut" }}
                           className="w-full h-full rounded-[20px] overflow-hidden shadow-2xl"
                           >
-                          <ImageWithFallback src={getAssetPath(services.find(s => s.id === activeId)?.image || "")} className="w-full h-full object-cover" alt="Service" />
+                          <ImageWithFallback
+                            src={getServiceImage(services.find(s => s.id === activeId)?.image || "")}
+                            className="w-full h-full object-cover"
+                            alt="Service"
+                          />
                         </motion.div>
                     </AnimatePresence>
                 </motion.div>
