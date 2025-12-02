@@ -1,9 +1,10 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, useLocation } from "react-router-dom";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { ChevronDown } from "lucide-react";
 
 export default function LangSelector() {
   const navigate = useNavigate();
+  const location = useLocation();
   const { lang } = useParams();
   const current = lang ?? "en";
 
@@ -14,7 +15,29 @@ export default function LangSelector() {
   ];
 
   const handleSelect = (value: string) => {
-    navigate(`/${value}`);
+    // Obtener el path actual sin el prefijo de idioma
+    const currentPath = location.pathname;
+    const supportedLangs = options.map(o => o.code);
+
+    // Remover el idioma actual del path si existe
+    let pathWithoutLang = currentPath;
+    for (const langCode of supportedLangs) {
+      if (currentPath.startsWith(`/${langCode}/`)) {
+        pathWithoutLang = currentPath.slice(langCode.length + 1);
+        break;
+      } else if (currentPath === `/${langCode}`) {
+        pathWithoutLang = "/";
+        break;
+      }
+    }
+
+    // Si estamos en la raíz, solo navegar al idioma
+    if (pathWithoutLang === "/" || pathWithoutLang === "") {
+      navigate(`/${value}`);
+    } else {
+      // Mantener el path actual con el nuevo idioma
+      navigate(`/${value}${pathWithoutLang}`);
+    }
   };
 
   return (
