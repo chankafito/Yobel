@@ -1,16 +1,10 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { yobelLogoPaths } from "../../assets/svg/icons";
-import { useAssetPath } from "../../hooks/useAssetPath";
+import camionVideo from "../../assets/videos/camion.mp4";
 
-interface ScrollRevealVideoProps {
-  videoSrc?: string;
-  className?: string;
-}
-
-export function ScrollRevealVideo({ videoSrc, className }: ScrollRevealVideoProps) {
+export function ScrollRevealVideo() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const getAssetPath = useAssetPath();
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -19,17 +13,15 @@ export function ScrollRevealVideo({ videoSrc, className }: ScrollRevealVideoProp
 
   const scale = useTransform(scrollYProgress, [0, 1], [1, 150]);
 
-  const defaultVideoSrc = getAssetPath("/assets/videos/camion.mp4");
-
   return (
-    <div
+    <section
       ref={containerRef}
-      className={`relative h-[300vh] w-full bg-white ${className || ""}`}
+      className="relative w-full bg-white h-[300vh]"
     >
-      <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
+      <div className="sticky top-0 w-full h-screen flex items-center justify-center overflow-hidden">
         <div className="relative w-full h-[50vh] md:h-[70vh] overflow-hidden">
           <video
-            src={videoSrc || defaultVideoSrc}
+            src={camionVideo}
             className="absolute top-0 left-0 w-full h-full object-cover"
             autoPlay
             loop
@@ -38,12 +30,22 @@ export function ScrollRevealVideo({ videoSrc, className }: ScrollRevealVideoProp
           />
 
           {/* Mask Layer */}
-          <motion.div className="absolute inset-0 flex items-center justify-center bg-white mix-blend-screen z-10 pointer-events-none">
+          <motion.div
+            className="absolute inset-0 flex items-center justify-center pointer-events-none"
+            style={{
+              backgroundColor: "white",
+              mixBlendMode: "screen",
+              zIndex: 10,
+            }}
+          >
             <motion.svg
               viewBox="0 0 94 36"
-              className="w-[80%] md:w-[60%] h-auto origin-center"
+              className="w-[80%] md:w-[60%] h-auto"
               preserveAspectRatio="xMidYMid meet"
-              style={{ scale }}
+              style={{
+                scale,
+                transformOrigin: "center center",
+              }}
             >
               {Object.values(yobelLogoPaths).map((d, i) => (
                 <path key={i} d={d as string} fill="black" />
@@ -52,6 +54,6 @@ export function ScrollRevealVideo({ videoSrc, className }: ScrollRevealVideoProp
           </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

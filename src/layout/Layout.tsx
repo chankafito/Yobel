@@ -27,7 +27,7 @@ export default function Layout() {
   }
 
   return (
-    <div className="min-h-screen w-full bg-white relative">
+    <div className="min-h-screen w-full bg-white relative overflow-x-clip">
       <Navbar />
       <FloatingMenu />
 
