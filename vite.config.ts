@@ -11,6 +11,18 @@ export default ({ mode }: { mode: string }) => {
     build: {
       target: 'esnext',
       outDir: 'build',
+      chunkSizeWarningLimit: 1000, // aumentar límite para evitar warnings
+      rollupOptions: {
+        output: {
+          manualChunks(id: string) {
+            if (id.includes("node_modules")) {
+              // Solo separar lucide-react, dejar react/react-dom juntos
+              if (id.includes("lucide-react")) return "vendor_lucide";
+              // No separar react/react-dom/scheduler (dejarlos en el chunk principal de vendor)
+            }
+          }
+        }
+      }
     },
     server: {
       port: 3000,

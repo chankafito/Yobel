@@ -5,7 +5,7 @@ import { useStatics } from "../../../hooks/useStatics";
 
 // SnakeSegment component is currently unused in the main render, 
 // but keeping it here in case it's needed for future "snake" animations.
-const SnakeSegment = ({ 
+export const SnakeSegment = ({ 
   type, 
   progress, 
   className, 

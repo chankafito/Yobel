@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import { useScroll } from "framer-motion";
 import { Section } from "./ui/section";
 import { Container } from "./ui/container";
 import { AnimatedNumber, ScrollRevealText } from "./motion-text";
@@ -19,14 +18,6 @@ interface StatsListProps {
 
 export function StatsList({ stats, className = "" }: StatsListProps) {
   const containerRef = useRef(null);
-  
-  // Note: The original component had useScroll but didn't seem to use the scrollYProgress 
-  // for any animation in the rendered output. Leaving it here in case it's needed for 
-  // future animations or if the parent passes a ref.
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start center", "end center"]
-  });
 
   return (
     <Section className={`bg-white ${className}`}>

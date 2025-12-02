@@ -1,11 +1,14 @@
 import React, { useRef, useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
+
 import { Section } from "../ui/section";
 import { Container } from "../ui/container";
 import { useIndustries } from "../../hooks/useIndustries";
 import { cn } from "../../utils/cn";
+
+// Nota: ya no importamos Autoplay al tope del archivo
+// import Autoplay from "embla-carousel-autoplay";
 
 interface IndustriesCarouselProps {
   className?: string;
@@ -13,15 +16,38 @@ interface IndustriesCarouselProps {
 
 export function IndustriesCarousel({ className }: IndustriesCarouselProps) {
   const industries = useIndustries();
-  
+
+  // estado para plugins de Embla (cargados dinámicamente)
+  const [plugins, setPlugins] = useState<any[]>([]);
+
+  // cargar el plugin de autoplay solo en cliente
+  useEffect(() => {
+    let mounted = true;
+    // dynamic import para evitar incluir el plugin en el chunk inicial
+    import("embla-carousel-autoplay")
+      .then((mod) => {
+        if (!mounted) return;
+        const AutoplayPlugin = mod.default || mod;
+        // Autoplay es una función que devuelve el plugin instancia
+        setPlugins([(AutoplayPlugin as any)({ delay: 3000, stopOnInteraction: false })]);
+      })
+      .catch(() => {
+        // Si falla, dejamos plugins vacío (no autoplay)
+        setPlugins([]);
+      });
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { 
+    {
       align: "start",
       slidesToScroll: 1,
       loop: true,
       dragFree: true,
     },
-    [Autoplay({ delay: 3000, stopOnInteraction: false })]
+    plugins // pasar plugins (vacío hasta que cargue)
   );
 
   const lastScrollTime = useRef(0);
@@ -127,8 +153,8 @@ export function IndustriesCarousel({ className }: IndustriesCarouselProps) {
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex">
               {industries.map((ind, idx) => (
-                <div 
-                  key={idx} 
+                <div
+                  key={idx}
                   className="flex-[0_0_100%] min-w-0 px-4 sm:flex-[0_0_85%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] xl:flex-[0_0_28.57%]"
                 >
                   <div
@@ -137,7 +163,9 @@ export function IndustriesCarousel({ className }: IndustriesCarouselProps) {
                     onMouseLeave={() => setIsHovering(false)}
                   >
                     <Link
-                      to={`/industrias/${ind.title.toLowerCase().replace(/\s+/g, "-")}`}
+                      to={`/industrias/${ind.title
+                        .toLowerCase()
+                        .replace(/\s+/g, "-")}`}
                       className="flex flex-col gap-5 w-full cursor-none block"
                     >
                       <div className="aspect-square w-full rounded-[20px] overflow-hidden relative shrink-0">

@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
-import type { ServiceItem } from "../types/service";
+import type { ServiceItem } from "../types/services"; // crea o ajusta este tipo según tu proyecto
 
-// Import services for each language
+// importa tus JSON locales
 import servicesEn from "../data/locales/en/services.json";
 import servicesEs from "../data/locales/es/services.json";
 import servicesCl from "../data/locales/cl/services.json";
@@ -17,15 +17,11 @@ export function useServices() {
   const { lang } = useParams();
   const language = lang ?? "en";
 
-  const [services, setServices] = useState<{ id: string; title: string; description: string; image?: string }[]>([]);
+  const [services, setServices] = useState<ServiceItem[]>([]);
 
   // Mapa de imágenes desde src (Vite genera URLs públicas)
   const imagesMap = useMemo(() => {
-    const modules = import.meta.glob("/src/assets/images/services/*", { 
-      eager: true, 
-      query: "?url", 
-      import: "default" 
-    }) as Record<string, string>;
+    const modules = import.meta.glob("/src/assets/images/services/*", { eager: true, query: "?url", import: "default" }) as Record<string, string>;
     return modules;
   }, []);
 
@@ -58,12 +54,10 @@ export function useServices() {
 
     // Reemplazar image con URL resolvida si existe
     const resolved = data.map(item => {
-      const url = resolveImageUrl(item.image);
+      const url = resolveImageUrl((item as any).image);
       return {
         ...item,
-        image: url || item.image
-        // Opcional: usar un placeholder si no se encuentra
-        // image: url || "/assets/placeholder.jpg"
+        image: url || (item as any).image
       };
     });
 

@@ -21,6 +21,7 @@ export function useIndustries() {
 
   // Mapa de imágenes desde src (Vite genera URLs públicas)
   const imagesMap = useMemo(() => {
+    // ...reemplazado as:'url' por query/import:
     const modules = import.meta.glob("/src/assets/images/industries/*", { eager: true, query: "?url", import: "default" }) as Record<string, string>;
     return modules;
   }, []);
@@ -59,7 +60,6 @@ export function useIndustries() {
       return {
         ...item,
         image: url || item.image // si no se encuentra, mantener original
-        // si quieres un placeholder, usa: image: url || "/assets/placeholder.jpg"
       };
     });
 
