@@ -42,9 +42,16 @@ export function Hero() {
       filter: "blur(0px)",
       transition: {
         duration: 0.6,
-        ease: [0.42, 0, 0.58, 1] as const // cubic-bezier como array de números
+        ease: [0.42, 0, 0.58, 1] as const
       }
     }
+  };
+
+  // Helper: detectar si la palabra debe ir en italic
+  const isEmphasizedWord = (w?: string) => {
+    if (!w) return false;
+    const cleaned = w.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()"]/g, "");
+    return cleaned === "movimiento" || cleaned === "movement";
   };
 
   return (
@@ -64,11 +71,18 @@ export function Hero() {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            {titleText.split(" ").map((word, i) => (
-              <motion.span key={i} variants={wordVariants} className="inline-block">
-                {word}
-              </motion.span>
-            ))}
+            {titleText.split(" ").map((word, i) => {
+              const emph = isEmphasizedWord(word);
+              return (
+                <motion.span 
+                  key={i} 
+                  variants={wordVariants} 
+                  className={`inline-block ${emph ? "italic" : ""}`}
+                >
+                  {word}
+                </motion.span>
+              );
+            })}
           </motion.h1>
           
           <motion.p 
@@ -78,11 +92,14 @@ export function Hero() {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            {subtitleText.split(" ").map((word, i) => (
-              <motion.span key={i} variants={wordVariants} className="inline-block">
-                {word}
-              </motion.span>
-            ))}
+            {subtitleText.split(" ").map((word, i) => {
+              const emph = isEmphasizedWord(word);
+              return (
+                <motion.span key={i} variants={wordVariants} className={`inline-block ${emph ? "italic" : ""}`}>
+                  {word}
+                </motion.span>
+              );
+            })}
           </motion.p>
         </div>
       </div>

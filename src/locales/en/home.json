@@ -1,12 +1,17 @@
 {
   "home" : {
     "hero" :{
-      "title" : "Yobel, the movement that drives your business",
+      "title" : "The movement that drives your business",
       "subtitle" : "Technology, talent and experience to make your supply chain move forward without limits"
     },
     "values" : {
-      "title" : "Impulsamos tu negocio",
+      "title" : "We boost your business",
       "desc" : "From entrepreneurs to large corporations, at Yobel we design flexible and tailored services that eliminate the complexity of commerce and logistics."
+    },
+    "certificates": {
+      "label": "Certificates",
+      "title": "Our certificates back us up.",
+      "description": "At Yobel, we have international certifications and internal policies that guarantee our commitment to operational excellence, environmental sustainability, and integrity in logistics and manufacturing management."
     }
   }
 }

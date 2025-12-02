@@ -17,16 +17,12 @@ export function FAQItem({ question, answer }: FaqItemType) {
         animate={{ x: isHovered ? 20 : 0 }}
         transition={{ duration: 0.3, ease: [0.42, 0, 0.58, 1] }}
       >
-        <h3 className="text-xl md:text-[26px] text-black pr-8 font-[Neue_Augenblick]">
-          {question}
-        </h3>
+        <h3 className="text-xl md:text-[26px] text-black pr-8 font-[Neue_Augenblick]">{question}</h3>
         <div className="relative w-[30px] h-[30px] shrink-0">
-          {/* Vertical line - rotates to horizontal when open */}
           <motion.div
             animate={{ rotate: isOpen ? 90 : 0, opacity: isOpen ? 0 : 1 }}
             className="absolute top-1/2 left-1/2 w-[2px] h-full bg-black -translate-x-1/2 -translate-y-1/2 origin-center transition-all duration-300"
           />
-          {/* Horizontal line - always visible */}
           <div className="absolute top-1/2 left-1/2 w-full h-[2px] bg-black -translate-x-1/2 -translate-y-1/2" />
         </div>
       </motion.button>
