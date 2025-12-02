@@ -1,7 +1,7 @@
 import { Section } from "../../../components/ui/section";
 import { Container } from "../../../components/ui/container";
 import { useFaqs } from "../../../hooks/useFaqs";
-import { FAQItem } from "../../../components/Faqs/FaqItem";
+import { FaqItem } from "../../../components/Faqs/FaqItem";
 import type { FaqItem as FaqItemType } from "../../../types/faqs";
 import { useTranslation } from 'react-i18next';
 
@@ -25,7 +25,7 @@ export function Faqs({ items, className }: FAQProps) {
         </div>
         <div className="lg:w-2/3 w-full">
           {faqs.map((faq, idx) => (
-            <FAQItem key={idx} {...faq} />
+            <FaqItem key={idx} {...faq} />
           ))}
         </div>
       </Container>

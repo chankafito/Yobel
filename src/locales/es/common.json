@@ -1,8 +1,9 @@
 {
   "notFound": {
-    "message": "Página no encontrada",
-    "info": "La página que buscas no existe."
+    "title": "404",
+    "description": "Oops! The page you're looking for can't be found."
   },
+  "return_home": "Volver al inicio",
   "flot_menu":{
     "chatbot" : "Chatbot",
     "tracking": "Tracking",

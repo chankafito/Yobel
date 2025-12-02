@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { FaqItem as FaqItemType } from "../../types/faqs";
 
-export function FAQItem({ question, answer }: FaqItemType) {
+export function FaqItem({ question, answer }: FaqItemType) {
   const [isOpen, setIsOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
 
