@@ -3,8 +3,6 @@ import videoAbout from "/src/assets/videos/gris-desktop.mp4";
 import { HeroVideo } from "../../components/HeroVideo";
 import { PurposeSection } from "../../components/PurposeSection";
 import { SectionTextHover} from "../../components/SectionTextHover";
-import { SectionText} from "../../components/SectionText";
-
 import { Certificates } from "../../pages/Home/sections/Certificates";
 
 export default function About() {

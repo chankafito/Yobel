@@ -1,0 +1,173 @@
+[
+  {
+    "name" : "Perú",
+    "slug" : "peru",
+    "items" : [
+      {
+        "city": "Lima",
+        "country": "Perú",
+        "email": "lima@yobel.com.pe",
+        "phone": "+51 1 618 5400",
+        "address": "Av. Argentina 2833, San Genaro, Lima 15109, Perú",
+        "imageUrl": "https://images.unsplash.com/photo-1619070284836-e850273d69ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3YXJlaG91c2UlMjBsb2dpc3RpY3N8ZW58MXx8fHwxNzY0NjUwOTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Lima"
+      },
+      {
+        "city": "Lima - Lurín",
+        "country": "Perú",
+        "email": "lurin@yobel.com.pe",
+        "phone": "+51 1 618 5400",
+        "address": "Km. 40 Panamericana Sur, Lurín, Lima, Perú",
+        "imageUrl": "https://images.unsplash.com/photo-1761815139982-0876947bf09a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXN0cmlidXRpb24lMjBjZW50ZXIlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjQ2NjY3OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Lima"
+      },
+      {
+        "city": "Lima - Los Olivos",
+        "country": "Perú",
+        "email": "losolivos@yobel.com.pe",
+        "phone": "+51 1 618 5400",
+        "address": "Av. San Andrés, Los Olivos, Lima, Perú",
+        "imageUrl": "https://images.unsplash.com/photo-1717662292789-e97dfb7d3c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsb2dpc3RpY3MlMjBjZW50ZXIlMjBleHRlcmlvcnxlbnwxfHx8fDE3NjQ2NjY3OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Lima"
+      }
+    ]
+  },
+  {
+    "name" : "Ecuador",
+    "slug" : "ecuador",
+    "items" : [
+      {
+        "city": "Quito",
+        "country": "Ecuador",
+        "email": "quito@yobel.com.ec",
+        "phone": "+593 2 398 3800",
+        "address": "Av. 6 de Diciembre N36-149, Quito, Ecuador",
+        "imageUrl": "https://images.unsplash.com/photo-1650392131866-e4e2e06a0c78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3YXJlaG91c2UlMjBhcmNoaXRlY3R1cmV8ZW58MXx8fHwxNzY0NjY2Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Guayaquil"
+      },
+      {
+        "city": "Guayaquil",
+        "country": "Ecuador",
+        "email": "guayaquil@yobel.com.ec",
+        "phone": "+593 4 263 4800",
+        "address": "Av. Francisco de Orellana, Guayaquil, Ecuador",
+        "imageUrl": "https://images.unsplash.com/photo-1619070284836-e850273d69ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3YXJlaG91c2UlMjBsb2dpc3RpY3N8ZW58MXx8fHwxNzY0NjUwOTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Guayaquil"
+      }
+    ]
+  },
+  {
+    "name" : "Colombia",
+    "slug" : "colombia",
+    "items" : [
+      {
+        "city": "Bogotá",
+        "country": "Colombia",
+        "email": "bogota@yobel.com.co",
+        "phone": "+57 1 423 7000",
+        "address": "Calle 100 #19A-91, Bogotá, Colombia",
+        "imageUrl": "https://images.unsplash.com/photo-1704423846283-f92ff6badea3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjQ2NDUwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Bogota"
+      },
+      {
+        "city": "Medellín",
+        "country": "Colombia",
+        "email": "medellin@yobel.com.co",
+        "phone": "+57 4 444 3200",
+        "address": "Carrera 65 #8B-91, Medellín, Colombia",
+        "imageUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBpbnRlcmlvcnxlbnwxfHx8fDE3NjQ1NTc5MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Bogota"
+      }
+    ]
+  },
+  {
+    "name" : "Panama",
+    "slug" : "panama",
+    "items" : [
+      {
+        "city": "Ciudad de Panamá",
+        "country": "Panamá",
+        "email": "panama@yobel.com.pa",
+        "phone": "+507 200 0000",
+        "address": "Vía España, Ciudad de Panamá, Panamá",
+        "imageUrl": "https://images.unsplash.com/photo-1704423846283-f92ff6badea3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjQ2NDUwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Panama"
+      }
+    ]
+  },
+  {
+    "name" : "Costa Rica",
+    "slug" : "costa_rica",
+    "items" : [
+      {
+        "city": "San José",
+        "country": "Costa Rica",
+        "email": "sanjose@yobel.com.cr",
+        "phone": "+506 2000 0000",
+        "address": "Escazú, San José, Costa Rica",
+        "imageUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBpbnRlcmlvcnxlbnwxfHx8fDE3NjQ1NTc5MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Costa_Rica"
+      }
+    ]
+  },
+  {
+    "name" : "Rep. Dominicana",
+    "slug" : "rep_dominicana",
+    "items" : [
+      {
+        "city": "Santo Domingo",
+        "country": "República Dominicana",
+        "email": "santodomingo@yobel.com.do",
+        "phone": "+1 809 500 0000",
+        "address": "Santo Domingo, República Dominicana",
+        "imageUrl": "https://images.unsplash.com/photo-1704423846283-f92ff6badea3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjQ2NDUwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Santo_Domingo"
+      }
+    ]
+  },
+  {
+    "name" : "El Salvador",
+    "slug" : "el_salvador",
+    "items" : [
+      {
+        "city": "San Salvador",
+        "country": "El Salvador",
+        "email": "sansalvador@yobel.com.sv",
+        "phone": "+503 2500 0000",
+        "address": "San Salvador, El Salvador",
+        "imageUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBpbnRlcmlvcnxlbnwxfHx8fDE3NjQ1NTc5MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/El_Salvador"
+      }
+    ]
+  },
+  {
+    "name" : "Guatemala",
+    "slug" : "guatemala",
+    "items" : [
+      {
+        "city": "Ciudad de Guatemala",
+        "country": "Guatemala",
+        "email": "guatemala@yobel.com.gt",
+        "phone": "+502 2300 0000",
+        "address": "Zona 10, Ciudad de Guatemala, Guatemala",
+        "imageUrl": "https://images.unsplash.com/photo-1704423846283-f92ff6badea3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjQ2NDUwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Guatemala"
+      }
+    ]
+  },
+  {
+    "name" : "Mexico",
+    "slug" : "mexico",
+    "items" : [
+      {
+        "city": "Ciudad de México",
+        "country": "México",
+        "email": "mexico@yobel.com.mx",
+        "phone": "+52 55 5000 0000",
+        "address": "Av. Insurgentes Sur 1458, Ciudad de México, México",
+        "imageUrl": "https://images.unsplash.com/photo-1704423846283-f92ff6badea3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjQ2NDUwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "timezone": "America/Mexico_City"
+      }
+    ]
+  }
+]

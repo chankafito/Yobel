@@ -8,5 +8,17 @@
     "chatbot" : "Chatbot",
     "tracking": "Tracking",
     "contact": "Contact"
+  },
+  "contact_now" : "Contactar ahora",
+  "form_contact" : {
+    "title" : "Contáctanos",
+    "description" : "Déjanos tus datos y nos pondremos en contacto contigo a la brevedad.",
+    "inputs" :{
+      "name" : "Nombre completo",
+      "email" : "Correo electrónico",
+      "mensage" : "Mensaje"
+    },
+    "sending": "Enviar mensaje"
+
   }
 }

@@ -1,0 +1,29 @@
+{
+  "global" :{
+    "hero" :{
+      "name" : "Presencia Global",
+      "title" : "Conectamos tu cadena de suministro desde Perú hacia 9 países de Latinoamérica"
+    },
+    "phrase":{
+      "text" : "Cada década hemos escrito un nuevo capítulo: de la manufactura de productos de cuidado personal a la gestión integral de cadenas de suministro en Latinoamérica. Nuestra historia refleja que la excelencia y la innovación forman parte de nuestro ADN."
+    },
+    "video" :{
+      "items" :[
+        { "value": "+250,000 m2", "label": "de capacidad logística", "sub": "1-5" },
+        { "value": "+800", "label": "vehículos", "sub": "2-5" },
+        { "value": "+70M", "label": "de productos terminados", "sub": "3-5" },
+        { "value": "+980,000", "label": "pedidos gestionados al año", "sub": "4-5" },
+        { "value": "+440,000", "label": "destinos atendidos", "sub": "5-5" }
+      ]
+    },
+    "maps" : {
+      "title" : "Encuentra nuestros centros logísticos y oficinas",
+      "description" : "Selecciona un país en el mapa para ver nuestras sedes locales."
+    },
+    "contact" : {
+      "title" : "¿Necesitas más información?",
+      "description" : "Ponte en contacto con nuestro equipo comercial para diseñar una solución a tu medida."
+    }
+    
+  }
+}

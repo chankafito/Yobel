@@ -98,7 +98,6 @@ export function PurposeSection({ items }: PurposeSectionProps) {
                     <svg className="block size-full" fill="none" viewBox="0 0 40 40">
                       <path d="M0 39.9994V26.6769C0 26.6769 30.2009 13.2457 30.2009 7.57849C30.2009 4.03566 0 13.0881 0 13.0881V0H29.2309C41.0219 0 39.9763 6.48408 39.9763 12.9799V40H20.3629C20.3629 40 33.4793 18.1638 30.2009 18.1638C25.4049 18.1638 0 39.9994 0 39.9994Z" fill="black"></path>
                     </svg>
-                    
                   </div>
                   
                   <p className="font-augenblick leading-[48px] not-italic relative shrink-0 text-3xl md:text-[45px] text-center w-full text-gray-500">
