@@ -6,16 +6,19 @@ import enCommon from "../locales/en/common.json";
 import enHeader from "../locales/en/header.json";
 import enFooter from "../locales/en/footer.json";
 import enHome from "../locales/en/home.json";
+import enAbout from "../locales/en/about.json";
 
 import esCommon from "../locales/es/common.json";
 import esHeader from "../locales/es/header.json";
 import esFooter from "../locales/es/footer.json";
 import esHome from "../locales/es/home.json";
+import esAbout from "../locales/es/about.json";
 
 import clCommon from "../locales/cl/common.json";
 import clHeader from "../locales/cl/header.json";
 import clFooter from "../locales/cl/footer.json";
 import clHome from "../locales/cl/home.json";
+import clAbout from "../locales/cl/about.json";
 
 // Merge de traducciones por idioma
 const resources = {
@@ -24,7 +27,8 @@ const resources = {
       ...enCommon,
       ...enHeader,
       ...enFooter,
-      ...enHome
+      ...enHome,
+      ...enAbout
     },
   },
   es: {
@@ -32,7 +36,8 @@ const resources = {
       ...esCommon,
       ...esHeader,
       ...esFooter,
-      ...esHome
+      ...esHome,
+      ...esAbout
     },
   },
   cl: {
@@ -40,7 +45,8 @@ const resources = {
       ...clCommon,
       ...clHeader,
       ...clFooter,
-      ...clHome
+      ...clHome,
+      ...clAbout
     },
   },
 };
