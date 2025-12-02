@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Section } from "../../../components/ui/section";
@@ -56,7 +55,7 @@ const processes = [
   },
   {
     title: "Transporte",
-    desc: "Coordinamos el movimiento de tu carga a nivel global y nacional con aliados estratégicos.",
+    desc: "Coordinamos el movimiento de tu carga a nivel global y nacional with aliados estratégicos.",
   },
   {
     title: "Entrega Final",

@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 import videoHero from "/src/assets/videos/fondo-horizontal.mp4";
@@ -26,7 +25,7 @@ export function Hero() {
       opacity: 1,
       transition: {
         staggerChildren: 0.05,
-        delayChildren: 1.0 // Starts after title finishes roughly
+        delayChildren: 1.0
       }
     }
   };
@@ -43,7 +42,7 @@ export function Hero() {
       filter: "blur(0px)",
       transition: {
         duration: 0.6,
-        ease: "easeOut"
+        ease: [0.42, 0, 0.58, 1] as const // cubic-bezier como array de números
       }
     }
   };
@@ -54,7 +53,7 @@ export function Hero() {
         <video src={videoHero} className="absolute inset-0 h-full w-full object-cover" autoPlay loop muted playsInline />
       </div>
       <div className="absolute inset-0 bg-black/10" />
-      <div className="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-[#fff066] via-[#fff066]/60 to-transparent pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-full h-48 bg-linear-to-t from-[#fff066] via-[#fff066]/60 to-transparent pointer-events-none" />
       
       <div className="absolute bottom-10 md:bottom-28 left-[5%] right-[5%] z-10 max-w-[1340px] mx-auto">
         <div className="flex flex-col md:flex-row items-start md:items-end gap-8 md:gap-20 text-black">

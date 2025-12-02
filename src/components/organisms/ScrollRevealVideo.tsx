@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { yobelLogoPaths } from "../../assets/svg/icons";
 import { useAssetPath } from "../../hooks/useAssetPath";

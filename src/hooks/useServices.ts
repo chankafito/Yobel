@@ -21,7 +21,11 @@ export function useServices() {
 
   // Mapa de imágenes desde src (Vite genera URLs públicas)
   const imagesMap = useMemo(() => {
-    const modules = import.meta.glob("/src/assets/images/services/*", { eager: true, as: "url" }) as Record<string, string>;
+    const modules = import.meta.glob("/src/assets/images/services/*", { 
+      eager: true, 
+      query: "?url", 
+      import: "default" 
+    }) as Record<string, string>;
     return modules;
   }, []);
 

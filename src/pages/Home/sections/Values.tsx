@@ -1,4 +1,3 @@
-import React, { useRef } from "react";
 import { useTranslation } from 'react-i18next';
 import { motion } from "framer-motion";
 import { Section } from "../../../components/ui/section";
