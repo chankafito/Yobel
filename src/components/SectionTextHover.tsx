@@ -1,18 +1,15 @@
-import React, {  useState } from "react";
+import { useState } from "react";
 import { Section } from "./ui/section";
 import { Container } from "./ui/container";
 import { motion, AnimatePresence } from "framer-motion";
 import valueImage from "../assets/images/photo.jpg"
 
-export interface PurposeItem {
-  title: string;
-  img: string;
-}
+export type ValueItem = string; // Exportar el tipo para que pueda ser importado
 
 interface SectionTextHoverProps {
   title: string;
   desc: string;
-  items: PurposeItem[];
+  items: ValueItem[];
 }
 
 export function SectionTextHover({ title, desc, items }: SectionTextHoverProps) {

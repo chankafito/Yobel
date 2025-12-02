@@ -1,29 +1,39 @@
 {
   "global" :{
     "hero" :{
-      "name" : "Presencia Global",
-      "title" : "Conectamos tu cadena de suministro desde Perú hacia 9 países de Latinoamérica"
+      "name" : "Global Presence",
+      "title" : "We operate in 8 countries across Latin America"
     },
     "phrase":{
-      "text" : "Cada década hemos escrito un nuevo capítulo: de la manufactura de productos de cuidado personal a la gestión integral de cadenas de suministro en Latinoamérica. Nuestra historia refleja que la excelencia y la innovación forman parte de nuestro ADN."
+      "text" : "Connecting businesses across borders with efficient logistics solutions."
     },
     "video" :{
       "items" :[
-        { "value": "+250,000 m2", "label": "de capacidad logística", "sub": "1-5" },
-        { "value": "+800", "label": "vehículos", "sub": "2-5" },
-        { "value": "+70M", "label": "de productos terminados", "sub": "3-5" },
-        { "value": "+980,000", "label": "pedidos gestionados al año", "sub": "4-5" },
-        { "value": "+440,000", "label": "destinos atendidos", "sub": "5-5" }
+        {
+          "value": "50+",
+          "label": "Years of Experience",
+          "sub": "Leading logistics in Latin America"
+        },
+        {
+          "value": "8",
+          "label": "Countries",
+          "sub": "Serving clients across the region"
+        },
+        {
+          "value": "100K+",
+          "label": "Daily Operations",
+          "sub": "Ensuring seamless supply chain"
+        }
       ]
     },
     "maps" : {
-      "title" : "Encuentra nuestros centros logísticos y oficinas",
-      "description" : "Selecciona un país en el mapa para ver nuestras sedes locales."
+      "title" : "Find our logistics centers and offices",
+      "description" : "Select a country on the map to see our local locations."
     },
     "contact" : {
-      "title" : "¿Necesitas más información?",
-      "description" : "Ponte en contacto con nuestro equipo comercial para diseñar una solución a tu medida."
+      "title" : "Need more information?",
+      "description" : "Contact our sales team to design a custom solution."
     }
-    
-  }
+  },
+  "contact_now": "Contact Now"
 }

@@ -1,5 +1,3 @@
-import { motion } from 'framer-motion';
-
 interface HeroVideoProps {
   video: string;
   name: string;
@@ -8,7 +6,7 @@ interface HeroVideoProps {
   className?: string;
 }
 
-export function HeroVideo({ video, name, title, subtitle, className = '' }: HeroVideoProps) {
+export function HeroVideo({ video, name, title, subtitle }: HeroVideoProps) {
   return (
     <>
       <div className="relative h-[80vh] min-h-[600px] max-h-[920px] w-full overflow-hidden font-augenblick">
@@ -30,12 +28,10 @@ export function HeroVideo({ video, name, title, subtitle, className = '' }: Hero
             <p className="text-lg md:text-[18px] text-black font-medium">{name}</p>
             <div className="flex flex-col lg:flex-row items-start gap-[40px]">
               <h1 className="text-5xl md:text-[65px] leading-[1] text-black max-w-[800px] tracking-tight">
-                {' '}
-                {title}{' '}
+                {title}
               </h1>
               <p className="text-xl md:text-[22px] leading-[24px] text-black/80 max-w-[400px] pt-2 font-light">
-                {' '}
-                {subtitle}{' '}
+                {subtitle}
               </p>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion, useScroll, useMotionValueEvent, AnimatePresence, useTransform } from "framer-motion";
 import { cn } from "../utils/cn";
 
@@ -9,13 +9,12 @@ export interface DataPoint {
 }
 
 interface VideoScrollSectionProps {
-  videoSrc?: string;
-  data?: DataPoint[];
+  videoSrc: string;
+  items: DataPoint[]; // añadir items
   className?: string;
 }
 
-
-export function VideoScrollSection({  videoSrc, items, className  }: VideoScrollSectionProps) {
+export function VideoScrollSection({ videoSrc, items, className }: VideoScrollSectionProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -26,7 +25,7 @@ export function VideoScrollSection({  videoSrc, items, className  }: VideoScroll
   });
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
-    const totalPoints = data.length;
+    const totalPoints = items.length; // cambiar data por items
     if (totalPoints === 0) return;
 
     const segmentSize = 1 / totalPoints;
@@ -78,7 +77,7 @@ export function VideoScrollSection({  videoSrc, items, className  }: VideoScroll
             <div className="w-[300px] md:w-[400px] p-8 rounded-[30px] backdrop-blur-xl bg-white/10 border border-white/20 text-white shadow-2xl overflow-hidden relative">
                 <div className="relative min-h-[160px]">
                     <AnimatePresence mode="wait">
-                        {data[activeIndex] && (
+                        {items[activeIndex] && ( // cambiar data por items
                             <motion.div
                                 key={activeIndex}
                                 initial={{ opacity: 0, y: 20 }}
@@ -88,17 +87,17 @@ export function VideoScrollSection({  videoSrc, items, className  }: VideoScroll
                                 className="absolute inset-0 flex flex-col justify-between"
                             >
                                 <div className="text-5xl md:text-[64px] font-light leading-none tracking-tighter font-augenblick mb-4">
-                                  {data[activeIndex].value}
+                                  {items[activeIndex].value}
                                 </div>
                                 
                                 <div>
                                     <div className="w-full h-[1px] bg-white/30 mb-4" />
                                     <div className="flex justify-between items-end">
                                         <span className="text-lg md:text-xl font-light opacity-90 leading-tight max-w-[70%] font-augenblick">
-                                          {data[activeIndex].label}
+                                          {items[activeIndex].label}
                                         </span>
                                         <span className="text-sm font-mono opacity-60 tracking-widest">
-                                          {data[activeIndex].sub}
+                                          {items[activeIndex].sub}
                                         </span>
                                     </div>
                                 </div>

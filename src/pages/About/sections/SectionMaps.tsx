@@ -17,7 +17,6 @@ export function SectionMaps() {
 
   const locations = useLocations();
   const [selectedCountry, setSelectedCountry] = useState<string>(locations[0]?.slug || "peru");
-  const [scrollIndex, setScrollIndex] = useState<number>(0);
   const officesRef = useRef<HTMLDivElement>(null);
 
   // Buscar el grupo de locaciones del país seleccionado
@@ -57,7 +56,6 @@ export function SectionMaps() {
                    value={selectedCountry}
                    onChange={(e) => {
                      setSelectedCountry(e.target.value);
-                     setScrollIndex(0);
                      setTimeout(scrollToOffices, 100);
                    }}
                    className="w-full appearance-none bg-white border-2 border-gray-200 rounded-2xl px-6 py-4 pr-12 text-lg text-black font-medium focus:outline-none focus:border-yellow-500 transition-colors cursor-pointer hover:border-gray-300"
@@ -78,7 +76,6 @@ export function SectionMaps() {
             <AmericasMap 
                 onSelect={(country) => {
                   setSelectedCountry(country);
-                  setScrollIndex(0);
                   setTimeout(scrollToOffices, 100);
                 }}
                 selected={selectedCountry}
@@ -93,7 +90,6 @@ export function SectionMaps() {
               selectedCountry={selectedCountry}
               onCountryChange={(country) => {
                 setSelectedCountry(country);
-                setScrollIndex(0);
               }}
             />
             <div className="max-h-[800px] overflow-y-auto pr-4 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]" >

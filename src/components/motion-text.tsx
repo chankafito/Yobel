@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { motion, useScroll, useTransform, useInView, animate, MotionValue } from "framer-motion";
 
 export const ScrollRevealText = ({ text, className }: { text: string; className?: string }) => {
@@ -92,6 +92,42 @@ export const AnimatedNumber = ({ value, className }: { value: string, className?
       >
         {value}
       </motion.span>
+    </span>
+  );
+};
+
+export const TypewriterText = ({ text,  scrollProgress,  startProgress,  endProgress, className = "" }: {  text: string,  scrollProgress: MotionValue<number>,  startProgress: number,  endProgress: number, className?: string, }) => {
+  const [displayedWords, setDisplayedWords] = useState<string[]>([]);
+  const words = text.split(' ');
+  
+  useEffect(() => {
+    return scrollProgress.on("change", (latest) => {
+      if (latest < startProgress) {
+        setDisplayedWords([]);
+      } else if (latest >= startProgress && latest <= endProgress) {
+        // Calculate how many words to show
+        const progress = (latest - startProgress) / (endProgress - startProgress);
+        const wordCount = Math.floor(progress * words.length);
+        setDisplayedWords(words.slice(0, wordCount));
+      } else {
+        setDisplayedWords(words);
+      }
+    });
+  }, [scrollProgress, words, startProgress, endProgress]);
+
+  return (
+    <span className={className}>
+      {displayedWords.map((word, idx) => (
+        <motion.span
+          key={idx}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.3 }}
+          className="inline-block mr-[0.25em]"
+        >
+          {word}
+        </motion.span>
+      ))}
     </span>
   );
 };

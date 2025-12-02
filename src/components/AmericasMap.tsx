@@ -152,10 +152,12 @@ export function AmericasMap({ className, selected, onSelect }: AmericasMapProps)
                       stroke="#444444"
                       strokeWidth="0.5"
                       strokeMiterlimit="11"
-                      onClick={() => onSelect?.(country.id)}
+                      onClick={() => {
+                        if (onSelect) onSelect(country.id);
+                      }}
                       onMouseEnter={(e) => {
                         if (!isSelected) {
-                          e.currentTarget.style.fill = "#BAE6FD";
+                          e.currentTarget.style.fill = "#F0DE32";
                         }
                       }}
                       onMouseLeave={(e) => {

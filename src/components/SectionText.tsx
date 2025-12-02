@@ -1,4 +1,6 @@
 import { useRef } from "react";
+import { useScroll } from "framer-motion";
+import { TypewriterText } from "./motion-text"; // ajusta la ruta según dónde esté TypewriterText
 
 export interface PurposeItem {
   title: string;
@@ -11,6 +13,16 @@ interface PurposeSectionProps {
 
 export function PurposeSection({ items }: PurposeSectionProps) {
   const containerRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end end"]
+  });
+
+  const typewriterRanges = [
+    { start: 0.05, end: 0.22 },
+    { start: 0.38, end: 0.55 },
+    { start: 0.71, end: 0.88 }
+  ];
 
   return (
     <section ref={containerRef} className="py-20 md:py-32 bg-white">
@@ -40,4 +52,4 @@ export function PurposeSection({ items }: PurposeSectionProps) {
       </div>
     </section>
   );
-} 
+}
