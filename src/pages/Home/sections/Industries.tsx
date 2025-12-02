@@ -4,8 +4,10 @@ import { Section } from "../../../components/ui/section";
 import { Container } from "../../../components/ui/container";
 import { useIndustries } from "../../../hooks/useIndustries";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 export function Industries() {
+  const { t } = useTranslation();
   const industries = useIndustries();
   
   const [emblaRef, emblaApi] = EmblaCarousel({
@@ -94,12 +96,12 @@ export function Industries() {
     <Section className="relative bg-linear-to-b from-[#fff066] to-white overflow-hidden">
       <Container className="max-w-[1440px] flex flex-col gap-12">
         <div className="flex flex-col md:flex-row gap-8 items-start py-16 md:py-24">
-          <p className="text-lg text-black w-32 shrink-0 mt-2 font-augenblick">Industrias</p>
+          <p className="text-lg text-black w-32 shrink-0 mt-2 font-augenblick">{t('home.industries.text')}</p>
           <div className="grow">
             <div className="text-4xl md:text-5xl leading-tight text-black max-w-md mb-6 font-[Neue_Augenblick]">
-              <p>Industrias en movimiento</p>
+              <p>{t('home.industries.title')}</p>
             </div>
-            <p className="text-lg text-black font-augenblick">Conocemos las exigencias de cada sector. Por eso, en Yobel diseñamos soluciones integradas y adaptables, alineadas a los retos y necesidades de tu industria.</p>
+            <p className="text-lg text-black font-augenblick">{t('home.industries.desc')}</p>
           </div>
         </div>
 

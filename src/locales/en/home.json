@@ -8,10 +8,20 @@
       "title" : "We boost your business",
       "desc" : "From entrepreneurs to large corporations, at Yobel we design flexible and tailored services that eliminate the complexity of commerce and logistics."
     },
+    
+    "industries":{
+      "text": "Industries",
+      "title": "Industries in Motion",
+      "desc": "We understand the demands of every sector. That’s why at Yobel we design integrated and adaptable solutions aligned with the challenges and needs of your industry."
+    },
     "certificates": {
       "label": "Certificates",
       "title": "Our certificates back us up.",
       "description": "At Yobel, we have international certifications and internal policies that guarantee our commitment to operational excellence, environmental sustainability, and integrity in logistics and manufacturing management."
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers to the most common questions about our services and operations."
     }
   }
 }

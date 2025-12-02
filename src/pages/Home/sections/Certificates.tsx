@@ -4,7 +4,6 @@ import { Container } from "../../../components/ui/container";
 import { GridLogos } from "../../../components/GridLogos";
 import { useTranslation } from 'react-i18next';
 
-
 export function Certificates( ) {
    const { t } = useTranslation();
 

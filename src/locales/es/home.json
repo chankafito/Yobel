@@ -8,10 +8,19 @@
       "title" : "Impulsamos tu negocio",
       "desc" : "Desde emprendedores hasta grandes corporaciones, en Yobel diseñamos servicios flexibles y a la medida que eliminan la complejidad del comercio y la logística."
     },
+    "industries":{
+      "name" : "Industrias",
+      "title": "Industrias en movimiento",
+      "desc": "Conocemos las exigencias de cada sector. Por eso, en Yobel diseñamos soluciones integradas y adaptables, alineadas a los retos y necesidades de tu industria."
+    },
     "certificates": {
       "label": "Certificados",
       "title": "Nuestros certificados nos respaldan.",
       "description": "En Yobel contamos con certificaciones internacionales y políticas internas que avalan nuestro compromiso con la excelencia operativa, la sostenibilidad ambiental y la integridad en la gestión logística y de manufactura."
+    },
+    "faqs": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Respuestas a las preguntas más comunes sobre nuestros servicios y operaciones."
     }
   }
 }

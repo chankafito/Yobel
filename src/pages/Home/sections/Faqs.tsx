@@ -4,6 +4,7 @@ import { Container } from "../../../components/ui/container";
 import { useFaqs } from "../../../hooks/useFaqs";
 import { FAQItem } from "../../../components/Faqs/FaqItem";
 import type { FaqItem as FaqItemType } from "../../../types/faqs";
+import { useTranslation } from 'react-i18next';
 
 interface FAQProps {
   items?: FaqItemType[];
@@ -11,6 +12,7 @@ interface FAQProps {
 }
 
 export function Faqs({ items, className }: FAQProps) {
+  const { t } = useTranslation();
   const faqsFromHook = useFaqs();
   const faqs = items ?? faqsFromHook;
 
@@ -19,7 +21,7 @@ export function Faqs({ items, className }: FAQProps) {
       <Container className="relative z-10 flex flex-col lg:flex-row gap-20 items-start">
         <div className="lg:w-1/3 sticky top-24">
           <h2 className="text-4xl md:text-[45px] leading-tight text-black font-[Neue_Augenblick]">
-            ¿Tienes algunas preguntas? Encuentra tu respuesta
+            {t('home.faqs.title')}
           </h2>
         </div>
         <div className="lg:w-2/3 w-full">

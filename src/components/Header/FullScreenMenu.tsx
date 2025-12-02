@@ -1,11 +1,12 @@
-import { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { motion, AnimatePresence  } from "framer-motion";;
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Logo from "../Logo";
 import LangSelector from "../LangSelector";
 import { Search, ChevronDown  } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { cn } from "../../utils/cn";
+import { getLangPrefix } from "../../utils/path";
 
 interface FullScreenMenuProps {
    onClose: () => void;
@@ -14,6 +15,9 @@ interface FullScreenMenuProps {
 
 export function FullScreenMenu({ onClose, onSearchClick }: FullScreenMenuProps) {
    const { t, i18n } = useTranslation();
+   const { lang } = useParams();
+   const langCode = lang ?? i18n.language ?? "en";
+   const langPrefix = getLangPrefix(langCode);
 
    const menuItems = useMemo(() => {
      return t("header.navs", { returnObjects: true }) as {
@@ -45,7 +49,7 @@ export function FullScreenMenu({ onClose, onSearchClick }: FullScreenMenuProps) 
         <div className="w-full max-w-[1340px] h-[56px] px-6 flex items-center justify-between">
             {/* Logo */}
             <div className="h-[35px] w-[94px] relative">
-               <Link to="/" onClick={onClose} className="h-[30px] w-[80px] relative block hover:opacity-70 transition-opacity">
+               <Link to={`${langPrefix}/`} onClick={onClose} className="h-[30px] w-[80px] relative block hover:opacity-70 transition-opacity">
                   <Logo color="#FFF"/>
                </Link>
             </div>
@@ -117,7 +121,7 @@ export function FullScreenMenu({ onClose, onSearchClick }: FullScreenMenuProps) 
                         {activeItemsDesktop.map((link, idx) => (
                             <Link 
                                 key={idx} 
-                                to={link.path}
+                                to={`${langPrefix}${link.path}`}
                                 onClick={onClose}
                                 className="text-[32px] font-light text-white hover:text-[#fff066] transition-colors w-fit"
                             >
@@ -131,10 +135,10 @@ export function FullScreenMenu({ onClose, onSearchClick }: FullScreenMenuProps) 
            
            {/* Footer Desktop Links */}
            <div className="hidden lg:flex justify-end gap-8 mt-20 text-white/40 text-sm">
-                <Link to="/terminos-y-condiciones" onClick={onClose} className="hover:text-white transition-colors">Términos y Condiciones</Link>
-                <Link to="/libro-reclamaciones" onClick={onClose} className="hover:text-white transition-colors">Libro de Reclamaciones</Link>
-                <Link to="/politicas-de-privacidad" onClick={onClose} className="hover:text-white transition-colors">Privacidad</Link>
-                <Link to="/politicas-de-cookies" onClick={onClose} className="hover:text-white transition-colors">Políticas de Cookies</Link>
+                <Link to={`${langPrefix}/terminos-y-condiciones`} onClick={onClose} className="hover:text-white transition-colors">Términos y Condiciones</Link>
+                <Link to={`${langPrefix}/libro-reclamaciones`} onClick={onClose} className="hover:text-white transition-colors">Libro de Reclamaciones</Link>
+                <Link to={`${langPrefix}/politicas-de-privacidad`} onClick={onClose} className="hover:text-white transition-colors">Privacidad</Link>
+                <Link to={`${langPrefix}/politicas-de-cookies`} onClick={onClose} className="hover:text-white transition-colors">Políticas de Cookies</Link>
            </div>
 
 

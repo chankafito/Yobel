@@ -1,13 +1,17 @@
 import { useState, useMemo, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Logo from "../Logo";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "../../utils/cn";
+import { getLangPrefix } from "../../utils/path";
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
-  
+  const { lang } = useParams();
+  const langCode = lang ?? i18n.language ?? "en";
+  const langPrefix = getLangPrefix(langCode);
+
   // Obtener items del menú desde locales (header.navs)
   const menuItems = useMemo(() => {
     return t("header.navs", { returnObjects: true }) as {
@@ -123,10 +127,10 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-8 pt-8 border-t border-white/10">
           <p className="text-[18px] text-white">© Yobel Perú</p>
           <div className="flex flex-wrap gap-6 md:gap-8">
-            <Link to="#" className="text-[16px] text-white/50 hover:text-white transition-colors">Términos y Condiciones</Link>
-            <Link to="/libro-reclamaciones" className="text-[16px] text-white/50 hover:text-white transition-colors">Libro de Reclamaciones</Link>
-            <Link to="#" className="text-[16px] text-white/50 hover:text-white transition-colors">Privacidad</Link>
-            <Link to="/politicas-de-cookies" className="text-[16px] text-white/50 hover:text-white transition-colors">Políticas de Cookies</Link>
+            <Link to={`${langPrefix}/terminos-y-condiciones`} className="text-[16px] text-white/50 hover:text-white transition-colors">Términos y Condiciones</Link>
+            <Link to={`${langPrefix}/libro-reclamaciones`} className="text-[16px] text-white/50 hover:text-white transition-colors">Libro de Reclamaciones</Link>
+            <Link to={`${langPrefix}/politicas-de-privacidad`} className="text-[16px] text-white/50 hover:text-white transition-colors">Privacidad</Link>
+            <Link to={`${langPrefix}/politicas-de-cookies`} className="text-[16px] text-white/50 hover:text-white transition-colors">Políticas de Cookies</Link>
           </div>
         </div>
 
