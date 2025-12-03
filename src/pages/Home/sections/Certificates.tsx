@@ -36,7 +36,7 @@ export function Certificates( ) {
          <div className="flex flex-col md:flex-row gap-12 md:gap-32 items-start">
             <div className="shrink-0 w-32 text-lg mt-2">{t('home.certificates.label')}</div>
             <div className="flex flex-col md:flex-row gap-12 md:gap-32">
-               <h2 className="text-4xl md:text-[45px] leading-tight max-w-sm font-[Neue_Augenblick]"> {t('home.certificates.title')} </h2>
+               <h2 className="text-4xl md:text-[45px] leading-tight max-w-sm"> {t('home.certificates.title')} </h2>
                <p className="text-lg leading-relaxed max-w-md opacity-80"> {t('home.certificates.description')} </p>
             </div>
          </div>

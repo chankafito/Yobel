@@ -119,7 +119,7 @@ export function IndustriesCarousel({ className }: IndustriesCarouselProps) {
             Industrias
           </p>
           <div className="flex-grow">
-            <div className="text-4xl md:text-5xl leading-tight text-black max-w-md mb-6 font-[Neue_Augenblick]">
+            <div className="text-4xl md:text-5xl leading-tight text-black max-w-md mb-6">
               <p>Industrias en movimiento</p>
             </div>
             <p className="text-lg text-black font-augenblick">
@@ -176,7 +176,7 @@ export function IndustriesCarousel({ className }: IndustriesCarouselProps) {
                         />
                       </div>
                       <div className="flex flex-col gap-3 text-black px-2">
-                        <h3 className="text-2xl font-medium font-[Neue_Augenblick]">
+                        <h3 className="text-2xl font-medium">
                           {ind.title}
                         </h3>
                         <p className="text-lg font-light leading-snug opacity-80 font-augenblick">

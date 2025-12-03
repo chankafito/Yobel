@@ -98,7 +98,7 @@ export function Industries() {
         <div className="flex flex-col md:flex-row gap-8 items-start py-16 md:py-24">
           <p className="text-lg text-black w-32 shrink-0 mt-2 font-augenblick">{t('home.industries.text')}</p>
           <div className="grow">
-            <div className="text-4xl md:text-5xl leading-tight text-black max-w-md mb-6 font-[Neue_Augenblick]">
+            <div className="text-4xl md:text-5xl leading-tight text-black max-w-md mb-6">
               <p>{t('home.industries.title')}</p>
             </div>
             <p className="text-lg text-black font-augenblick">{t('home.industries.desc')}</p>
@@ -143,7 +143,7 @@ export function Industries() {
                         <img src={getImageSrc(ind.image)} alt={ind.title} className="w-full h-full object-cover" />
                       </div>
                       <div className="flex flex-col gap-3 text-black">
-                        <h3 className="text-2xl font-medium font-[Neue_Augenblick]">{ind.title}</h3>
+                        <h3 className="text-2xl font-medium">{ind.title}</h3>
                         <p className="text-lg font-light leading-snug opacity-80 font-augenblick">{ind.description}</p>
                       </div>
                     </a>

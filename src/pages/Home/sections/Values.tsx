@@ -35,18 +35,18 @@ export function Values() {
             </motion.div>
             
             <div>
-              <h2 className="text-4xl md:text-5xl font-normal text-black mb-6 font-[Neue_Augenblick]">
+              <h2 className="text-4xl md:text-5xl font-normal text-black mb-6">
                 {t('home.values.title')}
               </h2>
-              <p className="text-xl md:text-2xl leading-relaxed text-black font-light not-italic font-[Neue_Augenblick] max-w-2xl"> {t('home.values.desc')} </p>
+              <p className="text-xl md:text-2xl leading-relaxed text-black font-light not-italic max-w-2xl"> {t('home.values.desc')} </p>
             </div>
           </div>
 
           {/* Right Side: Search Box */}
           <div className="w-full lg:max-w-[450px] flex flex-col gap-4 shrink-0 pb-2">
-              <p className="text-lg text-[rgb(8,8,8)] font-[Neue_Augenblick]">{ t('header.search.label')}</p>
+              <p className="text-lg text-[rgb(8,8,8)]">{ t('header.search.label')}</p>
               <button className="w-fit px-8 py-3 rounded-full border border-black flex items-center justify-center hover:bg-black hover:text-white transition-colors cursor-pointer group">
-                <span className="text-xl md:text-2xl font-light font-[Neue_Augenblick]">{t('header.search.placeholder')}</span>
+                <span className="text-xl md:text-2xl font-light">{t('header.search.placeholder')}</span>
               </button>
           </div>
         </motion.div>

@@ -69,7 +69,7 @@ export default function NotFound() {
         <div className="absolute bottom-10 md:bottom-28 left-[5%] right-[5%] z-10 max-w-[1340px] mx-auto">
           <div className="flex flex-col items-start text-black">
             <motion.h1 
-              className="text-8xl md:text-9xl lg:text-[150px] leading-none font-normal tracking-tight font-[Neue_Augenblick] mb-4"
+              className="text-8xl md:text-9xl lg:text-[150px] leading-none font-normal tracking-tight mb-4"
               variants={containerVariants}
               initial="hidden"
               animate="visible"
@@ -80,7 +80,7 @@ export default function NotFound() {
             </motion.h1>
             
             <motion.p 
-              className="text-lg md:text-xl lg:text-[22px] leading-normal max-w-[600px] mb-12 opacity-90 font-[Neue_Augenblick] flex flex-wrap gap-x-[0.25em]"
+              className="text-lg md:text-xl lg:text-[22px] leading-normal max-w-[600px] mb-12 opacity-90 flex flex-wrap gap-x-[0.25em]"
               variants={subtitleContainerVariants}
               initial="hidden"
               animate="visible"

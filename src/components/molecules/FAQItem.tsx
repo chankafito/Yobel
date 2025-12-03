@@ -23,7 +23,7 @@ export function FAQItem({ question, answer }: FaqItemType) {
         animate={{ x: isHovered ? 20 : 0 }}
         transition={{ duration: 0.3, ease: [0.42, 0, 0.58, 1] }}
       >
-        <h3 className="text-xl md:text-[26px] text-black pr-8 font-[Neue_Augenblick]">
+        <h3 className="text-xl md:text-[26px] text-black pr-8">
           {question}
         </h3>
         <div className="relative w-[30px] h-[30px] shrink-0">

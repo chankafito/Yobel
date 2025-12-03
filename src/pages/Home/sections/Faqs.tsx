@@ -19,7 +19,7 @@ export function Faqs({ items, className }: FAQProps) {
     <Section className={`relative overflow-hidden bg-gradient-to-b from-[#FFFFFF] to-[#31CDFF] ${className}`}>
       <Container className="relative z-10 flex flex-col lg:flex-row gap-20 items-start">
         <div className="lg:w-1/3 sticky top-24">
-          <h2 className="text-4xl md:text-[45px] leading-tight text-black font-[Neue_Augenblick]">
+          <h2 className="text-4xl md:text-[45px] leading-tight text-black">
             {t('home.faqs.title')}
           </h2>
         </div>

@@ -44,7 +44,7 @@ export function CountryTimeHeader({
     <div className="mb-8 pb-6 border-b border-gray-200">
       <div className="flex items-center justify-between mb-2">
         {/* Mobile: always show static text */}
-        <h3 className="md:hidden text-3xl tracking-tight text-black font-[Neue_Augenblick]">
+        <h3 className="md:hidden text-3xl tracking-tight text-black">
           {country}
         </h3>
         
@@ -54,7 +54,7 @@ export function CountryTimeHeader({
             <select
               value={selectedCountry}
               onChange={(e) => onCountryChange(e.target.value)}
-              className="w-full appearance-none bg-transparent border-none px-0 py-0 pr-7 text-2xl md:text-3xl text-black font-[Neue_Augenblick] focus:outline-none cursor-pointer [&>option]:text-base [&>option]:font-normal [&>option]:py-1"
+              className="w-full appearance-none bg-transparent border-none px-0 py-0 pr-7 text-2xl md:text-3xl text-black focus:outline-none cursor-pointer [&>option]:text-base [&>option]:font-normal [&>option]:py-1"
             >
               {availableCountries.map((c) => (
                 <option key={c.value} value={c.value} className="text-base py-1">
@@ -65,11 +65,11 @@ export function CountryTimeHeader({
             <ChevronDown className="absolute right-1 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
           </div>
         ) : (
-          <h3 className="hidden md:block text-3xl md:text-4xl tracking-tight text-black font-[Neue_Augenblick]">
+          <h3 className="hidden md:block text-3xl md:text-4xl tracking-tight text-black">
             {country}
           </h3>
         )}
-        <p className="text-gray-500 text-2xl md:text-3xl font-[Neue_Augenblick]">{time}</p>
+        <p className="text-gray-500 text-2xl md:text-3xl">{time}</p>
       </div>
     </div>
   );

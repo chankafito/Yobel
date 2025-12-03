@@ -65,7 +65,7 @@ export function Hero() {
       <div className="absolute bottom-10 md:bottom-28 left-[5%] right-[5%] z-10 max-w-[1340px] mx-auto">
         <div className="flex flex-col md:flex-row items-start md:items-end gap-8 md:gap-20 text-black">
           <motion.h1 
-            className="text-4xl md:text-6xl lg:text-[65px] leading-none font-normal max-w-[650px] tracking-tight font-[Neue_Augenblick] flex flex-wrap gap-x-[0.25em]"
+            className="text-4xl md:text-6xl lg:text-[65px] leading-none font-normal max-w-[650px] tracking-tight flex flex-wrap gap-x-[0.25em]"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -86,7 +86,7 @@ export function Hero() {
           </motion.h1>
           
           <motion.p 
-            className="text-lg md:text-xl lg:text-[22px] leading-normal max-w-[600px] mb-2 opacity-90 font-[Neue_Augenblick] flex flex-wrap gap-x-[0.25em]"
+            className="text-lg md:text-xl lg:text-[22px] leading-normal max-w-[600px] mb-2 opacity-90 flex flex-wrap gap-x-[0.25em]"
             variants={subtitleContainerVariants}
             initial="hidden"
             whileInView="visible"
