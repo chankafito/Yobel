@@ -1,66 +1,88 @@
 {
   "hero": {
     "label": "Manufacturing",
-    "title": "High-quality outsourced manufacturing",
-    "subtitle": "Efficient production with the highest quality standards.",
+    "title": "Manufacturing in Peru for businesses",
+    "subtitle": "Production, packaging and product development with high international standards.",
     "videoUrl": "https://circular.ws/yobel/fondo-celeste.mp4"
   },
   "pitch": {
-    "text": "At YOBEL we offer outsourced manufacturing services that allow you to focus on your core business. Our plants meet the highest quality standards and international certifications.",
-    "cta": "Discover our capacity"
+    "text": "We manage your production processes at our plants or directly at your facilities, applying advanced technology and ensuring compliance with all current regulations.",
+    "cta": "Request Manufacturing Service"
   },
   "solutions": {
     "title": "Solutions",
     "ctaText": "View rates",
     "items": [
       {
-        "title": "Product Assembly",
-        "desc": "Production of goods according to your specifications with rigorous quality control."
+        "title": "Laboratory Analysis",
+        "desc": "Physicochemical and microbiological studies to guarantee quality and safety."
       },
       {
-        "title": "Assembly",
-        "desc": "Assembly of products and components with precision and efficiency."
+        "title": "Product Development",
+        "desc": "Formulation and product design adapted to your market needs."
       },
       {
-        "title": "Conditioning",
-        "desc": "Preparation and customization of products for different markets."
+        "title": "Finished Product",
+        "desc": "Complete manufacturing with quality control at every stage of the process."
+      }
+    ]
+  },
+  "categories": {
+    "title": "Product Categories",
+    "subtitle": "At Yobel we offer high-quality manufacturing services adapted to your business needs. We have experience in the production of cosmetics, hygiene products, plastics and more, guaranteeing efficiency, regulatory compliance and competitive delivery times.",
+    "items": [
+      {
+        "title": "Cosmetics",
+        "desc": "Creams, Talcs, Shampoo, Hydroalcohols."
       },
       {
-        "title": "Quality Control",
-        "desc": "Inspection and validation of products according to international standards."
+        "title": "Galenics",
+        "desc": "Alcohols, Oils, Ointments."
+      },
+      {
+        "title": "Hygiene",
+        "desc": "Home hygiene, Industrial hygiene."
+      },
+      {
+        "title": "Plastics",
+        "desc": "Cap injection, PET bottle blowing, HDPE bottle blowing."
       }
     ]
   },
   "benefits": {
     "title": "Benefits",
-    "subtitle": "Optimize your production with our manufacturing solutions.",
+    "subtitle": "We maximize your production efficiency",
     "items": [
-      "Reduction of fixed production costs.",
-      "Flexibility to scale according to demand.",
-      "Compliance with certifications and regulations.",
-      "Integration with storage and distribution services."
+      "High production flexibility, adapted to your sector.",
+      "Reduction of inventories and operating costs.",
+      "Optimization of resources and development times.",
+      "Guaranteed quality at every manufacturing stage."
     ]
   },
   "processes": {
-    "subtitle": "From idea to product",
-    "title": "Our manufacturing processes guarantee quality, efficiency and compliance at every stage.",
+    "subtitle": "Manufacturing processes with complete traceability",
+    "title": "We manage the entire production cycle, from initial evaluation to after-sales, ensuring efficiency and regulatory compliance.",
     "label": "Processes",
     "items": [
       {
-        "title": "Planning",
-        "desc": "Definition of requirements, materials and production schedules."
+        "title": "Evaluation",
+        "desc": "Requirements analysis and production planning."
+      },
+      {
+        "title": "Development and Testing",
+        "desc": "Pilot formulation and quality validation (if applicable)."
       },
       {
         "title": "Production",
-        "desc": "Execution of the production process with in-line controls."
+        "desc": "Manufacturing with quality control at every phase."
       },
       {
-        "title": "Quality Control",
-        "desc": "Inspection and validation of finished products."
+        "title": "Confirmed Delivery",
+        "desc": "Digital validation and final order audit before dispatch."
       },
       {
-        "title": "Delivery",
-        "desc": "Dispatch of products to warehouse or directly to distribution."
+        "title": "After-Sales",
+        "desc": "Support and feedback to continuously improve your operation."
       }
     ]
   },
@@ -68,20 +90,20 @@
     "title": "Have questions? Find your answer",
     "items": [
       {
-        "question": "What certifications do your plants have?",
-        "answer": "We have ISO 9001, GMP, and other certifications depending on the industry."
+        "question": "Can I outsource only part of the production process?",
+        "answer": "Yes, we offer modular services that adapt to your specific needs, from laboratory analysis to complete production."
       },
       {
-        "question": "What is the minimum production capacity?",
-        "answer": "We adapt to different volumes, from small batches to mass production."
+        "question": "What types of products can you manufacture or package?",
+        "answer": "We manufacture cosmetics, galenics, hygiene products and plastics. We also offer packaging services such as blister, shrink wrap, packaging, labeling and custom packs."
       },
       {
-        "question": "Can you handle special raw materials?",
-        "answer": "Yes, we have experience in handling various types of materials and components."
+        "question": "Do you have quality control during production?",
+        "answer": "Yes, we implement rigorous quality controls at every phase of the production process, guaranteeing compliance with national and international regulations."
       },
       {
-        "question": "Do you offer R&D services?",
-        "answer": "Yes, we can support the development of new products and process improvement."
+        "question": "Can I use my own materials or containers?",
+        "answer": "Yes, we can work with your materials or provide you with the necessary supplies according to your specifications."
       }
     ]
   }

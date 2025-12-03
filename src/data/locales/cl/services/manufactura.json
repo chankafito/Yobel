@@ -1,66 +1,88 @@
 {
   "hero": {
     "label": "Manufactura",
-    "title": "Manufactura tercerizada de alta calidad",
-    "subtitle": "Producción eficiente con los más altos estándares de calidad.",
+    "title": "Manufactura en Perú para empresas",
+    "subtitle": "Producción, envasado y desarrollo de productos con altos estándares internacionales.",
     "videoUrl": "https://circular.ws/yobel/fondo-celeste.mp4"
   },
   "pitch": {
-    "text": "En YOBEL ofrecemos servicios de manufactura tercerizada que te permiten enfocarte en tu core business. Nuestras plantas cumplen con los más altos estándares de calidad y certificaciones internacionales.",
-    "cta": "Conoce nuestra capacidad"
+    "text": "Gestionamos tus procesos productivos en nuestras plantas o directamente en tus instalaciones, aplicando tecnología avanzada y asegurando el cumplimiento de todas las normativas vigentes.",
+    "cta": "Solicitar Servicio de Manufactura"
   },
   "solutions": {
     "title": "Soluciones",
     "ctaText": "Ver tarifas",
     "items": [
       {
-        "title": "Maquila de Productos",
-        "desc": "Producción de bienes bajo tus especificaciones con control de calidad riguroso."
+        "title": "Análisis de Laboratorio",
+        "desc": "Estudios fisicoquímicos y microbiológicos para garantizar calidad y seguridad."
       },
       {
-        "title": "Ensamblaje",
-        "desc": "Armado de productos y componentes con precisión y eficiencia."
+        "title": "Desarrollo de Productos",
+        "desc": "Formulación y diseño de productos adaptados a tus necesidades de mercado."
       },
       {
-        "title": "Acondicionamiento",
-        "desc": "Preparación y personalización de productos para diferentes mercados."
+        "title": "Producto Terminado",
+        "desc": "Fabricación completa con control de calidad en cada etapa del proceso."
+      }
+    ]
+  },
+  "categories": {
+    "title": "Categorías de Producto",
+    "subtitle": "En Yobel ofrecemos servicios de manufactura de alta calidad y adaptados a las necesidades de tu negocio. Contamos con experiencia en la producción de cosméticos, productos de higiene, plásticos y más, garantizando eficiencia, cumplimiento normativo y tiempos de entrega competitivos.",
+    "items": [
+      {
+        "title": "Cosméticos",
+        "desc": "Cremas, Talcos, Champú, Hidroalcoholes."
       },
       {
-        "title": "Control de Calidad",
-        "desc": "Inspección y validación de productos según estándares internacionales."
+        "title": "Galénicos",
+        "desc": "Alcoholes, Aceites, Pomadas."
+      },
+      {
+        "title": "Higiene",
+        "desc": "Higiene para el hogar, Higiene Industrial."
+      },
+      {
+        "title": "Plásticos",
+        "desc": "Inyección de tapas, Soplado de frascos en PET, Soplado de frascos en PEAD."
       }
     ]
   },
   "benefits": {
     "title": "Beneficios",
-    "subtitle": "Optimiza tu producción con nuestras soluciones de manufactura.",
+    "subtitle": "Maximizamos la eficiencia de tu producción",
     "items": [
-      "Reducción de costos fijos de producción.",
-      "Flexibilidad para escalar según demanda.",
-      "Cumplimiento de certificaciones y normativas.",
-      "Integración con servicios de almacenamiento y distribución."
+      "Alta flexibilidad de producción, adaptada a tu sector.",
+      "Reducción de inventarios y costos operativos.",
+      "Optimización de recursos y tiempos de desarrollo.",
+      "Calidad garantizada en cada etapa de manufactura."
     ]
   },
   "processes": {
-    "subtitle": "De la idea al producto",
-    "title": "Nuestros procesos de manufactura garantizan calidad, eficiencia y cumplimiento en cada etapa.",
+    "subtitle": "Procesos de manufactura con trazabilidad completa",
+    "title": "Gestionamos todo el ciclo productivo, desde la evaluación inicial hasta la postventa, asegurando eficiencia y cumplimiento normativo.",
     "label": "Procesos",
     "items": [
       {
-        "title": "Planificación",
-        "desc": "Definición de requerimientos, materiales y cronogramas de producción."
+        "title": "Evaluación",
+        "desc": "Análisis de requerimientos y planificación de la producción."
+      },
+      {
+        "title": "Desarrollo y Pruebas",
+        "desc": "Formulación piloto y validación de calidad (si aplica)."
       },
       {
         "title": "Producción",
-        "desc": "Ejecución del proceso productivo con controles en línea."
+        "desc": "Fabricación con control de calidad en cada fase."
       },
       {
-        "title": "Control de Calidad",
-        "desc": "Inspección y validación de productos terminados."
+        "title": "Entrega Confirmada",
+        "desc": "Validación digital y auditoría final del pedido antes del despacho."
       },
       {
-        "title": "Entrega",
-        "desc": "Despacho de productos a almacén o directamente a distribución."
+        "title": "Postventa",
+        "desc": "Soporte y retroalimentación para mejorar continuamente tu operación."
       }
     ]
   },
@@ -68,20 +90,20 @@
     "title": "¿Tienes algunas preguntas? Encuentra tu respuesta",
     "items": [
       {
-        "question": "¿Qué certificaciones tienen sus plantas?",
-        "answer": "Contamos con ISO 9001, BPM, y otras certificaciones según la industria."
+        "question": "¿Puedo tercerizar solo una parte del proceso de producción?",
+        "answer": "Sí, ofrecemos servicios modulares que se adaptan a tus necesidades específicas, desde análisis de laboratorio hasta producción completa."
       },
       {
-        "question": "¿Cuál es la capacidad mínima de producción?",
-        "answer": "Nos adaptamos a diferentes volúmenes, desde lotes pequeños hasta producción masiva."
+        "question": "¿Qué tipos de productos pueden fabricar o acondicionar?",
+        "answer": "Fabricamos cosméticos, galénicos, productos de higiene y plásticos. También ofrecemos servicios de acondicionamiento como blíster, termoempacado, embalaje, etiquetado y packs personalizados."
       },
       {
-        "question": "¿Pueden manejar materias primas especiales?",
-        "answer": "Sí, tenemos experiencia en el manejo de diversos tipos de materiales y componentes."
+        "question": "¿Cuentan con control de calidad durante la producción?",
+        "answer": "Sí, implementamos controles de calidad rigurosos en cada fase del proceso productivo, garantizando el cumplimiento de normativas nacionales e internacionales."
       },
       {
-        "question": "¿Ofrecen servicios de I+D?",
-        "answer": "Sí, podemos apoyar en el desarrollo de nuevos productos y mejora de procesos."
+        "question": "¿Puedo usar mis propios materiales o envases?",
+        "answer": "Sí, podemos trabajar con tus materiales o proveerte de los insumos necesarios según tus especificaciones."
       }
     ]
   }
