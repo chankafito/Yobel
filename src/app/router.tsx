@@ -4,6 +4,8 @@ import Layout from "../layout/Layout";
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import GlobalPresence from "../pages/About/GlobalPresence";
+import History from "../pages/About/History";
+
 import Comex from "../pages/Services/Comex";
 import NotFound from "../pages/NotFound";
 
@@ -18,6 +20,7 @@ export default function AppRouter() {
           <Route index element={<Home />} />
           <Route path="empresa/sobre-nosotros" element={<About />} />
           <Route path="empresa/presencia-global" element={<GlobalPresence />} />
+          <Route path="empresa/historia" element={<History />} />
           {/* Servicios */}
           <Route path="servicios/comercio-exterior" element={<Comex />} />
           {/* 404 para rutas anidadas bajo '/' */}
@@ -29,6 +32,7 @@ export default function AppRouter() {
           <Route index element={<Home />} />
           <Route path="empresa/sobre-nosotros" element={<About />} />
           <Route path="empresa/presencia-global" element={<GlobalPresence />} />
+          <Route path="empresa/historia" element={<History />} />
           {/* Servicios */}
           <Route path="servicios/comercio-exterior" element={<Comex />} />
           {/* 404 para rutas anidadas bajo '/:lang/*' */}

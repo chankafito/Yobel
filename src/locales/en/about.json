@@ -30,6 +30,11 @@
         "Cost optimization",
         "Enhanced customer experience"
       ]
+    },
+    "history" : {
+      "name" : "Historia",
+      "title" : "Una trayectoria de innovación",
+      "description" : "Nuestra historia refleja que la excelencia y la innovación forman parte de nuestro ADN."
     }
   }
 }

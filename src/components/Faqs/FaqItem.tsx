@@ -21,9 +21,9 @@ export function FaqItem({ question, answer }: FaqItemType) {
         <div className="relative w-[30px] h-[30px] shrink-0">
           <motion.div
             animate={{ rotate: isOpen ? 90 : 0, opacity: isOpen ? 0 : 1 }}
-            className="absolute top-1/2 left-1/2 w-[2px] h-full bg-black -translate-x-1/2 -translate-y-1/2 origin-center transition-all duration-300"
+            className="absolute top-1/2 left-1/2 w-0.5 h-full bg-black -translate-x-1/2 -translate-y-1/2 origin-center transition-all duration-300"
           />
-          <div className="absolute top-1/2 left-1/2 w-full h-[2px] bg-black -translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute top-1/2 left-1/2 w-full h-0.5 bg-black -translate-x-1/2 -translate-y-1/2" />
         </div>
       </motion.button>
 
