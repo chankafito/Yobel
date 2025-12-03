@@ -39,8 +39,7 @@
       "Menores costos operativos gracias a una logística internacional integrada y eficiente.",
       "Atención personalizada de un equipo experto en comercio exterior.",
       "Trámites y documentación simplificados, sin demoras ni complicaciones."
-    ],
-    "image": "/images/yobel-logistica.jpg"
+    ]
   },
   "processes": {
     "subtitle": "Llevamos tu operación al siguiente nivel",
@@ -85,10 +84,5 @@
         "answer": "Sí, ofrecemos trazabilidad total con reportes en línea y actualizaciones automáticas durante cada fase del proceso."
       }
     ]
-  },
-  "images": {
-    "hero": "/images/services/comercio-exterior.jpeg",
-    "logistics": "https://images.unsplash.com/photo-1631388167556-55a285cc86a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    "hover": "/images/services/comercio-exterior.jpeg"
   }
 }

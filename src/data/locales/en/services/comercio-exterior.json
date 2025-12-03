@@ -39,8 +39,7 @@
       "Lower operating costs thanks to integrated and efficient international logistics.",
       "Personalized attention from a team of foreign trade experts.",
       "Simplified paperwork and documentation, without delays or complications."
-    ],
-    "image": "/images/yobel-logistica.jpg"
+    ]
   },
   "processes": {
     "subtitle": "We take your operation to the next level",
@@ -85,10 +84,5 @@
         "answer": "Yes, we offer total traceability with online reports and automatic updates during each phase of the process."
       }
     ]
-  },
-  "images": {
-    "hero": "/images/services/comercio-exterior.jpeg",
-    "logistics": "https://images.unsplash.com/photo-1631388167556-55a285cc86a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    "hover": "/images/services/comercio-exterior.jpeg"
   }
 }

@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Manufacturing",
+    "title": "High-quality outsourced manufacturing",
+    "subtitle": "Efficient production with the highest quality standards.",
+    "videoUrl": "https://circular.ws/yobel/fondo-celeste.mp4"
+  },
+  "pitch": {
+    "text": "At YOBEL we offer outsourced manufacturing services that allow you to focus on your core business. Our plants meet the highest quality standards and international certifications.",
+    "cta": "Discover our capacity"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "ctaText": "View rates",
+    "items": [
+      {
+        "title": "Product Assembly",
+        "desc": "Production of goods according to your specifications with rigorous quality control."
+      },
+      {
+        "title": "Assembly",
+        "desc": "Assembly of products and components with precision and efficiency."
+      },
+      {
+        "title": "Conditioning",
+        "desc": "Preparation and customization of products for different markets."
+      },
+      {
+        "title": "Quality Control",
+        "desc": "Inspection and validation of products according to international standards."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "subtitle": "Optimize your production with our manufacturing solutions.",
+    "items": [
+      "Reduction of fixed production costs.",
+      "Flexibility to scale according to demand.",
+      "Compliance with certifications and regulations.",
+      "Integration with storage and distribution services."
+    ]
+  },
+  "processes": {
+    "subtitle": "From idea to product",
+    "title": "Our manufacturing processes guarantee quality, efficiency and compliance at every stage.",
+    "label": "Processes",
+    "items": [
+      {
+        "title": "Planning",
+        "desc": "Definition of requirements, materials and production schedules."
+      },
+      {
+        "title": "Production",
+        "desc": "Execution of the production process with in-line controls."
+      },
+      {
+        "title": "Quality Control",
+        "desc": "Inspection and validation of finished products."
+      },
+      {
+        "title": "Delivery",
+        "desc": "Dispatch of products to warehouse or directly to distribution."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Have questions? Find your answer",
+    "items": [
+      {
+        "question": "What certifications do your plants have?",
+        "answer": "We have ISO 9001, GMP, and other certifications depending on the industry."
+      },
+      {
+        "question": "What is the minimum production capacity?",
+        "answer": "We adapt to different volumes, from small batches to mass production."
+      },
+      {
+        "question": "Can you handle special raw materials?",
+        "answer": "Yes, we have experience in handling various types of materials and components."
+      },
+      {
+        "question": "Do you offer R&D services?",
+        "answer": "Yes, we can support the development of new products and process improvement."
+      }
+    ]
+  }
+}

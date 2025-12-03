@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Value Added",
+    "title": "Value-added services for your product",
+    "subtitle": "Customization and product preparation for the market.",
+    "videoUrl": "https://circular.ws/yobel/amarillo-desktop.mp4"
+  },
+  "pitch": {
+    "text": "At YOBEL we transform your products so they arrive ready for the end consumer. From labeling to kitting, our value-added services optimize your supply chain.",
+    "cta": "Customize your product"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "ctaText": "View rates",
+    "items": [
+      {
+        "title": "Labeling and Re-labeling",
+        "desc": "Application of labels, barcodes and marking to comply with local regulations."
+      },
+      {
+        "title": "Kitting and Assembly",
+        "desc": "Creation of promotional kits and customized packages."
+      },
+      {
+        "title": "Co-packing",
+        "desc": "Secondary and tertiary packaging according to customer specifications."
+      },
+      {
+        "title": "Customization",
+        "desc": "Adaptation of products for different channels and markets."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "subtitle": "Add value to your product without complications.",
+    "items": [
+      "Products ready for sale at the destination point.",
+      "Compliance with local and international regulations.",
+      "Reduction of internal labor costs.",
+      "Flexibility for promotional campaigns and launches."
+    ]
+  },
+  "processes": {
+    "subtitle": "From basic product to finished product",
+    "title": "Our value-added services transform your product to maximize its potential in the market.",
+    "label": "Processes",
+    "items": [
+      {
+        "title": "Analysis",
+        "desc": "Evaluation of requirements and process definition."
+      },
+      {
+        "title": "Preparation",
+        "desc": "Line configuration and necessary materials."
+      },
+      {
+        "title": "Execution",
+        "desc": "Service execution with quality control."
+      },
+      {
+        "title": "Delivery",
+        "desc": "Finished product ready for storage or distribution."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Have questions? Find your answer",
+    "items": [
+      {
+        "question": "What types of labeling do you offer?",
+        "answer": "We offer manual and automatic labeling, including price labels, barcodes, and regulatory labels."
+      },
+      {
+        "question": "Can you create custom kits?",
+        "answer": "Yes, we assemble kits according to your specifications, from simple promotions to complex sets."
+      },
+      {
+        "question": "Do you handle regulated products?",
+        "answer": "Yes, we have experience with pharmaceutical, cosmetic and food products."
+      },
+      {
+        "question": "What is the processing time?",
+        "answer": "It depends on the service, but we generally process within 24-48 hours."
+      }
+    ]
+  }
+}

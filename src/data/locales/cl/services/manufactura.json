@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Manufactura",
+    "title": "Manufactura tercerizada de alta calidad",
+    "subtitle": "Producción eficiente con los más altos estándares de calidad.",
+    "videoUrl": "https://circular.ws/yobel/fondo-celeste.mp4"
+  },
+  "pitch": {
+    "text": "En YOBEL ofrecemos servicios de manufactura tercerizada que te permiten enfocarte en tu core business. Nuestras plantas cumplen con los más altos estándares de calidad y certificaciones internacionales.",
+    "cta": "Conoce nuestra capacidad"
+  },
+  "solutions": {
+    "title": "Soluciones",
+    "ctaText": "Ver tarifas",
+    "items": [
+      {
+        "title": "Maquila de Productos",
+        "desc": "Producción de bienes bajo tus especificaciones con control de calidad riguroso."
+      },
+      {
+        "title": "Ensamblaje",
+        "desc": "Armado de productos y componentes con precisión y eficiencia."
+      },
+      {
+        "title": "Acondicionamiento",
+        "desc": "Preparación y personalización de productos para diferentes mercados."
+      },
+      {
+        "title": "Control de Calidad",
+        "desc": "Inspección y validación de productos según estándares internacionales."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "subtitle": "Optimiza tu producción con nuestras soluciones de manufactura.",
+    "items": [
+      "Reducción de costos fijos de producción.",
+      "Flexibilidad para escalar según demanda.",
+      "Cumplimiento de certificaciones y normativas.",
+      "Integración con servicios de almacenamiento y distribución."
+    ]
+  },
+  "processes": {
+    "subtitle": "De la idea al producto",
+    "title": "Nuestros procesos de manufactura garantizan calidad, eficiencia y cumplimiento en cada etapa.",
+    "label": "Procesos",
+    "items": [
+      {
+        "title": "Planificación",
+        "desc": "Definición de requerimientos, materiales y cronogramas de producción."
+      },
+      {
+        "title": "Producción",
+        "desc": "Ejecución del proceso productivo con controles en línea."
+      },
+      {
+        "title": "Control de Calidad",
+        "desc": "Inspección y validación de productos terminados."
+      },
+      {
+        "title": "Entrega",
+        "desc": "Despacho de productos a almacén o directamente a distribución."
+      }
+    ]
+  },
+  "faq": {
+    "title": "¿Tienes algunas preguntas? Encuentra tu respuesta",
+    "items": [
+      {
+        "question": "¿Qué certificaciones tienen sus plantas?",
+        "answer": "Contamos con ISO 9001, BPM, y otras certificaciones según la industria."
+      },
+      {
+        "question": "¿Cuál es la capacidad mínima de producción?",
+        "answer": "Nos adaptamos a diferentes volúmenes, desde lotes pequeños hasta producción masiva."
+      },
+      {
+        "question": "¿Pueden manejar materias primas especiales?",
+        "answer": "Sí, tenemos experiencia en el manejo de diversos tipos de materiales y componentes."
+      },
+      {
+        "question": "¿Ofrecen servicios de I+D?",
+        "answer": "Sí, podemos apoyar en el desarrollo de nuevos productos y mejora de procesos."
+      }
+    ]
+  }
+}

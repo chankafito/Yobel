@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Valor Agregado",
+    "title": "Servicios de valor agregado para tu producto",
+    "subtitle": "Personalización y preparación de productos para el mercado.",
+    "videoUrl": "https://circular.ws/yobel/amarillo-desktop.mp4"
+  },
+  "pitch": {
+    "text": "En YOBEL transformamos tus productos para que lleguen listos al consumidor final. Desde etiquetado hasta kitting, nuestros servicios de valor agregado optimizan tu cadena de suministro.",
+    "cta": "Personaliza tu producto"
+  },
+  "solutions": {
+    "title": "Soluciones",
+    "ctaText": "Ver tarifas",
+    "items": [
+      {
+        "title": "Etiquetado y Re-etiquetado",
+        "desc": "Aplicación de etiquetas, códigos de barras y marcado para cumplir con normativas locales."
+      },
+      {
+        "title": "Kitting y Armado",
+        "desc": "Creación de kits promocionales y paquetes personalizados."
+      },
+      {
+        "title": "Co-packing",
+        "desc": "Empaque secundario y terciario según especificaciones del cliente."
+      },
+      {
+        "title": "Personalización",
+        "desc": "Adaptación de productos para diferentes canales y mercados."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "subtitle": "Agrega valor a tu producto sin complicaciones.",
+    "items": [
+      "Productos listos para venta en el punto de destino.",
+      "Cumplimiento de normativas locales e internacionales.",
+      "Reducción de costos de mano de obra interna.",
+      "Flexibilidad para campañas promocionales y lanzamientos."
+    ]
+  },
+  "processes": {
+    "subtitle": "Del producto básico al producto final",
+    "title": "Nuestros servicios de valor agregado transforman tu producto para maximizar su potencial en el mercado.",
+    "label": "Procesos",
+    "items": [
+      {
+        "title": "Análisis",
+        "desc": "Evaluación de requerimientos y definición de procesos."
+      },
+      {
+        "title": "Preparación",
+        "desc": "Configuración de línea y materiales necesarios."
+      },
+      {
+        "title": "Ejecución",
+        "desc": "Realización del servicio con control de calidad."
+      },
+      {
+        "title": "Entrega",
+        "desc": "Producto terminado listo para almacenamiento o distribución."
+      }
+    ]
+  },
+  "faq": {
+    "title": "¿Tienes algunas preguntas? Encuentra tu respuesta",
+    "items": [
+      {
+        "question": "¿Qué tipos de etiquetado ofrecen?",
+        "answer": "Ofrecemos etiquetado manual y automático, incluyendo etiquetas de precio, códigos de barras, y etiquetas regulatorias."
+      },
+      {
+        "question": "¿Pueden crear kits personalizados?",
+        "answer": "Sí, armamos kits según tus especificaciones, desde promociones simples hasta sets complejos."
+      },
+      {
+        "question": "¿Manejan productos regulados?",
+        "answer": "Sí, tenemos experiencia en productos farmacéuticos, cosméticos y alimentos."
+      },
+      {
+        "question": "¿Cuál es el tiempo de procesamiento?",
+        "answer": "Depende del servicio, pero generalmente procesamos en 24-48 horas."
+      }
+    ]
+  }
+}

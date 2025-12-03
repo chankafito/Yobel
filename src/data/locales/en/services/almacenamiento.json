@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Warehousing",
+    "title": "Strategic warehousing for your supply chain",
+    "subtitle": "Secure spaces and advanced technology to manage your inventory.",
+    "videoUrl": "https://circular.ws/yobel/amarillo-desktop.mp4"
+  },
+  "pitch": {
+    "text": "At YOBEL we offer warehousing solutions designed to optimize your supply chain. Our distribution centers feature cutting-edge technology and trained staff to ensure the security and availability of your inventory.",
+    "cta": "Discover our warehouses"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "ctaText": "View rates",
+    "items": [
+      {
+        "title": "General Warehousing",
+        "desc": "Spacious and secure spaces for all types of merchandise, with real-time inventory control."
+      },
+      {
+        "title": "Climate-Controlled Storage",
+        "desc": "Temperature-controlled facilities for products that require special conditions."
+      },
+      {
+        "title": "Cross-Docking",
+        "desc": "Direct merchandise transfer without prolonged storage, reducing time and costs."
+      },
+      {
+        "title": "Inventory Management",
+        "desc": "Precise stock control with advanced WMS systems and real-time reports."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "subtitle": "Maximize your supply chain efficiency with our warehousing solutions.",
+    "items": [
+      "Reduced operating costs through space optimization.",
+      "Total inventory visibility with WMS technology.",
+      "Flexibility to scale according to your needs.",
+      "24/7 security with surveillance systems and access control."
+    ]
+  },
+  "processes": {
+    "subtitle": "Your inventory, our priority",
+    "title": "We manage your warehousing from start to finish, ensuring precision, security and efficiency in every operation.",
+    "label": "Processes",
+    "items": [
+      {
+        "title": "Reception",
+        "desc": "Verification and registration of incoming merchandise with quality control."
+      },
+      {
+        "title": "Storage",
+        "desc": "Strategic product placement based on rotation and characteristics."
+      },
+      {
+        "title": "Picking and Packing",
+        "desc": "Order preparation with precision and speed."
+      },
+      {
+        "title": "Dispatch",
+        "desc": "Coordination of shipments with complete documentation and traceability."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Have questions? Find your answer",
+    "items": [
+      {
+        "question": "What types of products can you store?",
+        "answer": "We store a wide variety of products: dry goods, refrigerated items, pharmaceuticals, electronics and more."
+      },
+      {
+        "question": "How can I monitor my inventory?",
+        "answer": "We offer access to our WMS system where you can view your inventory in real-time."
+      },
+      {
+        "question": "Do you have warehouses in multiple cities?",
+        "answer": "Yes, we have a network of strategically located distribution centers."
+      },
+      {
+        "question": "What is the minimum contract period?",
+        "answer": "We offer flexibility in our contracts, adapting to your specific needs."
+      }
+    ]
+  }
+}

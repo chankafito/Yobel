@@ -1,9 +1,10 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Section } from "../../../components/ui/section";
-import { Container } from "../../../components/ui/container";
-import { Button } from "../../../components/atoms";
-import { ParallaxImage } from "../../../components/molecules";
+import { Section } from "../../components/ui/section";
+import { Container } from "../../components/ui/container";
+import { Button } from "../../components/atoms";
+import { ParallaxImage } from "../../components/molecules";
 import {
   FAQ,
   SolutionsList,
@@ -11,10 +12,12 @@ import {
   Phrase,
   ScrollRevealVideo,
   IndustriesCarousel,
-} from "../../../components/organisms";
-import { yobelIcon } from "../../../assets/svg/icons";
-import { useAssetPath } from "../../../hooks/useAssetPath";
-import { useComex } from "../../../hooks/useComex";
+} from "../../components/organisms";
+import { HeroVideo } from "../../components/HeroVideo";
+import { yobelIcon } from "../../assets/svg/icons";
+import { useService } from "../../hooks/useService";
+import { serviceImages } from "../../assets/images/services";
+import type { ServiceSlug } from "../../types/service";
 
 // Icons
 function YobelIcon() {
@@ -51,9 +54,18 @@ function CheckIcon() {
   );
 }
 
-export function Comex() {
-  const getAssetPath = useAssetPath();
-  const data = useComex();
+interface ServicePageProps {
+  slug: ServiceSlug;
+}
+
+export function ServicePage({ slug }: ServicePageProps) {
+  const data = useService(slug);
+  const images = serviceImages[slug];
+
+  // Scroll to top when slug changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [slug]);
 
   // Loading state
   if (!data) {
@@ -64,40 +76,17 @@ export function Comex() {
     );
   }
 
-  const { hero, pitch, solutions, benefits, processes, faq, images } = data;
+  const { hero, pitch, solutions, benefits, processes, faq } = data;
 
   return (
     <>
       {/* Hero Section with Video */}
-      <div className="relative h-[80vh] min-h-[600px] max-h-[920px] w-full overflow-hidden font-augenblick">
-        <div className="absolute inset-0 overflow-hidden bg-[#e5e5e5]">
-          <video
-            src={hero.videoUrl}
-            className="absolute inset-0 h-full w-full object-cover"
-            autoPlay
-            loop
-            muted
-            playsInline
-            crossOrigin="anonymous"
-          />
-          <div className="absolute inset-0 bg-black/10" />
-          <div className="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-white via-[#fff066] to-transparent pointer-events-none" />
-        </div>
-
-        <div className="absolute bottom-20 left-0 right-0 px-[5%] md:px-[50px] z-10">
-          <div className="max-w-[1400px] mx-auto flex flex-col gap-[30px]">
-            <p className="text-lg md:text-[18px] text-black">{hero.label}</p>
-            <div className="flex flex-col lg:flex-row items-start gap-[40px]">
-              <h1 className="text-5xl md:text-[65px] leading-[1] text-black max-w-[773px]">
-                {hero.title}
-              </h1>
-              <p className="text-xl md:text-[22px] leading-[24px] text-black max-w-[316px] pt-2">
-                {hero.subtitle}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <HeroVideo
+        video={hero.videoUrl}
+        name={hero.label}
+        title={hero.title}
+        subtitle={hero.subtitle}
+      />
 
       {/* Pitch Section */}
       <Section className="bg-white">
@@ -126,7 +115,7 @@ export function Comex() {
         <Container>
           <SolutionsList
             solutions={solutions.items}
-            hoverImage={getAssetPath(images.hover)}
+            hoverImage={images.hover}
             title={solutions.title}
           >
             <div className="mt-12">
@@ -143,7 +132,7 @@ export function Comex() {
                 {benefits.title}
               </span>
               <ParallaxImage
-                src={getAssetPath(benefits.image)}
+                src={images.benefits}
                 alt="Logística Yobel"
                 yValues={[-200, 0]}
               />
@@ -177,8 +166,8 @@ export function Comex() {
       {/* Full Width Image */}
       <div className="w-full h-[400px] lg:h-[600px] mb-20 relative overflow-hidden">
         <motion.img
-          src={images.logistics}
-          alt="Global Logistics"
+          src={images.main}
+          alt={hero.label}
           className="w-full h-full object-cover"
           initial={{ scale: 1.1 }}
           whileInView={{ scale: 1 }}
@@ -266,4 +255,4 @@ export function Comex() {
   );
 }
 
-export default Comex;
+export default ServicePage;

@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Courier Express",
+    "title": "Entregas express cuando más lo necesitas",
+    "subtitle": "Envíos rápidos y seguros para tu negocio.",
+    "videoUrl": "https://circular.ws/yobel/amarillo-desktop.mp4"
+  },
+  "pitch": {
+    "text": "En YOBEL entendemos que el tiempo es dinero. Nuestro servicio de courier express garantiza entregas rápidas, seguras y con trazabilidad completa para que tu negocio nunca se detenga.",
+    "cta": "Envía ahora"
+  },
+  "solutions": {
+    "title": "Soluciones",
+    "ctaText": "Ver tarifas",
+    "items": [
+      {
+        "title": "Same Day Delivery",
+        "desc": "Entregas el mismo día para envíos urgentes dentro de la ciudad."
+      },
+      {
+        "title": "Next Day Delivery",
+        "desc": "Envíos garantizados para el día siguiente a nivel nacional."
+      },
+      {
+        "title": "Courier Corporativo",
+        "desc": "Soluciones personalizadas para empresas con alto volumen de envíos."
+      },
+      {
+        "title": "E-commerce Fulfillment",
+        "desc": "Gestión integral de envíos para tiendas en línea."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "subtitle": "Velocidad y confiabilidad en cada envío.",
+    "items": [
+      "Entregas en tiempos récord con seguimiento en tiempo real.",
+      "Notificaciones automáticas para ti y tu cliente.",
+      "Prueba de entrega digital con firma y foto.",
+      "Integración con plataformas de e-commerce."
+    ]
+  },
+  "processes": {
+    "subtitle": "Rapidez sin compromisos",
+    "title": "Nuestro proceso de courier está diseñado para maximizar velocidad sin sacrificar seguridad.",
+    "label": "Procesos",
+    "items": [
+      {
+        "title": "Recolección",
+        "desc": "Recogemos tu paquete en la ubicación que indiques."
+      },
+      {
+        "title": "Clasificación",
+        "desc": "Procesamiento rápido en nuestro centro de distribución."
+      },
+      {
+        "title": "Transporte",
+        "desc": "Envío por la ruta más eficiente con tracking GPS."
+      },
+      {
+        "title": "Entrega",
+        "desc": "Confirmación de entrega con evidencia digital."
+      }
+    ]
+  },
+  "faq": {
+    "title": "¿Tienes algunas preguntas? Encuentra tu respuesta",
+    "items": [
+      {
+        "question": "¿Cuál es el horario de corte para same day?",
+        "answer": "Los envíos solicitados antes de las 12:00 PM se entregan el mismo día."
+      },
+      {
+        "question": "¿Hacen entregas los fines de semana?",
+        "answer": "Sí, ofrecemos servicio de entregas los sábados en zonas seleccionadas."
+      },
+      {
+        "question": "¿Qué peso máximo pueden transportar?",
+        "answer": "Nuestro servicio courier maneja paquetes de hasta 30 kg."
+      },
+      {
+        "question": "¿Tienen seguro para los envíos?",
+        "answer": "Sí, todos los envíos incluyen cobertura básica con opción de seguro adicional."
+      }
+    ]
+  }
+}

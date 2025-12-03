@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Distribución",
+    "title": "Distribución inteligente para llegar a tiempo",
+    "subtitle": "Entregas eficientes y puntuales en toda la región.",
+    "videoUrl": "https://circular.ws/yobel/amarillo-desktop.mp4"
+  },
+  "pitch": {
+    "text": "En YOBEL diseñamos rutas optimizadas y gestionamos flotas para garantizar que tus productos lleguen a su destino en el menor tiempo posible. Nuestra red de distribución cubre todo el territorio nacional.",
+    "cta": "Optimiza tu distribución"
+  },
+  "solutions": {
+    "title": "Soluciones",
+    "ctaText": "Ver tarifas",
+    "items": [
+      {
+        "title": "Distribución Urbana",
+        "desc": "Entregas en zonas metropolitanas con rutas optimizadas y tiempos de entrega garantizados."
+      },
+      {
+        "title": "Distribución Nacional",
+        "desc": "Cobertura en todo el territorio con una red de centros de distribución estratégicos."
+      },
+      {
+        "title": "Última Milla",
+        "desc": "Entrega directa al consumidor final con seguimiento en tiempo real."
+      },
+      {
+        "title": "Distribución Programada",
+        "desc": "Rutas fijas y horarios establecidos para entregas recurrentes."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "subtitle": "Lleva tus productos a cualquier destino con eficiencia y confiabilidad.",
+    "items": [
+      "Reducción de tiempos de entrega con rutas optimizadas.",
+      "Trazabilidad completa de cada envío en tiempo real.",
+      "Flexibilidad para manejar picos de demanda.",
+      "Reducción de costos logísticos mediante consolidación de cargas."
+    ]
+  },
+  "processes": {
+    "subtitle": "Del almacén a tu cliente",
+    "title": "Nuestra red de distribución garantiza entregas puntuales y en perfectas condiciones.",
+    "label": "Procesos",
+    "items": [
+      {
+        "title": "Planificación",
+        "desc": "Diseño de rutas óptimas considerando distancia, tráfico y prioridades."
+      },
+      {
+        "title": "Consolidación",
+        "desc": "Agrupación de envíos para maximizar eficiencia de transporte."
+      },
+      {
+        "title": "Transporte",
+        "desc": "Ejecución de entregas con seguimiento GPS en tiempo real."
+      },
+      {
+        "title": "Confirmación",
+        "desc": "Validación de entrega con firma digital y evidencia fotográfica."
+      }
+    ]
+  },
+  "faq": {
+    "title": "¿Tienes algunas preguntas? Encuentra tu respuesta",
+    "items": [
+      {
+        "question": "¿Cuál es el tiempo promedio de entrega?",
+        "answer": "Dependiendo de la zona, ofrecemos entregas el mismo día, al día siguiente o en 48-72 horas."
+      },
+      {
+        "question": "¿Pueden manejar productos frágiles?",
+        "answer": "Sí, contamos con protocolos especiales para el manejo de mercancía delicada."
+      },
+      {
+        "question": "¿Ofrecen entregas en horarios específicos?",
+        "answer": "Sí, podemos programar entregas en ventanas horarias definidas según tus necesidades."
+      },
+      {
+        "question": "¿Cómo puedo rastrear mis envíos?",
+        "answer": "Proporcionamos acceso a nuestra plataforma de tracking con actualizaciones en tiempo real."
+      }
+    ]
+  }
+}

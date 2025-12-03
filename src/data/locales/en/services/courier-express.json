@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Courier Express",
+    "title": "Express deliveries when you need them most",
+    "subtitle": "Fast and secure shipments for your business.",
+    "videoUrl": "https://circular.ws/yobel/amarillo-desktop.mp4"
+  },
+  "pitch": {
+    "text": "At YOBEL we understand that time is money. Our express courier service guarantees fast, secure deliveries with complete traceability so your business never stops.",
+    "cta": "Ship now"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "ctaText": "View rates",
+    "items": [
+      {
+        "title": "Same Day Delivery",
+        "desc": "Same-day deliveries for urgent shipments within the city."
+      },
+      {
+        "title": "Next Day Delivery",
+        "desc": "Guaranteed shipments for the next day nationwide."
+      },
+      {
+        "title": "Corporate Courier",
+        "desc": "Customized solutions for companies with high shipping volumes."
+      },
+      {
+        "title": "E-commerce Fulfillment",
+        "desc": "Comprehensive shipment management for online stores."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "subtitle": "Speed and reliability in every shipment.",
+    "items": [
+      "Record-time deliveries with real-time tracking.",
+      "Automatic notifications for you and your customer.",
+      "Digital proof of delivery with signature and photo.",
+      "Integration with e-commerce platforms."
+    ]
+  },
+  "processes": {
+    "subtitle": "Speed without compromise",
+    "title": "Our courier process is designed to maximize speed without sacrificing security.",
+    "label": "Processes",
+    "items": [
+      {
+        "title": "Collection",
+        "desc": "We pick up your package at the location you indicate."
+      },
+      {
+        "title": "Sorting",
+        "desc": "Fast processing at our distribution center."
+      },
+      {
+        "title": "Transportation",
+        "desc": "Shipping via the most efficient route with GPS tracking."
+      },
+      {
+        "title": "Delivery",
+        "desc": "Delivery confirmation with digital evidence."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Have questions? Find your answer",
+    "items": [
+      {
+        "question": "What is the cutoff time for same day delivery?",
+        "answer": "Shipments requested before 12:00 PM are delivered the same day."
+      },
+      {
+        "question": "Do you make deliveries on weekends?",
+        "answer": "Yes, we offer Saturday delivery service in selected areas."
+      },
+      {
+        "question": "What is the maximum weight you can transport?",
+        "answer": "Our courier service handles packages up to 30 kg."
+      },
+      {
+        "question": "Do you have insurance for shipments?",
+        "answer": "Yes, all shipments include basic coverage with an optional additional insurance."
+      }
+    ]
+  }
+}

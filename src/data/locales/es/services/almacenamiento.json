@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Almacenamiento",
+    "title": "Almacenamiento estratégico para tu cadena de suministro",
+    "subtitle": "Espacios seguros y tecnología avanzada para gestionar tu inventario.",
+    "videoUrl": "https://circular.ws/yobel/amarillo-desktop.mp4"
+  },
+  "pitch": {
+    "text": "En YOBEL ofrecemos soluciones de almacenamiento diseñadas para optimizar tu cadena de suministro. Nuestros centros de distribución cuentan con tecnología de punta y personal capacitado para garantizar la seguridad y disponibilidad de tu inventario.",
+    "cta": "Conoce nuestros almacenes"
+  },
+  "solutions": {
+    "title": "Soluciones",
+    "ctaText": "Ver tarifas",
+    "items": [
+      {
+        "title": "Almacenamiento General",
+        "desc": "Espacios amplios y seguros para todo tipo de mercancía, con control de inventario en tiempo real."
+      },
+      {
+        "title": "Almacenamiento Climatizado",
+        "desc": "Instalaciones con temperatura controlada para productos que requieren condiciones especiales."
+      },
+      {
+        "title": "Cross-Docking",
+        "desc": "Transferencia directa de mercancía sin almacenamiento prolongado, reduciendo tiempos y costos."
+      },
+      {
+        "title": "Gestión de Inventarios",
+        "desc": "Control preciso de stock con sistemas WMS avanzados y reportes en tiempo real."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "subtitle": "Maximiza la eficiencia de tu cadena de suministro con nuestras soluciones de almacenamiento.",
+    "items": [
+      "Reducción de costos operativos mediante optimización de espacios.",
+      "Visibilidad total del inventario con tecnología WMS.",
+      "Flexibilidad para escalar según tus necesidades.",
+      "Seguridad 24/7 con sistemas de vigilancia y control de acceso."
+    ]
+  },
+  "processes": {
+    "subtitle": "Tu inventario, nuestra prioridad",
+    "title": "Gestionamos tu almacenamiento de principio a fin, asegurando precisión, seguridad y eficiencia en cada operación.",
+    "label": "Procesos",
+    "items": [
+      {
+        "title": "Recepción",
+        "desc": "Verificación y registro de mercancía entrante con control de calidad."
+      },
+      {
+        "title": "Almacenaje",
+        "desc": "Ubicación estratégica de productos según rotación y características."
+      },
+      {
+        "title": "Picking y Packing",
+        "desc": "Preparación de pedidos con precisión y rapidez."
+      },
+      {
+        "title": "Despacho",
+        "desc": "Coordinación de salidas con documentación completa y trazabilidad."
+      }
+    ]
+  },
+  "faq": {
+    "title": "¿Tienes algunas preguntas? Encuentra tu respuesta",
+    "items": [
+      {
+        "question": "¿Qué tipos de productos pueden almacenar?",
+        "answer": "Almacenamos una amplia variedad de productos: secos, refrigerados, farmacéuticos, electrónicos y más."
+      },
+      {
+        "question": "¿Cómo puedo monitorear mi inventario?",
+        "answer": "Ofrecemos acceso a nuestro sistema WMS donde puedes ver tu inventario en tiempo real."
+      },
+      {
+        "question": "¿Tienen almacenes en varias ciudades?",
+        "answer": "Sí, contamos con una red de centros de distribución estratégicamente ubicados."
+      },
+      {
+        "question": "¿Cuál es el tiempo mínimo de contrato?",
+        "answer": "Ofrecemos flexibilidad en nuestros contratos, adaptándonos a tus necesidades específicas."
+      }
+    ]
+  }
+}

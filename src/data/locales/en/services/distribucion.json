@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Distribution",
+    "title": "Smart distribution to arrive on time",
+    "subtitle": "Efficient and punctual deliveries across the entire region.",
+    "videoUrl": "https://circular.ws/yobel/amarillo-desktop.mp4"
+  },
+  "pitch": {
+    "text": "At YOBEL we design optimized routes and manage fleets to ensure your products reach their destination in the shortest time possible. Our distribution network covers the entire national territory.",
+    "cta": "Optimize your distribution"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "ctaText": "View rates",
+    "items": [
+      {
+        "title": "Urban Distribution",
+        "desc": "Deliveries in metropolitan areas with optimized routes and guaranteed delivery times."
+      },
+      {
+        "title": "National Distribution",
+        "desc": "Coverage throughout the territory with a network of strategic distribution centers."
+      },
+      {
+        "title": "Last Mile",
+        "desc": "Direct delivery to the end consumer with real-time tracking."
+      },
+      {
+        "title": "Scheduled Distribution",
+        "desc": "Fixed routes and established schedules for recurring deliveries."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "subtitle": "Deliver your products to any destination with efficiency and reliability.",
+    "items": [
+      "Reduced delivery times with optimized routes.",
+      "Complete traceability of each shipment in real time.",
+      "Flexibility to handle demand peaks.",
+      "Reduced logistics costs through load consolidation."
+    ]
+  },
+  "processes": {
+    "subtitle": "From warehouse to your customer",
+    "title": "Our distribution network guarantees punctual deliveries in perfect condition.",
+    "label": "Processes",
+    "items": [
+      {
+        "title": "Planning",
+        "desc": "Design of optimal routes considering distance, traffic and priorities."
+      },
+      {
+        "title": "Consolidation",
+        "desc": "Grouping shipments to maximize transport efficiency."
+      },
+      {
+        "title": "Transportation",
+        "desc": "Execution of deliveries with real-time GPS tracking."
+      },
+      {
+        "title": "Confirmation",
+        "desc": "Delivery validation with digital signature and photographic evidence."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Have questions? Find your answer",
+    "items": [
+      {
+        "question": "What is the average delivery time?",
+        "answer": "Depending on the area, we offer same-day, next-day or 48-72 hour deliveries."
+      },
+      {
+        "question": "Can you handle fragile products?",
+        "answer": "Yes, we have special protocols for handling delicate merchandise."
+      },
+      {
+        "question": "Do you offer deliveries at specific times?",
+        "answer": "Yes, we can schedule deliveries in defined time windows according to your needs."
+      },
+      {
+        "question": "How can I track my shipments?",
+        "answer": "We provide access to our tracking platform with real-time updates."
+      }
+    ]
+  }
+}

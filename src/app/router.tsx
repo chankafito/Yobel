@@ -6,7 +6,7 @@ import About from "../pages/About/About";
 import GlobalPresence from "../pages/About/GlobalPresence";
 import History from "../pages/About/History";
 
-import Comex from "../pages/Services/Comex";
+import { ServicePage } from "../pages/Services/ServicePage";
 import NotFound from "../pages/NotFound";
 
 export default function AppRouter() {
@@ -22,7 +22,12 @@ export default function AppRouter() {
           <Route path="empresa/presencia-global" element={<GlobalPresence />} />
           <Route path="empresa/historia" element={<History />} />
           {/* Servicios */}
-          <Route path="servicios/comercio-exterior" element={<Comex />} />
+          <Route path="servicios/comercio-exterior" element={<ServicePage key="comercio-exterior" slug="comercio-exterior" />} />
+          <Route path="servicios/almacenamiento" element={<ServicePage key="almacenamiento" slug="almacenamiento" />} />
+          <Route path="servicios/distribucion" element={<ServicePage key="distribucion" slug="distribucion" />} />
+          <Route path="servicios/manufactura" element={<ServicePage key="manufactura" slug="manufactura" />} />
+          <Route path="servicios/courier-express" element={<ServicePage key="courier-express" slug="courier-express" />} />
+          <Route path="servicios/valor-agregado" element={<ServicePage key="valor-agregado" slug="valor-agregado" />} />
           {/* 404 para rutas anidadas bajo '/' */}
           <Route path="*" element={<NotFound />} />
         </Route>
@@ -34,7 +39,12 @@ export default function AppRouter() {
           <Route path="empresa/presencia-global" element={<GlobalPresence />} />
           <Route path="empresa/historia" element={<History />} />
           {/* Servicios */}
-          <Route path="servicios/comercio-exterior" element={<Comex />} />
+          <Route path="servicios/comercio-exterior" element={<ServicePage key="comercio-exterior" slug="comercio-exterior" />} />
+          <Route path="servicios/almacenamiento" element={<ServicePage key="almacenamiento" slug="almacenamiento" />} />
+          <Route path="servicios/distribucion" element={<ServicePage key="distribucion" slug="distribucion" />} />
+          <Route path="servicios/manufactura" element={<ServicePage key="manufactura" slug="manufactura" />} />
+          <Route path="servicios/courier-express" element={<ServicePage key="courier-express" slug="courier-express" />} />
+          <Route path="servicios/valor-agregado" element={<ServicePage key="valor-agregado" slug="valor-agregado" />} />
           {/* 404 para rutas anidadas bajo '/:lang/*' */}
           <Route path="*" element={<NotFound />} />
         </Route>
