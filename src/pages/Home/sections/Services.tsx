@@ -76,7 +76,7 @@ export function Services() {
   };
 
   return (
-    <Section className="bg-white">
+    <Section className="relative py-16 md:py-24 lg:py-32 px-6" >
       <Container className="relative min-h-[600px]">
 
         <div className="flex flex-col w-full" onMouseLeave={() => setActiveId("")}>
