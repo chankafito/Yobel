@@ -1,10 +1,10 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { motion, useScroll, useTransform, useSpring, MotionValue } from "framer-motion";
 
 interface TimelineItem {
   year: string;
   title: string;
-  desc: string;
+  desc?: string;
 }
 
 export function Timeline({ items, textColor }: { items: TimelineItem[]; textColor: MotionValue<string> }) {
