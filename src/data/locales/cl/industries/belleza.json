@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para Cosmética y Cuidado Personal",
+    "description": "Impulsamos marcas de belleza con manufactura, logística y distribución seguras, eficientes y 100% trazables.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel gestionamos la cadena de suministro de cosméticos, fragancias y cuidado personal. Integramos manufactura, almacenamiento y distribución con tecnología avanzada y cumplimiento de normas BPM.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Manufactura Cosmética",
+        "description": "Producción, envasado y reacondicionado de cosméticos, fragancias y artículos de higiene bajo estándares BPM y normativas sanitarias internacionales.",
+        "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Almacenamiento Regulado",
+        "description": "Conservación de productos sensibles en entornos con temperatura y humedad controlada, garantizando trazabilidad por lote y fecha de vencimiento.",
+        "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Distribución Omnicanal",
+        "description": "Entregas B2B, retail y e-commerce con visibilidad total, seguridad y cumplimiento OTIF 99.6%.",
+        "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Valor Agregado (VAS)",
+        "description": "Armado de kits promocionales, etiquetado, codificado y empaques personalizados para lanzamientos o temporadas.",
+        "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Comercio Exterior",
+        "description": "Coordinación de importaciones de materias primas y exportaciones de productos terminados, asegurando cumplimiento sanitario y aduanero.",
+        "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Calidad, trazabilidad y eficiencia operativa",
+    "image": "https://images.unsplash.com/photo-1739204618173-3e89def7140f?w=1080",
+    "items": [
+      "Cumplimiento de normas BPM y regulaciones sanitarias.",
+      "Reducción de tiempos de entrega mediante procesos integrados.",
+      "Control total de inventario y trazabilidad por lote o SKU.",
+      "Flexibilidad para campañas, temporadas o lanzamientos.",
+      "Entrega garantizada con OTIF 99.6%."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080",
+    "items": [
+      { "id": "01", "title": "Lanzamientos de líneas", "fullDesc": "Producción, armado y distribución integral de nuevas colecciones." },
+      { "id": "02", "title": "Campañas promocionales", "fullDesc": "Kitting y empaques personalizados por temporada (Navidad, Día de la Madre, etc.)." },
+      { "id": "03", "title": "Reposición retail", "fullDesc": "Abastecimiento continuo a tiendas, perfumerías y marketplaces." },
+      { "id": "04", "title": "Gestión e-commerce", "fullDesc": "Preparación y despacho directo al consumidor final." },
+      { "id": "05", "title": "Reacondicionado sanitario", "fullDesc": "Actualización de empaques o etiquetas por regulación o canal." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas B2B y retail." },
+      { "highlight": "Trazabilidad completa", "normal": "desde planta hasta punto de venta." },
+      { "highlight": "Lead time reducido", "normal": "en lanzamientos y reposiciones." },
+      { "highlight": "Control sanitario continuo", "normal": "en todos los procesos BPM." }
+    ]
+  },
+  "certificates": {
+    "description": "Operamos bajo certificaciones internacionales que aseguran la calidad, seguridad y sostenibilidad en toda la cadena de suministro."
+  }
+}

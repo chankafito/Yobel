@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para la industria manufacturera",
+    "description": "Impulsamos la productividad de tu planta con procesos integrados y suministro continuo.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel SCM diseñamos soluciones logísticas integrales para empresas manufactureras e industriales. Conectamos el flujo de materias primas, componentes y productos terminados mediante almacenamiento, transporte, distribución y servicios de valor agregado.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Abastecimiento In-House",
+        "description": "Operamos directamente dentro de tus plantas o centros productivos para garantizar un flujo continuo de materiales y componentes.",
+        "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Almacenamiento Industrial",
+        "description": "Gestión avanzada de inventarios con WMS, control por lote, peso, dimensiones o tipo de material.",
+        "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Transporte Especializado",
+        "description": "Rutas planificadas para abastecimiento B2B, distribución nacional o exportación de productos terminados.",
+        "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Valor Agregado (VAS)",
+        "description": "Kitting, armado de sets industriales, empaques técnicos y reacondicionado de piezas o repuestos.",
+        "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Comercio Exterior",
+        "description": "Coordinación integral de importaciones y exportaciones de maquinaria, materias primas y productos industriales.",
+        "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Eficiencia, control y seguridad operativa",
+    "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080",
+    "items": [
+      "Abastecimiento continuo para evitar interrupciones de línea.",
+      "Trazabilidad total de insumos y productos terminados.",
+      "Integración con sistemas ERP o MES del cliente.",
+      "Reducción de tiempos muertos y sobrecostos logísticos.",
+      "Cumplimiento OTIF 99.6% en entregas industriales."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080",
+    "items": [
+      { "id": "01", "title": "Abastecimiento de línea", "fullDesc": "Flujo continuo de componentes en planta." },
+      { "id": "02", "title": "Gestión de repuestos", "fullDesc": "Control y despacho rápido de piezas críticas." },
+      { "id": "03", "title": "Kitting de ensamblaje", "fullDesc": "Preparación de kits de componentes por orden de producción." },
+      { "id": "04", "title": "Reacondicionado", "fullDesc": "Ajustes de presentación o empaques técnicos." },
+      { "id": "05", "title": "Exportaciones industriales", "fullDesc": "Coordinación logística de maquinaria o piezas." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas industriales." },
+      { "highlight": "Lead time reducido hasta 25%", "normal": "en abastecimientos internos." },
+      { "highlight": "Inventario visible 100%", "normal": "en tiempo real vía WMS." },
+      { "highlight": "Optimización de espacio", "normal": "en planta y centros logísticos." }
+    ]
+  },
+  "certificates": {
+    "description": "En Yobel SCM, garantizamos calidad, seguridad y eficiencia industrial bajo certificaciones internacionales que respaldan cada proceso de la cadena productiva."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para Retail",
+    "description": "Conectamos tu inventario con cada punto de venta, canal y consumidor final.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel SCM diseñamos y operamos cadenas logísticas integradas para retail. Aseguramos disponibilidad, trazabilidad y cumplimiento, optimizando el abastecimiento de tiendas físicas, marketplaces y clientes finales.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Almacenamiento Omnicanal",
+        "description": "Gestión centralizada de inventario por tienda, canal o marketplace con tecnología WMS para asegurar disponibilidad en tiempo real.",
+        "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Distribución Nacional",
+        "description": "Abastecimiento de tiendas, supermercados y entregas directas al cliente final con trazabilidad 24/7 y cumplimiento estricto de ventanas horarias.",
+        "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Valor Agregado (VAS)",
+        "description": "Etiquetado, armado de combos, empaques promocionales y preparación personalizada según los requerimientos de cada canal de venta.",
+        "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Fulfillment E-commerce",
+        "description": "Preparación, empaque y despacho ágil de pedidos online con integración directa a tu plataforma digital (Shopify, VTEX, Magento, etc.).",
+        "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Comercio Exterior",
+        "description": "Gestión de importaciones, despacho aduanero y transporte internacional de mercancías retail para asegurar el stock de temporada.",
+        "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Disponibilidad, eficiencia y experiencia",
+    "image": "https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?w=1080",
+    "items": [
+      "Trazabilidad total desde el centro de distribución hasta el punto de venta.",
+      "Lead time reducido en reposición y entregas online.",
+      "Optimización del espacio y flujo logístico.",
+      "Integración omnicanal con sistemas ERP y e-commerce.",
+      "Cumplimiento OTIF 99.6%."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080",
+    "items": [
+      { "id": "01", "title": "Reposición de tiendas", "fullDesc": "Entregas programadas y optimizadas según la demanda de cada punto de venta." },
+      { "id": "02", "title": "Fulfillment e-commerce", "fullDesc": "Procesamiento y despacho rápido de pedidos en línea para mejorar la experiencia del cliente." },
+      { "id": "03", "title": "Campañas y promociones", "fullDesc": "Kitting, empaques promocionales y distribución nacional para fechas clave (Cyber, Black Friday)." },
+      { "id": "04", "title": "Gestión de devoluciones", "fullDesc": "Logística inversa eficiente con control de calidad y reacondicionado para reventa." },
+      { "id": "05", "title": "Integración de canales", "fullDesc": "Flujo unificado entre retail físico y digital para una visión única del inventario." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas retail." },
+      { "highlight": "Trazabilidad 100%", "normal": "en tiempo real." },
+      { "highlight": "Lead time reducido hasta 30%", "normal": "en reposición." },
+      { "highlight": "Integración total omnicanal", "normal": "con sistemas del cliente." }
+    ]
+  },
+  "certificates": {
+    "description": "Operamos con certificaciones internacionales que garantizan calidad, seguridad y sostenibilidad en cada etapa."
+  }
+}

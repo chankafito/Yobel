@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for the manufacturing industry",
+    "description": "We boost your plant's productivity with integrated processes and continuous supply.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "At Yobel we design comprehensive logistics solutions for manufacturing and industrial companies. We connect the flow of raw materials, components and finished products through warehousing, transportation, distribution and value-added services.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "In-House Supply",
+        "description": "We operate directly within your plants or production centers to ensure continuous flow of materials and components.",
+        "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Industrial Warehousing",
+        "description": "Advanced inventory management with WMS, batch control, weight, dimensions or material type.",
+        "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Specialized Transportation",
+        "description": "Planned routes for B2B supply, national distribution or finished goods export.",
+        "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Value-Added Services (VAS)",
+        "description": "Kitting, industrial set assembly, technical packaging and part or spare reconditioning.",
+        "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "Comprehensive coordination of imports and exports of machinery, raw materials and industrial products.",
+        "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Efficiency, control and operational safety",
+    "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080",
+    "items": [
+      "Continuous supply to avoid line interruptions.",
+      "Full traceability of supplies and finished products.",
+      "Integration with client ERP or MES systems.",
+      "Reduced downtime and logistics overhead.",
+      "99.6% OTIF compliance in industrial deliveries."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?w=1080",
+    "items": [
+      { "id": "01", "title": "Line supply", "fullDesc": "Continuous component flow in plant." },
+      { "id": "02", "title": "Spare parts management", "fullDesc": "Control and fast dispatch of critical parts." },
+      { "id": "03", "title": "Assembly kitting", "fullDesc": "Component kit preparation by production order." },
+      { "id": "04", "title": "Reconditioning", "fullDesc": "Presentation or technical packaging adjustments." },
+      { "id": "05", "title": "Industrial exports", "fullDesc": "Machinery or parts logistics coordination." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in industrial deliveries." },
+      { "highlight": "Up to 25% reduced lead time", "normal": "in internal supply." },
+      { "highlight": "100% inventory visibility", "normal": "in real-time via WMS." },
+      { "highlight": "Space optimization", "normal": "in plant and logistics centers." }
+    ]
+  },
+  "certificates": {
+    "description": "At Yobel, we guarantee quality, safety and industrial efficiency under international certifications that support every process in the production chain."
+  }
+}

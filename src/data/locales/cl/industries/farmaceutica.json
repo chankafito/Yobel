@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para la industria Farmacéutica",
+    "description": "Garantizamos la integridad de tus productos con control sanitario y trazabilidad total.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel SCM diseñamos soluciones integradas para laboratorios y distribuidoras de salud. Gestionamos medicamentos e insumos bajo normas BPM y BPA, con cadena de frío certificada y procesos trazables.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Manufactura Farmacéutica",
+        "description": "Producimos, envasamos y reacondicionamos medicamentos y productos sanitarios cumpliendo estrictos estándares regulatorios nacionales e internacionales.",
+        "image": "https://images.unsplash.com/photo-1576669801838-1b1c52121e6a?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Almacenamiento Regulado",
+        "description": "Operamos con temperatura controlada, áreas segregadas y cuarentena sanitaria para garantizar la inocuidad y el cumplimiento normativo.",
+        "image": "https://images.unsplash.com/photo-1576669801838-1b1c52121e6a?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Distribución Sanitaria",
+        "description": "Entregas a droguerías, hospitales, clínicas y puntos de venta con visibilidad en tiempo real y control estricto por lote.",
+        "image": "https://images.unsplash.com/photo-1576669801838-1b1c52121e6a?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Valor Agregado (VAS)",
+        "description": "Etiquetado sanitario, codificación, armado de kits hospitalarios y empaques promocionales con validación regulatoria.",
+        "image": "https://images.unsplash.com/photo-1576669801838-1b1c52121e6a?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Comercio Exterior",
+        "description": "Gestión aduanera y transporte internacional de materias primas, insumos activos y productos terminados bajo normativa sanitaria.",
+        "image": "https://images.unsplash.com/photo-1576669801838-1b1c52121e6a?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Cumplimiento, trazabilidad y eficiencia",
+    "image": "https://images.unsplash.com/photo-1608243499710-5ebece89a37d?w=1080",
+    "items": [
+      "Cumplimiento estricto de BPM/BPA y DIGEMID.",
+      "Cadena de frío certificada para productos sensibles.",
+      "Trazabilidad total por lote en tiempo real.",
+      "Segregación por tipo de producto y área sanitaria.",
+      "Cobertura nacional con OTIF 99.6%."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1576669801838-1b1c52121e6a?w=1080",
+    "items": [
+      { "id": "01", "title": "Lanzamientos farmacéuticos", "fullDesc": "Distribución nacional y regional de nuevas líneas con control de fecha de vigencia." },
+      { "id": "02", "title": "Acondicionamiento secundario", "fullDesc": "Etiquetado, codificado o empaquetado final según requerimientos del país de destino." },
+      { "id": "03", "title": "Re-etiquetado sanitario", "fullDesc": "Adaptación regulatoria ágil por canal o mercado específico." },
+      { "id": "04", "title": "Distribución hospitalaria", "fullDesc": "Entrega directa y prioritaria a clínicas, farmacias y hospitales." },
+      { "id": "05", "title": "Logística inversa", "fullDesc": "Retiro, control y disposición segura de productos fuera de estándar o vencidos." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas farmacéuticas." },
+      { "highlight": "Temperatura monitoreada", "normal": "en tiempo real." },
+      { "highlight": "Trazabilidad 100% validada", "normal": "por lote y cliente." },
+      { "highlight": "Lead time reducido", "normal": "en lanzamientos y reabastecimientos." }
+    ]
+  },
+  "certificates": {
+    "description": "Respaldamos cada operación con certificaciones internacionales y habilitaciones regulatorias."
+  }
+}

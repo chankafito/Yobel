@@ -7,6 +7,7 @@ import GlobalPresence from "../pages/About/GlobalPresence";
 import History from "../pages/About/History";
 
 import { ServicePage } from "../pages/Services/ServicePage";
+import { IndustryPage } from "../pages/Industries/IndustryPage";
 import NotFound from "../pages/NotFound";
 
 export default function AppRouter() {
@@ -28,6 +29,18 @@ export default function AppRouter() {
           <Route path="servicios/manufactura" element={<ServicePage key="manufactura" slug="manufactura" />} />
           <Route path="servicios/courier-express" element={<ServicePage key="courier-express" slug="courier-express" />} />
           <Route path="servicios/valor-agregado" element={<ServicePage key="valor-agregado" slug="valor-agregado" />} />
+          {/* Industrias */}
+          <Route path="industrias/industrial" element={<IndustryPage key="industrial" slug="industrial" />} />
+          <Route path="industrias/belleza" element={<IndustryPage key="belleza" slug="belleza" />} />
+          <Route path="industrias/farmaceutica" element={<IndustryPage key="farmaceutica" slug="farmaceutica" />} />
+          <Route path="industrias/retail" element={<IndustryPage key="retail" slug="retail" />} />
+          <Route path="industrias/alimentos-bebidas" element={<IndustryPage key="alimentos-bebidas" slug="alimentos-bebidas" />} />
+          <Route path="industrias/tecnologia" element={<IndustryPage key="tecnologia" slug="tecnologia" />} />
+          <Route path="industrias/moda" element={<IndustryPage key="moda" slug="moda" />} />
+          <Route path="industrias/cuidado-hogar" element={<IndustryPage key="cuidado-hogar" slug="cuidado-hogar" />} />
+          <Route path="industrias/quimicos" element={<IndustryPage key="quimicos" slug="quimicos" />} />
+          <Route path="industrias/construccion" element={<IndustryPage key="construccion" slug="construccion" />} />
+          <Route path="industrias/editorial" element={<IndustryPage key="editorial" slug="editorial" />} />
           {/* 404 para rutas anidadas bajo '/' */}
           <Route path="*" element={<NotFound />} />
         </Route>
@@ -45,6 +58,18 @@ export default function AppRouter() {
           <Route path="servicios/manufactura" element={<ServicePage key="manufactura" slug="manufactura" />} />
           <Route path="servicios/courier-express" element={<ServicePage key="courier-express" slug="courier-express" />} />
           <Route path="servicios/valor-agregado" element={<ServicePage key="valor-agregado" slug="valor-agregado" />} />
+          {/* Industrias */}
+          <Route path="industrias/industrial" element={<IndustryPage key="industrial" slug="industrial" />} />
+          <Route path="industrias/belleza" element={<IndustryPage key="belleza" slug="belleza" />} />
+          <Route path="industrias/farmaceutica" element={<IndustryPage key="farmaceutica" slug="farmaceutica" />} />
+          <Route path="industrias/retail" element={<IndustryPage key="retail" slug="retail" />} />
+          <Route path="industrias/alimentos-bebidas" element={<IndustryPage key="alimentos-bebidas" slug="alimentos-bebidas" />} />
+          <Route path="industrias/tecnologia" element={<IndustryPage key="tecnologia" slug="tecnologia" />} />
+          <Route path="industrias/moda" element={<IndustryPage key="moda" slug="moda" />} />
+          <Route path="industrias/cuidado-hogar" element={<IndustryPage key="cuidado-hogar" slug="cuidado-hogar" />} />
+          <Route path="industrias/quimicos" element={<IndustryPage key="quimicos" slug="quimicos" />} />
+          <Route path="industrias/construccion" element={<IndustryPage key="construccion" slug="construccion" />} />
+          <Route path="industrias/editorial" element={<IndustryPage key="editorial" slug="editorial" />} />
           {/* 404 para rutas anidadas bajo '/:lang/*' */}
           <Route path="*" element={<NotFound />} />
         </Route>

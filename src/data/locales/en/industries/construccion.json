@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for Construction",
+    "description": "We supply your construction site with materials, equipment and spare parts at the exact time.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "At Yobel SCM we design logistics solutions for the construction sector. We manage warehousing, scheduled distribution and value-added services to ensure continuous material flow according to each project's progress.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "On-Site Warehousing",
+        "description": "We manage inventories directly on-site or at our facilities, with WMS technology and material control by batch or project.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Scheduled Distribution",
+        "description": "We plan routes and deliveries according to construction schedule, avoiding delays and unnecessary logistics costs.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Technical Courier",
+        "description": "Urgent deliveries of samples, plans or critical parts with real-time traceability to avoid stopping operations.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Value-Added Services (VAS)",
+        "description": "Kitting and installation or maintenance kit assembly ready for immediate use at the assembly point.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "We coordinate import and dispatch of machinery, supplies and specialized materials from anywhere in the world.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Punctuality, control and availability",
+    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080",
+    "items": [
+      "Reduced downtime due to material shortages.",
+      "Inventory control and visibility by project or phase.",
+      "Optimized routes for scheduled deliveries.",
+      "99.6% OTIF compliance in dispatches.",
+      "Integration with client ERP systems or platforms."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080",
+    "items": [
+      { "id": "01", "title": "Phase-based supply", "fullDesc": "Scheduled material deliveries strictly according to construction progress." },
+      { "id": "02", "title": "Critical spare parts", "fullDesc": "Urgent courier service with full traceability for stopped machinery." },
+      { "id": "03", "title": "Tool control", "fullDesc": "Registration, monitoring and efficient rotation of field assets." },
+      { "id": "04", "title": "Installation kits", "fullDesc": "Assembly and delivery of grouped components by batch or assembly point." },
+      { "id": "05", "title": "Import management", "fullDesc": "Comprehensive logistics coordination of machinery or specialized supplies." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in site deliveries." },
+      { "highlight": "Total traceability", "normal": "of inventory and assets." },
+      { "highlight": "Up to 30% reduced lead time", "normal": "per project." },
+      { "highlight": "Guaranteed availability", "normal": "by phase or requirement." }
+    ]
+  },
+  "certificates": {
+    "description": "We operate with international certifications that guarantee quality, safety and efficiency in every project."
+  }
+}

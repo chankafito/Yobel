@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for Cosmetics and Personal Care",
+    "description": "We drive beauty brands with safe, efficient and 100% traceable manufacturing, logistics and distribution.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "At Yobel we manage the supply chain for cosmetics, fragrances and personal care. We integrate manufacturing, warehousing and distribution with advanced technology and BPM compliance.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Cosmetic Manufacturing",
+        "description": "Production, packaging and reconditioning of cosmetics, fragrances and hygiene products under BPM standards and international sanitary regulations.",
+        "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Regulated Storage",
+        "description": "Preservation of sensitive products in temperature and humidity controlled environments, ensuring batch and expiration date traceability.",
+        "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Omnichannel Distribution",
+        "description": "B2B, retail and e-commerce deliveries with full visibility, security and 99.6% OTIF compliance.",
+        "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Value-Added Services (VAS)",
+        "description": "Promotional kit assembly, labeling, coding and custom packaging for launches or seasons.",
+        "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "Coordination of raw material imports and finished product exports, ensuring sanitary and customs compliance.",
+        "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Quality, traceability and operational efficiency",
+    "image": "https://images.unsplash.com/photo-1739204618173-3e89def7140f?w=1080",
+    "items": [
+      "Compliance with BPM standards and sanitary regulations.",
+      "Reduced delivery times through integrated processes.",
+      "Full inventory control and traceability by batch or SKU.",
+      "Flexibility for campaigns, seasons or launches.",
+      "Guaranteed delivery with 99.6% OTIF."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1622866027662-14e3c5ee67e7?w=1080",
+    "items": [
+      { "id": "01", "title": "Product line launches", "fullDesc": "Comprehensive production, assembly and distribution of new collections." },
+      { "id": "02", "title": "Promotional campaigns", "fullDesc": "Kitting and custom packaging by season (Christmas, Mother's Day, etc.)." },
+      { "id": "03", "title": "Retail replenishment", "fullDesc": "Continuous supply to stores, perfumeries and marketplaces." },
+      { "id": "04", "title": "E-commerce management", "fullDesc": "Preparation and direct dispatch to end consumer." },
+      { "id": "05", "title": "Sanitary reconditioning", "fullDesc": "Packaging or label updates for regulation or channel." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in B2B and retail deliveries." },
+      { "highlight": "Complete traceability", "normal": "from plant to point of sale." },
+      { "highlight": "Reduced lead time", "normal": "in launches and replenishments." },
+      { "highlight": "Continuous sanitary control", "normal": "in all BPM processes." }
+    ]
+  },
+  "certificates": {
+    "description": "We operate under international certifications that ensure quality, safety and sustainability throughout the supply chain."
+  }
+}

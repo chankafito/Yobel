@@ -34,17 +34,17 @@
         "id": "03",
         "title": "Industries",
         "items": [
-          { "name": "Food and Beverages", "path": "/industrias/alimentos-y-bebidas" },
-          { "name": "Beauty and Personal Care", "path": "/industrias/belleza-y-cuidado-personal" },
-          { "name": "Footwear and Fashion", "path": "/industrias/calzado-y-moda" },
+          { "name": "Food and Beverages", "path": "/industrias/alimentos-bebidas" },
+          { "name": "Beauty and Personal Care", "path": "/industrias/belleza" },
+          { "name": "Footwear and Fashion", "path": "/industrias/moda" },
           { "name": "Construction", "path": "/industrias/construccion" },
-          { "name": "Home Care", "path": "/industrias/cuidado-del-hogar" },
+          { "name": "Home Care", "path": "/industrias/cuidado-hogar" },
           { "name": "Publishing", "path": "/industrias/editorial" },
           { "name": "Pharmaceutical", "path": "/industrias/farmaceutica" },
-          { "name": "Industrial Manufacturing", "path": "/industrias/manufactura-industrial" },
-          { "name": "Chemical", "path": "/industrias/quimica" },
+          { "name": "Industrial Manufacturing", "path": "/industrias/industrial" },
+          { "name": "Chemicals", "path": "/industrias/quimicos" },
           { "name": "Retail", "path": "/industrias/retail" },
-          { "name": "Technology and Electronics", "path": "/industrias/tecnologia-y-electronica" }
+          { "name": "Technology and Electronics", "path": "/industrias/tecnologia" }
         ]
       },
       {

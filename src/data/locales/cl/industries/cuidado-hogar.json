@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para Cuidado del Hogar",
+    "description": "Llevamos tus productos de limpieza y hogar a cada punto de venta con eficiencia y control.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel SCM gestionamos la cadena de suministro de productos de cuidado del hogar. Desde manufactura hasta distribución, ofrecemos soluciones integradas que garantizan disponibilidad, trazabilidad y cumplimiento normativo.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Manufactura del Hogar",
+        "description": "Producción, envasado y reacondicionado de artículos de limpieza, ambientadores y utensilios, cumpliendo estándares BPM y de seguridad.",
+        "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Almacenamiento Flexible",
+        "description": "Gestión de inventarios por cada línea de producto o canal de venta, con WMS y control por lote o fecha de vencimiento.",
+        "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Distribución Omnicanal",
+        "description": "Entregas B2B, retail y e-commerce con trazabilidad total y cumplimiento OTIF 99.6%.",
+        "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Valor Agregado (VAS)",
+        "description": "Kitting, armado de packs promocionales, etiquetado y personalización para temporadas o lanzamientos.",
+        "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Comercio Exterior",
+        "description": "Coordinación de importaciones y exportaciones de materias primas y productos terminados para abastecer mercados regionales.",
+        "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Disponibilidad, control y eficiencia",
+    "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080",
+    "items": [
+      "Reducción de costos logísticos mediante integración total de procesos.",
+      "Trazabilidad 24/7 desde el origen hasta el punto de venta.",
+      "Flexibilidad operativa ante campañas o temporadas.",
+      "Control por lote, SKU o canal de distribución.",
+      "Entrega confiable con cumplimiento OTIF 99.6%."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080",
+    "items": [
+      { "id": "01", "title": "Campañas promocionales", "fullDesc": "Armado y distribución de packs especiales o combos por temporada." },
+      { "id": "02", "title": "Reposición retail", "fullDesc": "Abastecimiento continuo a supermercados, tiendas por departamento y marketplaces." },
+      { "id": "03", "title": "Lanzamientos de línea", "fullDesc": "Distribución nacional de nuevos productos o versiones mejoradas." },
+      { "id": "04", "title": "Gestión e-commerce", "fullDesc": "Preparación y despacho directo al consumidor final." },
+      { "id": "05", "title": "Reacondicionado", "fullDesc": "Ajustes de empaque, rotulado o formato según canal de venta." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas B2B y B2C." },
+      { "highlight": "Lead time reducido", "normal": "en abastecimientos estacionales." },
+      { "highlight": "Visibilidad total del inventario", "normal": "en tiempo real." },
+      { "highlight": "Disminución de mermas", "normal": "mediante control WMS." }
+    ]
+  },
+  "certificates": {
+    "description": "Operamos con certificaciones internacionales que garantizan calidad, seguridad y sostenibilidad en cada etapa."
+  }
+}

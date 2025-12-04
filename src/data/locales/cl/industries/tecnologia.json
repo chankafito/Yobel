@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para Tecnología",
+    "description": "Protegemos tus equipos con seguridad, trazabilidad y entrega precisa.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel SCM diseñamos soluciones logísticas especializadas para el sector tecnológico. Aseguramos la integridad de equipos electrónicos y componentes con almacenamiento seguro, distribución monitoreada y servicios de valor agregado.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Almacenamiento Seguro",
+        "description": "Infraestructura con sistemas de acceso restringido, monitoreo 24/7 y control estricto de humedad y temperatura para componentes sensibles.",
+        "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Distribución Tecnológica",
+        "description": "Abastecimiento a retail, canales corporativos y clientes finales con trazabilidad total y medidas de seguridad reforzadas.",
+        "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Valor Agregado (VAS)",
+        "description": "Etiquetado, armado de kits tecnológicos, carga de software, reacondicionado y empaques promocionales personalizados.",
+        "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Transporte Especializado",
+        "description": "Unidades equipadas con suspensión neumática y GPS dedicadas al traslado seguro de equipos delicados o de alto valor.",
+        "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Comercio Exterior",
+        "description": "Coordinación integral de importaciones, exportaciones y nacionalización de dispositivos electrónicos para lanzamientos sincronizados.",
+        "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Seguridad, precisión y confiabilidad",
+    "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?w=1080",
+    "items": [
+      "Protección integral de equipos y componentes electrónicos.",
+      "Trazabilidad en tiempo real en toda la cadena.",
+      "Reducción de mermas y riesgos operativos.",
+      "Cumplimiento OTIF 99.6% en entregas nacionales.",
+      "Gestión flexible ante lanzamientos o picos de demanda."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?w=1080",
+    "items": [
+      { "id": "01", "title": "Lanzamientos tecnológicos", "fullDesc": "Distribución nacional sincronizada para asegurar disponibilidad en la fecha clave." },
+      { "id": "02", "title": "Reposición de retail", "fullDesc": "Abastecimiento continuo de tiendas y mayoristas según rotación." },
+      { "id": "03", "title": "E-commerce electrónico", "fullDesc": "Preparación y despacho de pedidos online con empaque seguro." },
+      { "id": "04", "title": "Kitting corporativo", "fullDesc": "Armado de paquetes tecnológicos (laptop + accesorios) para empresas." },
+      { "id": "05", "title": "Transporte de valor", "fullDesc": "Traslado seguro con escolta y monitoreo para equipos de alto costo." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas." },
+      { "highlight": "Cero incidentes", "normal": "en transporte de equipos de alto valor." },
+      { "highlight": "Trazabilidad completa", "normal": "por serial, lote o SKU." },
+      { "highlight": "Lead time optimizado", "normal": "para lanzamientos y reposiciones." }
+    ]
+  },
+  "certificates": {
+    "description": "Operamos con certificaciones internacionales que garantizan la seguridad, calidad y trazabilidad en cada etapa del proceso."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for Fashion and Footwear",
+    "description": "We connect your collections with every point of sale, ensuring agility, presentation and availability.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "At Yobel SCM we offer comprehensive logistics solutions for the fashion and footwear industry. We manage warehousing, distribution and value-added services with flexibility for seasons, collections and special channels.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Flexible Warehousing",
+        "description": "Inventory management by SKU, size, color or season with WMS and real-time rotation control.",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Omnichannel Distribution",
+        "description": "B2B, retail and e-commerce deliveries with full traceability and 99.6% OTIF compliance.",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Value-Added Services (VAS)",
+        "description": "Labeling, tagging, ironing, folding and preparation according to each sales channel requirements.",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Reconditioning",
+        "description": "Quality review, cleaning, re-tagging and repackaging for resale or liquidation.",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "Import/export coordination of garments, footwear and accessories with customs compliance and traceability.",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Speed, presentation and flexibility",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1080",
+    "items": [
+      "Reduced time to market for new collections.",
+      "Control by SKU, size, color and season.",
+      "Flexibility for peak seasons or outlet channels.",
+      "Guaranteed presentation at point of sale.",
+      "99.6% OTIF compliance in fashion deliveries."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1080",
+    "items": [
+      { "id": "01", "title": "Collection launches", "fullDesc": "Synchronized distribution for new season releases." },
+      { "id": "02", "title": "Retail replenishment", "fullDesc": "Continuous supply to stores, corners and multibrand." },
+      { "id": "03", "title": "E-commerce management", "fullDesc": "Preparation and direct dispatch to end consumer." },
+      { "id": "04", "title": "End of season", "fullDesc": "Outlet transfers, reconditioning and liquidation." },
+      { "id": "05", "title": "Returns management", "fullDesc": "Quality review, reconditioning and channel redistribution." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in fashion deliveries." },
+      { "highlight": "Reduced lead time", "normal": "for collections and replenishments." },
+      { "highlight": "Total inventory visibility", "normal": "in real-time." },
+      { "highlight": "Spoilage reduction", "normal": "through WMS control." }
+    ]
+  },
+  "certificates": {
+    "description": "We operate with international certifications that guarantee quality, safety and sustainability at every stage."
+  }
+}

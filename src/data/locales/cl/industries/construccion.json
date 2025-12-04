@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para Construcción",
+    "description": "Abastecemos tu obra con materiales, equipos y repuestos en el momento exacto.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel SCM diseñamos soluciones logísticas para el sector construcción. Gestionamos almacenamiento, distribución programada y servicios de valor agregado para asegurar el flujo continuo de materiales según el avance de cada proyecto.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Almacenamiento en Obra",
+        "description": "Administramos inventarios directamente en obra o en nuestras instalaciones, con tecnología WMS y control de materiales por lote o proyecto.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Distribución Programada",
+        "description": "Planificamos rutas y entregas según cronograma de obra, evitando demoras y sobrecostos logísticos innecesarios.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Courier Técnico",
+        "description": "Entregas urgentes de muestras, planos o piezas críticas con trazabilidad en tiempo real para no detener la operación.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Valor Agregado (VAS)",
+        "description": "Kitting y armado de kits de instalación o mantenimiento listos para uso inmediato en el punto de montaje.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Comercio Exterior",
+        "description": "Coordinamos importación y despacho de maquinaria, insumos y materiales especializados desde cualquier parte del mundo.",
+        "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Puntualidad, control y disponibilidad",
+    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080",
+    "items": [
+      "Reducción de tiempos muertos por falta de materiales.",
+      "Control y visibilidad del inventario por proyecto o etapa.",
+      "Rutas optimizadas para entregas programadas.",
+      "Cumplimiento OTIF 99.6% en despachos.",
+      "Integración con sistemas ERP o plataformas del cliente."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1080",
+    "items": [
+      { "id": "01", "title": "Abastecimiento por fases", "fullDesc": "Entregas programadas de materiales estrictamente según el avance de la obra." },
+      { "id": "02", "title": "Repuestos críticos", "fullDesc": "Servicio de courier urgente con trazabilidad total para maquinaria detenida." },
+      { "id": "03", "title": "Control de herramientas", "fullDesc": "Registro, monitoreo y rotación eficiente de activos en campo." },
+      { "id": "04", "title": "Kits de instalación", "fullDesc": "Armado y envío de componentes agrupados por lote o punto de montaje." },
+      { "id": "05", "title": "Gestión de importaciones", "fullDesc": "Coordinación logística integral de maquinaria o insumos especializados." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas a obra." },
+      { "highlight": "Trazabilidad total", "normal": "del inventario y activos." },
+      { "highlight": "Lead time reducido hasta 30%", "normal": "por proyecto." },
+      { "highlight": "Disponibilidad asegurada", "normal": "por fase o requerimiento." }
+    ]
+  },
+  "certificates": {
+    "description": "Operamos con certificaciones internacionales que garantizan calidad, seguridad y eficiencia en cada proyecto."
+  }
+}

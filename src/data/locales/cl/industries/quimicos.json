@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para la industria Química",
+    "description": "Gestionamos sustancias y materiales peligrosos con seguridad, cumplimiento y trazabilidad total.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel SCM ofrecemos soluciones logísticas especializadas para la industria química. Gestionamos almacenamiento, transporte y distribución de sustancias controladas bajo estrictos protocolos de seguridad y cumplimiento normativo.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Almacenamiento Especializado",
+        "description": "Instalaciones con áreas segregadas, ventilación controlada y cumplimiento de normativas nacionales e internacionales para sustancias químicas.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Transporte Seguro",
+        "description": "Rutas planificadas y vehículos habilitados para transporte de sustancias controladas y materiales peligrosos con monitoreo GPS.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Valor Agregado (VAS)",
+        "description": "Reenvasado, etiquetado regulatorio, kitting industrial y reacondicionado de productos con control estricto por lote.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Gestión Documental",
+        "description": "Control exhaustivo de permisos, fichas de seguridad (MSDS) y documentación de transporte para evitar contingencias.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Comercio Exterior",
+        "description": "Coordinación integral de importaciones y exportaciones bajo normativas químicas, ambientales y aduaneras específicas.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Seguridad, cumplimiento y control total",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080",
+    "items": [
+      "Cumplimiento normativo en toda la cadena de suministro.",
+      "Trazabilidad total por lote, producto y ubicación.",
+      "Gestión de riesgos bajo estándares HSE.",
+      "Optimización de costos logísticos y tiempos de entrega.",
+      "Cumplimiento OTIF 99.6% en entregas industriales."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080",
+    "items": [
+      { "id": "01", "title": "Distribución de químicos", "fullDesc": "Transporte seguro y monitoreado de insumos a plantas industriales." },
+      { "id": "02", "title": "Almacenamiento segregado", "fullDesc": "Áreas diferenciadas por tipo de sustancia y compatibilidad química." },
+      { "id": "03", "title": "Re-etiquetado regulatorio", "fullDesc": "Adaptación de etiquetas según país de destino o cliente final." },
+      { "id": "04", "title": "Kitting técnico", "fullDesc": "Preparación de productos químicos para laboratorios o procesos industriales." },
+      { "id": "05", "title": "Gestión de importaciones", "fullDesc": "Coordinación de sustancias controladas y materias primas químicas." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas." },
+      { "highlight": "Trazabilidad total", "normal": "por lote y producto." },
+      { "highlight": "Lead time optimizado", "normal": "para importación y distribución." },
+      { "highlight": "Cero incidentes operativos", "normal": "bajo gestión HSE." }
+    ]
+  },
+  "certificates": {
+    "description": "Operamos con certificaciones internacionales y protocolos HSE que garantizan la seguridad en cada operación."
+  }
+}

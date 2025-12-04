@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para la industria Editorial",
+    "description": "Distribuimos libros y material impreso con precisión, cuidado y trazabilidad total.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel SCM diseñamos soluciones logísticas para editoriales y distribuidoras de libros. Gestionamos almacenamiento, distribución omnicanal y servicios de valor agregado con el cuidado que requiere el material impreso.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Almacenamiento Editorial",
+        "description": "Resguardamos libros, revistas y material impreso bajo condiciones adecuadas de humedad, temperatura y seguridad para preservar su calidad.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Distribución Omnicanal",
+        "description": "Entregas a puntos de venta, ferias, librerías y compradores online con visibilidad total del envío y cumplimiento de fechas de lanzamiento.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Valor Agregado (VAS)",
+        "description": "Ofrecemos servicios de armado de sets, empaquetado promocional, etiquetado por punto de venta y preparación para exportación.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Courier Express",
+        "description": "Envíos urgentes de ejemplares, muestras o materiales de prensa con trazabilidad en tiempo real.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Gestión de Eventos",
+        "description": "Logística especializada para ferias del libro y eventos corporativos, asegurando disponibilidad de stock en el momento preciso.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Cuidado, precisión y disponibilidad",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1080",
+    "items": [
+      "Entregas a tiempo en todo el territorio nacional.",
+      "Control de inventario por título, lote o punto de venta.",
+      "Reducción de costos logísticos y tiempos de distribución.",
+      "Integración con plataformas e-commerce y ERP del cliente.",
+      "Cobertura nacional con cumplimiento OTIF 99.6%."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1080",
+    "items": [
+      { "id": "01", "title": "Lanzamientos editoriales", "fullDesc": "Distribución sincronizada con fechas de presentación o preventa." },
+      { "id": "02", "title": "Reposición a librerías", "fullDesc": "Entregas periódicas y reposición automatizada según demanda." },
+      { "id": "03", "title": "E-commerce editorial", "fullDesc": "Preparación y despacho de pedidos individuales al lector final." },
+      { "id": "04", "title": "Kitting promocional", "fullDesc": "Armado de cajas de colección o paquetes educativos especiales." },
+      { "id": "05", "title": "Eventos y ferias", "fullDesc": "Distribución, montaje y retiro logístico de material impreso." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas B2B y e-commerce." },
+      { "highlight": "Trazabilidad total", "normal": "desde la impresión hasta el punto de venta." },
+      { "highlight": "Lead time optimizado", "normal": "para lanzamientos y reposiciones." },
+      { "highlight": "Inventario 100% visible", "normal": "en tiempo real." }
+    ]
+  },
+  "certificates": {
+    "description": "Operamos con certificaciones internacionales que garantizan calidad, seguridad y eficiencia en cada operación."
+  }
+}

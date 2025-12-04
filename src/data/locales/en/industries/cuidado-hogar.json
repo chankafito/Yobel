@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for Home Care",
+    "description": "We deliver your cleaning and home products to every point of sale with efficiency and control.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "At Yobel SCM we manage the supply chain for home care products. From manufacturing to distribution, we offer integrated solutions that guarantee availability, traceability and regulatory compliance.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Home Manufacturing",
+        "description": "Production, packaging and reconditioning of cleaning items, air fresheners and utensils, meeting BPM and safety standards.",
+        "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Flexible Warehousing",
+        "description": "Inventory management by product line or sales channel, with WMS and batch or expiration date control.",
+        "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Omnichannel Distribution",
+        "description": "B2B, retail and e-commerce deliveries with full traceability and 99.6% OTIF compliance.",
+        "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Value-Added Services (VAS)",
+        "description": "Kitting, promotional pack assembly, labeling and customization for seasons or launches.",
+        "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "Import and export coordination of raw materials and finished products to supply regional markets.",
+        "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Availability, control and efficiency",
+    "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080",
+    "items": [
+      "Logistics cost reduction through full process integration.",
+      "24/7 traceability from origin to point of sale.",
+      "Operational flexibility for campaigns or seasons.",
+      "Control by batch, SKU or distribution channel.",
+      "Reliable delivery with 99.6% OTIF compliance."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=1080",
+    "items": [
+      { "id": "01", "title": "Promotional campaigns", "fullDesc": "Assembly and distribution of special packs or combos by season." },
+      { "id": "02", "title": "Retail replenishment", "fullDesc": "Continuous supply to supermarkets, department stores and marketplaces." },
+      { "id": "03", "title": "Product line launches", "fullDesc": "National distribution of new products or improved versions." },
+      { "id": "04", "title": "E-commerce management", "fullDesc": "Preparation and direct dispatch to end consumer." },
+      { "id": "05", "title": "Reconditioning", "fullDesc": "Packaging, labeling or format adjustments by sales channel." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in B2B and B2C deliveries." },
+      { "highlight": "Reduced lead time", "normal": "in seasonal supply." },
+      { "highlight": "Total inventory visibility", "normal": "in real-time." },
+      { "highlight": "Spoilage reduction", "normal": "through WMS control." }
+    ]
+  },
+  "certificates": {
+    "description": "We operate with international certifications that guarantee quality, safety and sustainability at every stage."
+  }
+}

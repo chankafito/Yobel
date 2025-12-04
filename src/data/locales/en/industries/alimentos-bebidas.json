@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for Food and Beverages",
+    "description": "We move your supply chain with safety, traceability and sanitary compliance.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "We guarantee the quality, safety and freshness of your products from raw material to point of sale. At Yobel we integrate manufacturing, warehousing, transportation and distribution under the highest BPM/BPA standards.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Manufacturing",
+        "description": "We process, package and recondition food and beverage products under sanitary control, complying with safety and batch traceability standards.",
+        "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Cold Storage",
+        "description": "We have refrigeration, sanitary quarantine and advanced WMS zones for real-time cold chain monitoring.",
+        "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Value-Added Services (VAS)",
+        "description": "Repackaging, nutritional labeling, pack assembly and promotions with batch control and auditing.",
+        "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Distribution",
+        "description": "Optimized routes for perishable products, with scheduled B2B and B2C deliveries nationwide, ensuring product integrity.",
+        "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "Comprehensive import/export management, customs procedures and nationalization of raw materials and finished products.",
+        "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "We focus on optimizing time and traceability",
+    "image": "https://images.unsplash.com/photo-1578351709091-33ee78a1565d?w=1080",
+    "items": [
+      "Sanitary and BPM/BPA compliance.",
+      "Reduced spoilage in transportation and storage.",
+      "Batch control and 24/7 full traceability.",
+      "National coverage with 99.6% OTIF.",
+      "Flexibility for seasonal peaks or promotions."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1739204618173-3e89def7140f?w=1080",
+    "items": [
+      { "id": "01", "title": "Seasonal launches", "fullDesc": "Kitting and national distribution for new lines or promotions." },
+      { "id": "02", "title": "Sanitary relabeling", "fullDesc": "Label adaptation according to local regulations or channel." },
+      { "id": "03", "title": "Promotions and packs", "fullDesc": "Combo assembly with batch control and validity time." },
+      { "id": "04", "title": "Retail replenishment", "fullDesc": "Scheduled deliveries to supermarkets, wholesalers and pharmacies." },
+      { "id": "05", "title": "Returns management", "fullDesc": "Control processes and safe disposal of non-standard products." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in deliveries." },
+      { "highlight": "Channel availability", "normal": "with continuous replenishment." },
+      { "highlight": "Complete traceability", "normal": "by batch via WMS." },
+      { "highlight": "Optimized lead time", "normal": "to maintain freshness and rotation." }
+    ]
+  },
+  "certificates": {
+    "description": "We have international certifications that guarantee operational excellence and food safety."
+  }
+}

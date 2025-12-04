@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for the Chemical industry",
+    "description": "We manage hazardous substances and materials with safety, compliance and total traceability.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "At Yobel SCM we offer specialized logistics solutions for the chemical industry. We manage warehousing, transportation and distribution of controlled substances under strict safety and regulatory compliance protocols.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Specialized Warehousing",
+        "description": "Facilities with segregated areas, controlled ventilation and compliance with national and international regulations for chemical substances.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Safe Transportation",
+        "description": "Planned routes and vehicles enabled for controlled substance and hazardous material transportation with GPS monitoring.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Value-Added Services (VAS)",
+        "description": "Repackaging, regulatory labeling, industrial kitting and product reconditioning with strict batch control.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Document Management",
+        "description": "Comprehensive control of permits, safety data sheets (MSDS) and transportation documentation to prevent contingencies.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "Comprehensive import and export coordination under specific chemical, environmental and customs regulations.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Safety, compliance and total control",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080",
+    "items": [
+      "Regulatory compliance throughout the supply chain.",
+      "Total traceability by batch, product and location.",
+      "Risk management under HSE standards.",
+      "Optimized logistics costs and delivery times.",
+      "99.6% OTIF compliance in industrial deliveries."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1080",
+    "items": [
+      { "id": "01", "title": "Chemical distribution", "fullDesc": "Safe and monitored transportation of supplies to industrial plants." },
+      { "id": "02", "title": "Segregated storage", "fullDesc": "Differentiated areas by substance type and chemical compatibility." },
+      { "id": "03", "title": "Regulatory relabeling", "fullDesc": "Label adaptation according to destination country or end client." },
+      { "id": "04", "title": "Technical kitting", "fullDesc": "Chemical product preparation for laboratories or industrial processes." },
+      { "id": "05", "title": "Import management", "fullDesc": "Coordination of controlled substances and chemical raw materials." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in deliveries." },
+      { "highlight": "Total traceability", "normal": "by batch and product." },
+      { "highlight": "Optimized lead time", "normal": "for import and distribution." },
+      { "highlight": "Zero operational incidents", "normal": "under HSE management." }
+    ]
+  },
+  "certificates": {
+    "description": "We operate with international certifications and HSE protocols that guarantee safety in every operation."
+  }
+}

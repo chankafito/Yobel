@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for Publishing",
+    "description": "We distribute your books, magazines and printed materials to every point of sale with precision and traceability.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "At Yobel SCM we offer specialized logistics solutions for the publishing industry. We manage warehousing, distribution and value-added services for books, magazines, newspapers and promotional materials.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Publishing Warehousing",
+        "description": "Humidity and light controlled facilities for optimal preservation of printed material, with WMS and rotation control.",
+        "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Specialized Distribution",
+        "description": "National and local coverage to bookstores, chains, libraries and direct points of sale with 99.6% OTIF compliance.",
+        "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Value-Added Services (VAS)",
+        "description": "Labeling, shrink wrapping, kit assembly, promotions and customization by client or channel.",
+        "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Returns Management",
+        "description": "Efficient reverse logistics with quality control, destruction or redistribution as needed.",
+        "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "Coordination of imports and exports of books and publications with customs compliance and document control.",
+        "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Precision, availability and material care",
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1080",
+    "items": [
+      "Material preservation in controlled environments.",
+      "National distribution with 99.6% OTIF compliance.",
+      "Efficient return and redistribution management.",
+      "Total traceability by title, batch or campaign.",
+      "Flexibility for launches, seasons or special editions."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1080",
+    "items": [
+      { "id": "01", "title": "New releases", "fullDesc": "Synchronized distribution for launch dates." },
+      { "id": "02", "title": "Bookstore replenishment", "fullDesc": "Continuous supply to chains and independent stores." },
+      { "id": "03", "title": "Periodic distribution", "fullDesc": "Scheduled delivery of magazines, newspapers or series." },
+      { "id": "04", "title": "E-commerce fulfillment", "fullDesc": "Preparation and dispatch direct to reader." },
+      { "id": "05", "title": "Promotions and special editions", "fullDesc": "Kitting and distribution of bundled products." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in publishing deliveries." },
+      { "highlight": "Material preservation", "normal": "in controlled conditions." },
+      { "highlight": "Optimized lead time", "normal": "for launches and replenishments." },
+      { "highlight": "Efficient returns management", "normal": "with controlled redistribution." }
+    ]
+  },
+  "certificates": {
+    "description": "We operate with international certifications that guarantee quality and care in every stage of the publishing chain."
+  }
+}

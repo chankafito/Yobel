@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for the Pharmaceutical industry",
+    "description": "We manage your pharmaceutical supply chain with precision, security and full regulatory compliance.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "At Yobel SCM we offer specialized solutions for the pharmaceutical industry. We ensure cold chain, strict BPA compliance and complete traceability from manufacturing to final delivery.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Regulated Storage",
+        "description": "Facilities with temperature, humidity and light control, meeting all BPA requirements and health authority validations.",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Cold Chain Distribution",
+        "description": "Controlled and monitored routes for medicines, vaccines and biologics. GPS tracking and temperature recording.",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Value-Added Services (VAS)",
+        "description": "Relabeling, kitting and repackaging according to country, client or specific regulation.",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Technical Courier",
+        "description": "Urgent deliveries of samples, biological products or critical documents with full traceability.",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "Import/export coordination of active ingredients, medicines and medical devices with sanitary authorization.",
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Security, compliance and total traceability",
+    "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1080",
+    "items": [
+      "BPA compliance and validated sanitary processes.",
+      "Cold chain with 24/7 monitoring and alerts.",
+      "Traceability by batch, lot number or serial.",
+      "Reduced logistics costs with optimized routes.",
+      "99.6% OTIF compliance in pharmaceutical deliveries."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=1080",
+    "items": [
+      { "id": "01", "title": "Hospital supply", "fullDesc": "Scheduled and urgent deliveries to clinics and health centers." },
+      { "id": "02", "title": "Pharmacy distribution", "fullDesc": "National and local network coverage with cold chain." },
+      { "id": "03", "title": "Clinical samples", "fullDesc": "Technical courier for clinical studies and trials." },
+      { "id": "04", "title": "Regulatory relabeling", "fullDesc": "Country or authority-specific label adaptation." },
+      { "id": "05", "title": "Medication imports", "fullDesc": "Comprehensive coordination of controlled or refrigerated products." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in pharmaceutical deliveries." },
+      { "highlight": "100% cold chain", "normal": "monitored 24/7." },
+      { "highlight": "Complete traceability", "normal": "by batch and lot." },
+      { "highlight": "Optimized lead time", "normal": "without compromising quality." }
+    ]
+  },
+  "certificates": {
+    "description": "We operate with BPA certifications and validated processes that guarantee pharmaceutical quality and safety at every stage."
+  }
+}

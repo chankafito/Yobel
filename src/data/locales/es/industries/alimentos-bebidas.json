@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para Alimentos y Bebidas",
+    "description": "Garantizamos la frescura y calidad de tus productos con cadena de frío y control sanitario.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel SCM gestionamos la cadena de suministro de alimentos y bebidas con el más alto estándar sanitario. Desde manufactura hasta distribución, aseguramos trazabilidad, control de temperatura y cumplimiento normativo.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Manufactura",
+        "description": "Procesamos, envasamos y reacondicionamos productos alimenticios y bebidas bajo control sanitario, cumpliendo normas de inocuidad y trazabilidad por lote.",
+        "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Almacenamiento Frío",
+        "description": "Contamos con zonas de refrigeración, cuarentena sanitaria y WMS avanzado para monitoreo en tiempo real de la cadena de frío.",
+        "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Valor Agregado (VAS)",
+        "description": "Servicios de reempaque, etiquetado nutricional, armado de packs y promociones con control por lote y auditoría.",
+        "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Distribución",
+        "description": "Rutas optimizadas para productos perecibles, con entregas programadas B2B y B2C en todo el país, asegurando la integridad del producto.",
+        "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Comercio Exterior",
+        "description": "Gestión integral de importación/exportación, trámites aduaneros y nacionalización de materias primas y productos terminados.",
+        "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Frescura, seguridad y eficiencia",
+    "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080",
+    "items": [
+      "Cumplimiento sanitario y BPM/BPA.",
+      "Reducción de mermas en transporte y almacenamiento.",
+      "Control por lote y trazabilidad total 24/7.",
+      "Cobertura nacional con OTIF 99.6%.",
+      "Cadena de frío monitoreada en tiempo real."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1698474922963-a091a8fb4e95?w=1080",
+    "items": [
+      { "id": "01", "title": "Lanzamientos estacionales", "fullDesc": "Kitting y distribución nacional para nuevas líneas o promociones." },
+      { "id": "02", "title": "Re-etiquetado sanitario", "fullDesc": "Adaptación de etiquetas según normativa local o por canal." },
+      { "id": "03", "title": "Promociones y packs", "fullDesc": "Armado de combos con control por lote y tiempo de vigencia." },
+      { "id": "04", "title": "Reabastecimiento retail", "fullDesc": "Entregas programadas a autoservicios, mayoristas y farmacias." },
+      { "id": "05", "title": "Gestión de devoluciones", "fullDesc": "Procesos de control y disposición segura de productos fuera de estándar." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas." },
+      { "highlight": "Disponibilidad por canal", "normal": "con reposición continua." },
+      { "highlight": "Trazabilidad total", "normal": "por lote vía WMS." },
+      { "highlight": "Lead time optimizado", "normal": "para mantener frescura y rotación." }
+    ]
+  },
+  "certificates": {
+    "description": "Operamos con certificaciones BPM, BPA, ISO 9001 y BASC que garantizan la calidad y seguridad en toda la cadena de suministro."
+  }
+}

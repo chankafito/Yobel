@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industrias",
+    "title": "Soluciones logísticas para Moda y Calzado",
+    "description": "Acompañamos tu marca con logística ágil, flexible y lista para cada temporada.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "En Yobel SCM diseñamos soluciones logísticas para marcas de moda, calzado y accesorios. Gestionamos almacenamiento, distribución omnicanal y servicios de valor agregado con la agilidad que requiere la industria.",
+    "cta": "Contactar Asesor"
+  },
+  "solutions": {
+    "title": "¿Cómo te ayudamos?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Almacenamiento Textil",
+        "description": "Manejo cuidadoso de prendas, calzado y accesorios con clasificación por talla, color, temporada y canal, asegurando la integridad de cada pieza.",
+        "image": "https://images.unsplash.com/photo-1558769132-cb1aea8f2c95?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Distribución Omnicanal",
+        "description": "Entregas a tiendas, marketplaces y consumidores finales con trazabilidad total y cumplimiento OTIF 99.6%.",
+        "image": "https://images.unsplash.com/photo-1558769132-cb1aea8f2c95?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Valor Agregado (VAS)",
+        "description": "Planchado, etiquetado, armado de combos, empaques promocionales y personalización por punto de venta.",
+        "image": "https://images.unsplash.com/photo-1558769132-cb1aea8f2c95?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Logística Inversa",
+        "description": "Gestión de devoluciones, control de calidad, reacondicionado y reempaque para reventa o liquidación eficiente.",
+        "image": "https://images.unsplash.com/photo-1558769132-cb1aea8f2c95?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Comercio Exterior",
+        "description": "Coordinación de importación y exportación de textiles y accesorios, cumpliendo regulaciones y tiempos de temporada.",
+        "image": "https://images.unsplash.com/photo-1558769132-cb1aea8f2c95?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Agilidad, control y experiencia de marca",
+    "image": "https://images.unsplash.com/photo-1558769132-cb1aea8f2c95?w=1080",
+    "items": [
+      "Reducción de lead time en lanzamientos y reposiciones.",
+      "Control por SKU, talla y color en tiempo real.",
+      "Flexibilidad operativa ante cambios de temporada.",
+      "Integración con plataformas retail y e-commerce.",
+      "Cumplimiento OTIF 99.6% en entregas nacionales."
+    ]
+  },
+  "useCases": {
+    "label": "Aplicaciones",
+    "title": "Casos de uso típicos",
+    "image": "https://images.unsplash.com/photo-1558769132-cb1aea8f2c95?w=1080",
+    "items": [
+      { "id": "01", "title": "Lanzamientos de temporada", "fullDesc": "Distribución sincronizada a tiendas y canales online para asegurar disponibilidad inmediata." },
+      { "id": "02", "title": "Reposición automática", "fullDesc": "Integración con ERP o plataformas retail para mantener el stock óptimo." },
+      { "id": "03", "title": "Empaques promocionales", "fullDesc": "Armado de sets o cajas especiales por colección para campañas específicas." },
+      { "id": "04", "title": "Gestión de devoluciones", "fullDesc": "Logística inversa con reacondicionado y control de calidad riguroso." },
+      { "id": "05", "title": "Exportación textil", "fullDesc": "Coordinación logística integral para llegar a mercados regionales." }
+    ]
+  },
+  "results": {
+    "label": "Resultados",
+    "title": "Indicadores que priorizamos",
+    "items": [
+      { "highlight": "Cumplimiento OTIF 99.6%", "normal": "en entregas retail y online." },
+      { "highlight": "Lead time reducido hasta 25%", "normal": "en lanzamientos." },
+      { "highlight": "Inventario 100% trazable", "normal": "por SKU y canal." },
+      { "highlight": "Optimización de almacenamiento", "normal": "y rotación de stock." }
+    ]
+  },
+  "certificates": {
+    "description": "Operamos con certificaciones internacionales que garantizan calidad, seguridad y sostenibilidad en cada etapa."
+  }
+}

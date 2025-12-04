@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for Technology and Electronics",
+    "description": "We protect your high-value devices with secure logistics, traceability and specialized handling.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "At Yobel SCM we design logistics solutions for the technology sector. We handle high-value devices, components and accessories with advanced control, security and process integration.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Secure Warehousing",
+        "description": "Controlled facilities with access surveillance, inventory insurance and WMS for real-time traceability.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "Specialized Distribution",
+        "description": "Safe routes with GPS tracking, real-time signature and delivery confirmation for high-value products.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Value-Added Services (VAS)",
+        "description": "Initial setup, kitting, serialization, labeling and technical packaging according to each channel.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "Technical Courier",
+        "description": "Urgent deliveries of parts, samples or critical components with chain of custody.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "Technology import coordination, customs procedures and temporary admission regimes for components.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Security, speed and accuracy",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1080",
+    "items": [
+      "High-value custody with inventory insurance.",
+      "Total traceability by serial, IMEI or SKU.",
+      "Integration with client ERP or WMS systems.",
+      "Reduced time to market for launches.",
+      "99.6% OTIF compliance in tech deliveries."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1080",
+    "items": [
+      { "id": "01", "title": "Product launches", "fullDesc": "Synchronized distribution for new device releases." },
+      { "id": "02", "title": "Retail replenishment", "fullDesc": "Continuous supply to retail chains and e-commerce." },
+      { "id": "03", "title": "B2B deliveries", "fullDesc": "Deliveries to corporate customers with chain of custody." },
+      { "id": "04", "title": "Spare parts kitting", "fullDesc": "Component assembly for technical service or warranty." },
+      { "id": "05", "title": "Technology imports", "fullDesc": "Comprehensive coordination of high-value imports." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in tech deliveries." },
+      { "highlight": "Total traceability", "normal": "by serial or IMEI." },
+      { "highlight": "Reduced lead time", "normal": "for launches and replenishment." },
+      { "highlight": "Zero custody incidents", "normal": "with security protocols." }
+    ]
+  },
+  "certificates": {
+    "description": "We operate with international certifications and security protocols that protect your products at every stage."
+  }
+}

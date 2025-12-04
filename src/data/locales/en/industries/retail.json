@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "category": "Industries",
+    "title": "Logistics solutions for Retail",
+    "description": "We connect your inventory with every point of sale, channel and end consumer.",
+    "variant": "yellow"
+  },
+  "intro": {
+    "text": "At Yobel SCM we design and operate integrated logistics chains for retail. We ensure availability, traceability and compliance, optimizing supply to physical stores, marketplaces and end customers.",
+    "cta": "Contact an Advisor"
+  },
+  "solutions": {
+    "title": "How can we help you?",
+    "items": [
+      {
+        "id": "01",
+        "title": "Omnichannel Warehousing",
+        "description": "Centralized inventory management by store, channel or marketplace with WMS technology for real-time availability.",
+        "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080"
+      },
+      {
+        "id": "02",
+        "title": "National Distribution",
+        "description": "Store and supermarket supply and direct deliveries to end customer with 24/7 traceability and strict time window compliance.",
+        "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080"
+      },
+      {
+        "id": "03",
+        "title": "Value-Added Services (VAS)",
+        "description": "Labeling, combo assembly, promotional packaging and personalized preparation according to each sales channel requirements.",
+        "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080"
+      },
+      {
+        "id": "04",
+        "title": "E-commerce Fulfillment",
+        "description": "Agile preparation, packaging and dispatch of online orders with direct integration to your digital platform (Shopify, VTEX, Magento, etc.).",
+        "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080"
+      },
+      {
+        "id": "05",
+        "title": "Foreign Trade",
+        "description": "Import management, customs clearance and international transportation of retail merchandise to ensure seasonal stock.",
+        "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Availability, efficiency and experience",
+    "image": "https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?w=1080",
+    "items": [
+      "Full traceability from distribution center to point of sale.",
+      "Reduced lead time in replenishment and online deliveries.",
+      "Space and logistics flow optimization.",
+      "Omnichannel integration with ERP and e-commerce systems.",
+      "99.6% OTIF compliance."
+    ]
+  },
+  "useCases": {
+    "label": "Applications",
+    "title": "Typical use cases",
+    "image": "https://images.unsplash.com/photo-1671427478482-2968e71a6311?w=1080",
+    "items": [
+      { "id": "01", "title": "Store replenishment", "fullDesc": "Scheduled and optimized deliveries according to each point of sale demand." },
+      { "id": "02", "title": "E-commerce fulfillment", "fullDesc": "Fast processing and dispatch of online orders to improve customer experience." },
+      { "id": "03", "title": "Campaigns and promotions", "fullDesc": "Kitting, promotional packaging and national distribution for key dates (Cyber, Black Friday)." },
+      { "id": "04", "title": "Returns management", "fullDesc": "Efficient reverse logistics with quality control and reconditioning for resale." },
+      { "id": "05", "title": "Channel integration", "fullDesc": "Unified flow between physical and digital retail for single inventory view." }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "title": "Key performance indicators",
+    "items": [
+      { "highlight": "99.6% OTIF compliance", "normal": "in retail deliveries." },
+      { "highlight": "100% traceability", "normal": "in real-time." },
+      { "highlight": "Up to 30% reduced lead time", "normal": "in replenishment." },
+      { "highlight": "Full omnichannel integration", "normal": "with client systems." }
+    ]
+  },
+  "certificates": {
+    "description": "We operate with international certifications that guarantee quality, safety and sustainability at every stage."
+  }
+}
