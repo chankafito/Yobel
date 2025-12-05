@@ -1,6 +1,7 @@
 {
   "header":{
     "menu" : "Menu",
+    "clients" : "Clients",
     "tracking" : "Tracking",
     "close" : "Close",
     "search" : {

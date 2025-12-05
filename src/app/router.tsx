@@ -5,6 +5,7 @@ import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import GlobalPresence from "../pages/About/GlobalPresence";
 import History from "../pages/About/History";
+import Rates from "../pages/About/Rates";
 
 import { ServicePage } from "../pages/Services/ServicePage";
 import { IndustryPage } from "../pages/Industries/IndustryPage";
@@ -22,6 +23,7 @@ export default function AppRouter() {
           <Route path="empresa/sobre-nosotros" element={<About />} />
           <Route path="empresa/presencia-global" element={<GlobalPresence />} />
           <Route path="empresa/historia" element={<History />} />
+          <Route path="empresa/tarifas" element={<Rates />} />
           {/* Servicios */}
           <Route path="servicios/comercio-exterior" element={<ServicePage key="comercio-exterior" slug="comercio-exterior" />} />
           <Route path="servicios/almacenamiento" element={<ServicePage key="almacenamiento" slug="almacenamiento" />} />
@@ -51,6 +53,7 @@ export default function AppRouter() {
           <Route path="empresa/sobre-nosotros" element={<About />} />
           <Route path="empresa/presencia-global" element={<GlobalPresence />} />
           <Route path="empresa/historia" element={<History />} />
+          <Route path="empresa/tarifas" element={<Rates />} />
           {/* Servicios */}
           <Route path="servicios/comercio-exterior" element={<ServicePage key="comercio-exterior" slug="comercio-exterior" />} />
           <Route path="servicios/almacenamiento" element={<ServicePage key="almacenamiento" slug="almacenamiento" />} />

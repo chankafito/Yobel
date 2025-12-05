@@ -38,6 +38,12 @@
     },
     "life" : {
       "title" : "Vida en Yobel"
+    },
+    "rates" : {
+      "title" : "Rates",
+      "description" : "Check out our updated rates for all our logistics and supply chain services.",
+      "download": "Download PDF",
+      "foreign_trade" : "Foreign Trade"
     }
   }
 }
