@@ -12,7 +12,11 @@ import { LocationCard } from "../../../components/LocationCard";
 import { ContactModal } from "../../../components/ui/ContactModal";
 import { ButtonGradient } from "../../../components/atoms/ButtonGradient";
 
-export function SectionMaps() {
+interface SectionMapsProps {
+  showContactButton?: boolean;
+}
+
+export function SectionMaps({ showContactButton = true }: SectionMapsProps) {
   const { t } = useTranslation();
 
   const locations = useLocations();
@@ -115,22 +119,24 @@ export function SectionMaps() {
           </div>
         </div>
         
-        <div className="p-10 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
-          <div className="max-w-2xl">
-            <h3 className="text-3xl md:text-4xl font-augenblick mb-4 text-black">{t('global.contact.title')}</h3>
-            <p className="text-black/60 leading-relaxed text-lg md:text-xl">
-              {t('global.contact.description')}
-            </p>
+        {showContactButton && (
+          <div className="p-10 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="max-w-2xl">
+              <h3 className="text-3xl md:text-4xl font-augenblick mb-4 text-black">{t('global.contact.title')}</h3>
+              <p className="text-black/60 leading-relaxed text-lg md:text-xl">
+                {t('global.contact.description')}
+              </p>
+            </div>
+            
+            <div className="w-full md:w-auto shrink-0">
+              <ContactModal 
+                trigger={
+                  <ButtonGradient className="w-full md:w-auto hover:!border-transparent"> {t('contact_now')} </ButtonGradient>
+                }
+              />
+            </div>
           </div>
-          
-          <div className="w-full md:w-auto shrink-0">
-            <ContactModal 
-              trigger={
-                <ButtonGradient className="w-full md:w-auto hover:!border-transparent"> {t('contact_now')} </ButtonGradient>
-              }
-            />
-          </div>
-        </div>
+        )}
 
       </Container>
     </Section>

@@ -8,6 +8,7 @@ import enFooter from "../locales/en/footer.json";
 import enHome from "../locales/en/home.json";
 import enAbout from "../locales/en/about.json";
 import enGlobal from "../locales/en/global.json";
+import enNews from "../locales/en/news.json";
 
 import esCommon from "../locales/es/common.json";
 import esHeader from "../locales/es/header.json";
@@ -15,6 +16,7 @@ import esFooter from "../locales/es/footer.json";
 import esHome from "../locales/es/home.json";
 import esAbout from "../locales/es/about.json";
 import esGlobal from "../locales/es/global.json";
+import esNews from "../locales/es/news.json";
 
 import clCommon from "../locales/cl/common.json";
 import clHeader from "../locales/cl/header.json";
@@ -22,6 +24,7 @@ import clFooter from "../locales/cl/footer.json";
 import clHome from "../locales/cl/home.json";
 import clAbout from "../locales/cl/about.json";
 import clGlobal from "../locales/cl/global.json";
+import clNews from "../locales/cl/news.json";
 
 // Merge de traducciones por idioma
 const resources = {
@@ -32,7 +35,8 @@ const resources = {
       ...enFooter,
       ...enHome,
       ...enAbout,
-      ...enGlobal
+      ...enGlobal,
+      ...enNews
     },
   },
   es: {
@@ -42,7 +46,8 @@ const resources = {
       ...esFooter,
       ...esHome,
       ...esAbout,
-      ...esGlobal
+      ...esGlobal,
+      ...esNews
     },
   },
   cl: {
@@ -52,7 +57,8 @@ const resources = {
       ...clFooter,
       ...clHome,
       ...clAbout,
-      ...clGlobal
+      ...clGlobal,
+      ...clNews
     },
   },
 };

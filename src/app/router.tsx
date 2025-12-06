@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../layout/Layout";
+import ScrollToTop from "../layout/ScrollToTop";
 
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
@@ -9,6 +10,17 @@ import Rates from "../pages/About/Rates";
 
 import { ServicePage } from "../pages/Services/ServicePage";
 import { IndustryPage } from "../pages/Industries/IndustryPage";
+
+import { News } from "../pages/News/News";
+import { NewDetail } from "../pages/News/NewDetail";
+
+import { BookClaims } from "../pages/Legal/BookClaims";
+import { TermsConditions } from "../pages/Legal/TermsConditions";
+import { PrivacyPolicy } from "../pages/Legal/PrivacyPolicy";
+import { CookiesPolicy } from "../pages/Legal/CookiesPolicy";
+
+import { Contact } from "../pages/Contact/Contact";
+
 import NotFound from "../pages/NotFound";
 
 export default function AppRouter() {
@@ -16,14 +28,15 @@ export default function AppRouter() {
 
   return (
     <BrowserRouter basename={basename}>
+      <ScrollToTop />
       <Routes>
-        {/* Rutas default */}
+        {/* Rutas default (sin idioma explícito) */}
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="empresa/sobre-nosotros" element={<About />} />
           <Route path="empresa/presencia-global" element={<GlobalPresence />} />
           <Route path="empresa/historia" element={<History />} />
-          <Route path="empresa/tarifas" element={<Rates />} />
+          <Route path="tarifas" element={<Rates />} />
           {/* Servicios */}
           <Route path="servicios/comercio-exterior" element={<ServicePage key="comercio-exterior" slug="comercio-exterior" />} />
           <Route path="servicios/almacenamiento" element={<ServicePage key="almacenamiento" slug="almacenamiento" />} />
@@ -43,12 +56,26 @@ export default function AppRouter() {
           <Route path="industrias/quimicos" element={<IndustryPage key="quimicos" slug="quimicos" />} />
           <Route path="industrias/construccion" element={<IndustryPage key="construccion" slug="construccion" />} />
           <Route path="industrias/editorial" element={<IndustryPage key="editorial" slug="editorial" />} />
+
+          {/* Legal */}
+          <Route path="libro-reclamaciones" element={<BookClaims />} />
+          <Route path="terminos-y-condiciones" element={<TermsConditions />} />
+          <Route path="politicas-de-privacidad" element={<PrivacyPolicy />} />
+          <Route path="politicas-de-cookies" element={<CookiesPolicy />} />
+
+          {/* Contacto */}
+          <Route path="contacto" element={<Contact />} />
+
+          {/* News */}
+          <Route path="noticias" element={<News />} />
+          <Route path="noticias/:slug" element={<NewDetail />} />
+
           {/* 404 para rutas anidadas bajo '/' */}
           <Route path="*" element={<NotFound />} />
         </Route>
 
         {/* Multilenguaje parametrizado: '/:lang/*' */}
-        <Route path="/:lang/*" element={<Layout />}>
+        <Route path="/:lang" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="empresa/sobre-nosotros" element={<About />} />
           <Route path="empresa/presencia-global" element={<GlobalPresence />} />
@@ -73,6 +100,22 @@ export default function AppRouter() {
           <Route path="industrias/quimicos" element={<IndustryPage key="quimicos" slug="quimicos" />} />
           <Route path="industrias/construccion" element={<IndustryPage key="construccion" slug="construccion" />} />
           <Route path="industrias/editorial" element={<IndustryPage key="editorial" slug="editorial" />} />
+
+          
+
+          {/* Legal */}
+          <Route path="libro-reclamaciones" element={<BookClaims />} />
+          <Route path="terminos-y-condiciones" element={<TermsConditions />} />
+          <Route path="politicas-de-privacidad" element={<PrivacyPolicy />} />
+          <Route path="politicas-de-cookies" element={<CookiesPolicy />} />
+
+          {/* News */}
+          <Route path="noticias" element={<News />} />
+          <Route path="noticias/:slug" element={<NewDetail />} />
+
+          {/* Contacto */}
+          <Route path="contacto" element={<Contact />} />
+
           {/* 404 para rutas anidadas bajo '/:lang/*' */}
           <Route path="*" element={<NotFound />} />
         </Route>
