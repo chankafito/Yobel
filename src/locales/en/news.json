@@ -4,6 +4,7 @@
     "read_more" : "Read more",
     "title" : "News",
     "news_center" : "News Center",
-    "description" : "Stay informed about the latest news, trends and success stories from Yobel."
+    "description" : "Stay informed about the latest news, trends and success stories from Yobel.",
+    "return_news" : "Return to News"
   }
 }

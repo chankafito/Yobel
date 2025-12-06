@@ -1,4 +1,3 @@
-import React from "react";
 import { Section } from "../../components/ui/section";
 import { Container } from "../../components/ui/container";
 

@@ -267,7 +267,6 @@ export function ContactForm() {
   
   const initialCountry = countryNameToId[globalSelectedCountry] || 'peru';
   const [selectedCountry, setSelectedCountry] = useState<string>(initialCountry);
-  const [scrollIndex, setScrollIndex] = useState<number>(0);
   const officesRef = useRef<HTMLDivElement>(null);
   const mapSectionRef = useRef<HTMLDivElement>(null);
 
@@ -307,7 +306,6 @@ export function ContactForm() {
   useEffect(() => {
     const newCountry = countryNameToId[globalSelectedCountry] || 'peru';
     setSelectedCountry(newCountry);
-    setScrollIndex(0);
   }, [globalSelectedCountry]);
 
   // Sync form country field with global selected country
@@ -776,7 +774,7 @@ export function ContactForm() {
                   <div className="bg-white p-8 md:p-10 rounded-[40px] border border-gray-200 text-center">
                     <div className="flex justify-center mb-6">
                         <div className="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center">
-                          <CheckCircle className="w-12 h-12 text-green-600" />
+                          <DynamicIcon name="circle-check" strokeWidth={1.5} size={20} className="w-12 h-12 text-green-600" />
                         </div>
                     </div>
                     <h3 className="text-3xl font-normal mb-4 font-[Neue_Augenblick]">¡Mensaje enviado!</h3>

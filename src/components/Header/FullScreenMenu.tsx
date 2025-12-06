@@ -1,12 +1,10 @@
 import { useState, useEffect, useMemo } from "react";
 import { motion, AnimatePresence  } from "framer-motion";;
-import { Link, useParams, useLocation } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Logo from "../Logo";
-import LangSelector from "../LangSelector";
 import { Search, ChevronDown  } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { cn } from "../../utils/cn";
-import { getLangPrefix } from "../../utils/path";
 import { getCountryCode } from "../../utils/countryUtils";
 import { useCountry } from "../../contexts/CountryContext";
 import { CountryPopup } from "./CountryPopup";
@@ -158,18 +156,22 @@ export function FullScreenMenu({ onClose, onSearchClick }: FullScreenMenuProps) 
                                   link.name === "Manufactura" || 
                                   link.name === "Valor Agregado" ||
                                   link.name === "Servicio Valor Agregado";
+
                               const hoverColor = (isServicesCategory && isManufacturingOrValueAddedOrVAS)  ? "hover:text-[#00BEEB]"  : "hover:text-[#fff066]";
                               
                               // Determinar si necesita parámetro de categoría
                               const isNewsCategory = activeCategory === "Noticias" && link.name !== "Todas las noticias";
-                              const linkPath = isNewsCategory ? `${link.path}?categoria=${encodeURIComponent(link.name)}` : link.path;
+
+                              const finalPath = isNewsCategory 
+                                ? `${langPrefix}${link.path}?categoria=${encodeURIComponent(link.name)}` 
+                                : `${langPrefix}${link.path}`;
                               
                               return (
                                   <Link 
                                       key={idx} 
-                                      to={`${langPrefix}${link.path}`}
+                                      to={finalPath}
                                       onClick={onClose}
-                                      className="text-[32px] font-light text-white hover:text-[#fff066] transition-colors w-fit"
+                                      className={`text-[22px] font-medium text-white ${hoverColor} transition-colors w-fit`}
                                   >
                                       {link.name}
                                   </Link>

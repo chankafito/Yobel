@@ -1,15 +1,13 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Search, User, ChevronDown } from "lucide-react";
 import { FullScreenMenu } from "./FullScreenMenu";
 import { SearchOverlay } from "./SearchOverlay";
 import { useCountry } from "../../contexts/CountryContext";
-import { getCountryCode } from "../../utils/countryUtils";
 import { CountryPopup } from "./CountryPopup";
 import Logo from "../Logo";
 import { Link, useParams } from "react-router-dom";
-import { COUNTRIES } from "../../config/constants";
 
 export function Navbar() {
   const { t } = useTranslation();

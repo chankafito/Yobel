@@ -2,7 +2,8 @@
   {
     "news" : {
       "read_more" : "Read more",
-      "title" : "News"
+      "title" : "News",
+      "return_news" : "Regresar a Noticias"
     }
   }
 ]

@@ -29,7 +29,7 @@ export function NewDetail() {
       if (!contentRef.current) return;
       
       const contentElement = contentRef.current;
-      const contentRect = contentElement.getBoundingClientRect();
+      //const contentRect = contentElement.getBoundingClientRect();
       const contentTop = contentElement.offsetTop;
       const contentHeight = contentElement.offsetHeight;
       const windowHeight = window.innerHeight;
@@ -130,7 +130,7 @@ export function NewDetail() {
                   </div>
                 </div>
               </div>
-              <p className="font-['Neue_Augenblick:Medium',sans-serif] leading-[18px] not-italic relative shrink-0 text-[16px] text-black text-center text-nowrap whitespace-pre">Regresar</p>
+              <p className="font-['Neue_Augenblick:Medium',sans-serif] leading-[18px] not-italic relative shrink-0 text-[16px] text-black text-center text-nowrap whitespace-pre">{t('news.return_news')}</p>
             </Link>
 
             {/* Title Section - Centered */}
