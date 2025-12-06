@@ -7,12 +7,10 @@ import type { FaqItem } from "../types/faqs";
  */
 import faqsEn from "../data/locales/en/faqs.json";
 import faqsEs from "../data/locales/es/faqs.json";
-import faqsCl from "../data/locales/cl/faqs.json";
 
 const faqsData: Record<string, FaqItem[]> = {
   en: faqsEn as FaqItem[],
-  es: faqsEs as FaqItem[],
-  cl: faqsCl as FaqItem[],
+  es: faqsEs as FaqItem[]
 };
 
 export function useFaqs() {

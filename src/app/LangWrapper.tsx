@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import i18n from "./i18n";
 
-const VALID_LANGUAGES = ["en", "es", "cl"];
+const VALID_LANGUAGES = ["en", "es" ];
 
 interface LangWrapperProps {
   children: React.ReactNode;

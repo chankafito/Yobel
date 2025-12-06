@@ -4,12 +4,10 @@ import type { StatItem } from "../components/StatsList";
 
 import staticsEn from "../data/locales/en/statics.json";
 import staticsEs from "../data/locales/es/statics.json";
-import staticsCl from "../data/locales/cl/statics.json";
 
 const staticsData: Record<string, StatItem[]> = {
   en: staticsEn as StatItem[],
   es: staticsEs as StatItem[],
-  cl: staticsCl as StatItem[],
 };
 
 export function useStatics() {

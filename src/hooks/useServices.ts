@@ -5,12 +5,10 @@ import type { ServiceItem } from "../types/services"; // crea o ajusta este tipo
 // importa tus JSON locales
 import servicesEn from "../data/locales/en/services.json";
 import servicesEs from "../data/locales/es/services.json";
-import servicesCl from "../data/locales/cl/services.json";
 
 const servicesData: Record<string, ServiceItem[]> = {
   en: servicesEn as ServiceItem[],
   es: servicesEs as ServiceItem[],
-  cl: servicesCl as ServiceItem[],
 };
 
 export function useServices() {

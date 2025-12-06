@@ -14,12 +14,10 @@ export interface NewsItem {
 
 import newsEn from "../data/locales/en/news.json";
 import newsEs from "../data/locales/es/news.json";
-import newsCl from "../data/locales/cl/news.json";
 
 const newsData: Record<string, NewsItem[]> = {
   en: newsEn as NewsItem[],
   es: newsEs as NewsItem[],
-  cl: newsCl as NewsItem[],
 };
 
 export function useNews() {

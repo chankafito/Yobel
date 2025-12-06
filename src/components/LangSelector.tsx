@@ -1,81 +1,37 @@
-import { useNavigate, useParams, useLocation } from "react-router-dom";
-import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
-import { ChevronDown } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import { LANGUAGES } from "../config/constants";
 
 export default function LangSelector() {
-  const navigate = useNavigate();
-  const location = useLocation();
-  const { lang } = useParams();
-  const current = lang ?? "en";
+  const { i18n } = useTranslation();
+  const current = i18n.language;
 
-  const options = [
-    { code: "en", label: "Global", lang : "EN", prefix : "EN" },
-    { code: "es", label: "Perú", lang : "ES", prefix: "PE" },
-    { code: "cl", label: "Chile", lang : "ES", prefix: "CL"},
-  ];
-
-  const handleSelect = (value: string) => {
-    // Obtener el path actual sin el prefijo de idioma
-    const currentPath = location.pathname;
-    const supportedLangs = options.map(o => o.code);
-
-    // Remover el idioma actual del path si existe
-    let pathWithoutLang = currentPath;
-    for (const langCode of supportedLangs) {
-      if (currentPath.startsWith(`/${langCode}/`)) {
-        pathWithoutLang = currentPath.slice(langCode.length + 1);
-        break;
-      } else if (currentPath === `/${langCode}`) {
-        pathWithoutLang = "/";
-        break;
-      }
-    }
-
-    // Si estamos en la raíz, solo navegar al idioma
-    if (pathWithoutLang === "/" || pathWithoutLang === "") {
-      navigate(`/${value}`);
-    } else {
-      // Mantener el path actual con el nuevo idioma
-      navigate(`/${value}${pathWithoutLang}`);
-    }
+  const handleChange = (code: string) => {
+    i18n.changeLanguage(code);
   };
 
   return (
-    <DropdownMenu.Root>
-      <DropdownMenu.Trigger className="flex items-center gap-2  bg-transparent cursor-pointer">
-        <span className="text-lg ">
-          {options.find((o) => o.code === current)?.prefix || "EN"}
-        </span>
-        <ChevronDown className="w-5 transition-transform duration-200" />
-      </DropdownMenu.Trigger>
+    <div className="flex gap-[32px]">
+      {LANGUAGES.map(lang => {
+        const selected = current === lang.code;
 
-      <DropdownMenu.Content
-        sideOffset={8}
-        className="absolute right-0 mt-2 w-64 bg-white rounded-[20px] shadow-2xl border border-gray-100 p-5 flex flex-col gap-3 z-50"
-      >
-        <div className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1 px-2"> Selecciona ubicación </div>
-
-        {options.map((o) => (
-          <DropdownMenu.Item
-            key={o.code}
-            onSelect={() => handleSelect(o.code)}
-            className={`text-left px-4 py-3 rounded-xl flex justify-between items-center font-medium transition-colors cursor-pointer
-              ${o.code === current ? "bg-gray-50 text-black ring-1 ring-black/5" : "text-gray-600 hover:bg-gray-50"}`}
+        return (
+          <div
+            key={lang.code}
+            className="content-stretch flex items-center px-0 py-[8px] relative shrink-0 cursor-pointer"
+            onClick={() => handleChange(lang.code)}
           >
-            {o.label}
-            <span
-              className={`text-[11px] font-bold px-2 py-0.5 rounded-full ${
-                o.code === current
-                  ? "bg-black text-white"
-                  : "bg-gray-200 text-gray-600"
-              }`}
-            >
-              {o.lang.toUpperCase()}
-            </span>
-          </DropdownMenu.Item>
-        ))}
-      </DropdownMenu.Content>
-    </DropdownMenu.Root>
+            <p
+              className={`${selected 
+                ? '[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-solid underline' 
+                : ''
+              } font-['Neue_Montreal:Regular',sans-serif] leading-[24px] not-italic shrink-0 text-[16px] text-black whitespace-pre hover:opacity-70 transition-opacity`}>
+              {lang.label}
+            </p>
+          </div>
+        );
+      })}
+    </div>
+
 
   );
 }

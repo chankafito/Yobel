@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { CountryFlag } from "./CountryFlags";
 import { useCountry } from "../../contexts/CountryContext";
+
+import LangSelector from "../LangSelector";
 
 interface CountryPopupProps {
   isOpen: boolean;
@@ -157,91 +159,6 @@ function Form({ selectedCountry, isExpanded, onToggle, onSelectCountry }: {
   );
 }
 
-function AccordionTitle({ selected, onClick }: { selected: boolean; onClick: () => void }) {
-  return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0 cursor-pointer" data-name="Accordion Title" onClick={onClick}>
-      <p className={`${selected ? '[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-solid underline' : ''} font-['Neue_Montreal:Regular',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-nowrap whitespace-pre hover:opacity-70 transition-opacity`}>
-        Español
-      </p>
-    </div>
-  );
-}
-
-function AccordionTitle1({ selected, onClick }: { selected: boolean; onClick: () => void }) {
-  return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0 cursor-pointer" data-name="Accordion Title" onClick={onClick}>
-      <p className={`${selected ? '[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-solid underline' : ''} font-['Neue_Montreal:Regular',sans-serif] leading-[24px] not-italic relative shrink-0 text-[16px] text-black text-nowrap whitespace-pre hover:opacity-70 transition-opacity`}>
-        Inglés
-      </p>
-    </div>
-  );
-}
-
-function AccordionItem({ selected, onClick }: { selected: boolean; onClick: () => void }) {
-  return (
-    <div className="box-border content-stretch flex items-center px-0 py-[8px] relative shrink-0" data-name="Accordion Item">
-      <AccordionTitle selected={selected} onClick={onClick} />
-    </div>
-  );
-}
-
-function AccordionItem1({ selected, onClick }: { selected: boolean; onClick: () => void }) {
-  return (
-    <div className="box-border content-stretch flex items-center px-0 py-[8px] relative shrink-0" data-name="Accordion Item">
-      <AccordionTitle1 selected={selected} onClick={onClick} />
-    </div>
-  );
-}
-
-function Idiomas() {
-  const [selectedLang, setSelectedLang] = useState<'es' | 'en'>('es');
-
-  return (
-    <div className="content-stretch flex gap-[32px] items-start relative shrink-0" data-name="Idiomas">
-      <AccordionItem selected={selectedLang === 'es'} onClick={() => setSelectedLang('es')} />
-      <AccordionItem1 selected={selectedLang === 'en'} onClick={() => setSelectedLang('en')} />
-    </div>
-  );
-}
-
-function Idioma() {
-  return (
-    <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full" data-name="Idioma">
-      <p className="basis-0 font-['Neue_Augenblick:Medium_Italic',sans-serif] grow italic leading-[18px] min-h-px min-w-px relative shrink-0 text-[14px] text-[rgba(73,73,73,0.5)]">Selecciona el idioma</p>
-      <Idiomas />
-    </div>
-  );
-}
-
-function Contenido({ 
-  selectedCountry, 
-  onContinue, 
-  isExpanded, 
-  onToggle, 
-  onSelectCountry 
-}: { 
-  selectedCountry: string; 
-  onContinue: () => void;
-  isExpanded: boolean;
-  onToggle: () => void;
-  onSelectCountry: (country: string) => void;
-}) {
-  return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-name="Contenido">
-      <Up selectedCountry={selectedCountry} />
-      <Primary selectedCountry={selectedCountry} onContinue={onContinue} />
-      <p className="font-['Neue_Montreal:Regular',sans-serif] leading-[16px] not-italic relative shrink-0 text-[14px] text-black text-center w-full">O</p>
-      <Form 
-        selectedCountry={selectedCountry}
-        isExpanded={isExpanded}
-        onToggle={onToggle}
-        onSelectCountry={onSelectCountry}
-      />
-      <Idioma />
-    </div>
-  );
-}
-
 export function CountryPopup({ isOpen, onClose }: CountryPopupProps) {
   const { selectedCountry, setSelectedCountry } = useCountry();
   const [isExpanded, setIsExpanded] = useState(false);
@@ -301,7 +218,10 @@ export function CountryPopup({ isOpen, onClose }: CountryPopupProps) {
               />
               <p className="font-['Neue_Montreal:Regular',sans-serif] leading-[16px] not-italic relative shrink-0 text-[14px] text-black text-center w-full">O</p>
               <Primary selectedCountry={selectedCountry} onContinue={onClose} />
-              <Idioma />
+              <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full" data-name="Idioma">
+                <p className="basis-0 font-['Neue_Augenblick:Medium_Italic',sans-serif] grow italic leading-[18px] min-h-px min-w-px relative shrink-0 text-[14px] text-[rgba(73,73,73,0.5)]">Selecciona el idioma</p>
+                <LangSelector />
+              </div>
             </div>
           </div>
         </div>

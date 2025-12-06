@@ -18,14 +18,6 @@ import esAbout from "../locales/es/about.json";
 import esGlobal from "../locales/es/global.json";
 import esNews from "../locales/es/news.json";
 
-import clCommon from "../locales/cl/common.json";
-import clHeader from "../locales/cl/header.json";
-import clFooter from "../locales/cl/footer.json";
-import clHome from "../locales/cl/home.json";
-import clAbout from "../locales/cl/about.json";
-import clGlobal from "../locales/cl/global.json";
-import clNews from "../locales/cl/news.json";
-
 // Merge de traducciones por idioma
 const resources = {
   en: {
@@ -49,18 +41,7 @@ const resources = {
       ...esGlobal,
       ...esNews
     },
-  },
-  cl: {
-    translation: {
-      ...clCommon,
-      ...clHeader,
-      ...clFooter,
-      ...clHome,
-      ...clAbout,
-      ...clGlobal,
-      ...clNews
-    },
-  },
+  }
 };
 
 i18n.use(initReactI18next).init({

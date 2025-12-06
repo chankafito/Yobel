@@ -5,12 +5,10 @@ import type { LocationGroup, LocationItem } from "../types/location";
 // Importar JSON por idioma
 import locationsEn from "../data/locales/en/locations.json";
 import locationsEs from "../data/locales/es/locations.json";
-import locationsCl from "../data/locales/cl/locations.json";
 
 const locationsData: Record<string, LocationGroup[]> = {
   en: locationsEn as LocationGroup[],
   es: locationsEs as LocationGroup[],
-  cl: locationsCl as LocationGroup[],
 };
 
 export function useLocations() {
