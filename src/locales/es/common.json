@@ -1,12 +1,32 @@
 {
   "notFound": {
     "title": "404",
-    "description": "Oops! The page you're looking for can't be found."
+    "description": "¡Ups! No se encuentra la página que buscas."
   },
   "return_home": "Volver al inicio",
   "flot_menu":{
     "chatbot" : "Chatbot",
     "tracking": "Tracking",
     "contact": "Contacto"
+  },
+  "contact_now" : "Contactar ahora",
+  "form_contact" : {
+    "title" : "Contáctanos",
+    "description" : "Déjanos tus datos y nos pondremos en contacto contigo a la brevedad.",
+    "inputs" :{
+      "name" : "Nombre completo",
+      "email" : "Correo electrónico",
+      "mensage" : "Mensaje"
+    },
+    "sending": "Enviar mensaje"
+  },
+  "popup_lang" : {
+    "title" : "Selecciona tu idioma",
+    "subtitle" : "Elige el idioma de tu preferencia para navegar por nuestro sitio web.",
+    "continues" : "Continuar en Yobel",
+    "current" : "Estás en {{country}}",
+    "pais" : "Mostramos la información de servicios y contacto de Yobel en tu país.",
+    "select" : "Selecciona un país diferente",
+    "lang" : "Selecciona el idioma"
   }
 }

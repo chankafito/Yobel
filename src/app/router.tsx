@@ -11,6 +11,8 @@ import Rates from "../pages/About/Rates";
 import { ServicePage } from "../pages/Services/ServicePage";
 import { IndustryPage } from "../pages/Industries/IndustryPage";
 
+import { CodeOfEthics } from "../pages/Ethics/CodeOfEthics";
+
 import { News } from "../pages/News/News";
 import { NewDetail } from "../pages/News/NewDetail";
 
@@ -70,6 +72,8 @@ export default function AppRouter() {
           <Route path="industrias/construccion" element={<IndustryPage key="construccion" slug="construccion" />} />
           <Route path="industrias/editorial" element={<IndustryPage key="editorial" slug="editorial" />} />
 
+          { /* Ethics */}
+          <Route path="etica/codigo-de-etica" element={<CodeOfEthics />} />
           {/* News */}
           <Route path="noticias" element={<News />} />
           <Route path="noticias/:slug" element={<NewDetail />} />

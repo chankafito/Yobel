@@ -1,0 +1,14 @@
+{
+  "ethics": {
+    "name" : "Code of Ethics",
+    "title": "We act with integrity at every link",
+    "phrase" : {
+      "text" : "Our Code of Ethics and policies guide how we work with clients, partners, and communities throughout Latin America.",
+      "btn" :  "Go to Ethics Line"
+    },
+    "values" : {
+      "name" : "Values",
+      "title" : "Principles that guide us"
+    }
+  }
+}

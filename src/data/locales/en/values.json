@@ -1,0 +1,22 @@
+[
+  {
+    "id": "01",
+    "title": "Integridad",
+    "description": "Cumplimos promesas, cuidamos activos y rechazamos cualquier ventaja indebida. Actuamos con transparencia en cada decisión."
+  },
+  {
+    "id": "02",
+    "title": "Respeto y Diversidad",
+    "description": "Valoramos ideas, personas y contextos diferentes. Tenemos tolerancia cero al acoso, la discriminación y cualquier forma de violencia."
+  },
+  {
+    "id": "03",
+    "title": "Cumplimiento",
+    "description": "Seguimos rigurosamente leyes, normativas y contratos. Reportamos proactivamente conflictos de interés y prevenimos el lavado de activos."
+  },
+  {
+    "id": "04",
+    "title": "Seguridad y Ambiente",
+    "description": "Operamos con los más altos estándares HSE (Health, Safety & Environment), previniendo incidentes y reduciendo nuestra huella ambiental."
+  }
+]

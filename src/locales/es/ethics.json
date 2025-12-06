@@ -1,0 +1,29 @@
+{
+  "ethics": {
+    "name" : "Código de Ética",
+    "title": "Actuamos con integridad en cada eslabón",
+    "phrase" : {
+      "text" : "Nuestro Código de Ética y nuestras políticas guían cómo trabajamos con clientes, aliados y comunidades en toda Latinoamérica.",
+      "btn" :  "Ir a línea de Ética"
+    },
+    "values" : {
+      "name" : "Valores",
+      "title" : "Principios que nos guían"
+    },
+    "channel" : {
+      "title" :  "Reporta una preocupación con confianza",
+      "description" :  "Si detectas conductas contrarias a nuestro Código de Ética, repórtalo. Puedes hacerlo de forma anónima, confidencial y sin represalias.", 
+      "form" : "Formulario web",
+      "phone" : "Línea telefónica",
+      "tracking" : "Seguimiento de caso",
+      "btn" : "Ir a línea de Ética"
+    },
+    
+    "policies" : {
+      "title" : "Ética y cumplimiento",
+      "subtitle" : "Nuestro negocio se sostiene en la integridad. Aquí puedes consultar nuestras políticas vigentes.",
+      "btn" : "Ver Documento"
+    }
+    
+  }
+}

@@ -5,20 +5,28 @@
   },
   "return_home": "Return Home",
   "flot_menu":{
-    "chatbot" : "Chatbot",
+    "chatbot": "Chatbot",
     "tracking": "Tracking",
     "contact": "Contact"
   },
-  "contact_now" : "Contactar ahora",
-  "form_contact" : {
-    "title" : "Contáctanos",
-    "description" : "Déjanos tus datos y nos pondremos en contacto contigo a la brevedad.",
-    "inputs" :{
-      "name" : "Nombre completo",
-      "email" : "Correo electrónico",
-      "mensage" : "Mensaje"
+  "contact_now": "Contact Now",
+  "form_contact": {
+    "title": "Contact Us",
+    "description": "Leave us your information and we'll get back to you shortly.",
+    "inputs": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "mensage": "Message"
     },
-    "sending": "Enviar mensaje"
-
+    "sending": "Send Message"
+  },
+  "popup_lang": {
+    "title": "Select Your Language",
+    "subtitle": "Choose your preferred language to browse our website.",
+    "continues": "Continue to Yobel",
+    "current": "You are in {{country}}",
+    "pais": "We show Yobel's services and contact information in your country.",
+    "select": "Select a different country",
+    "lang": "Select Language"
   }
 }

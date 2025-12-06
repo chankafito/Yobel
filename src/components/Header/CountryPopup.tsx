@@ -5,8 +5,10 @@ import { useCountry } from "../../contexts/CountryContext";
 
 import LangSelector from "./LangSelector";
 import { useNavigate, useParams, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import { COUNTRIES } from "../../config/constants";
+import { t } from "i18next";
 
 interface CountryPopupProps {
   isOpen: boolean;
@@ -43,12 +45,14 @@ function Icon({ onClick }: { onClick: () => void }) {
 }
 
 function Primary({ selectedCountry, onContinue }: { selectedCountry: string; onContinue: () => void }) {
+  const { t } = useTranslation();
+
   return (
     <button onClick={onContinue} className="relative rounded-[30px] shrink-0 w-full hover:opacity-80 transition-opacity" >
       <div aria-hidden="true" className="absolute border-[1.5px] border-black border-solid inset-[-0.75px] pointer-events-none rounded-[30.75px]" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="box-border content-stretch flex gap-[12px] items-center justify-center p-[16px] relative w-full">
-          <p className="font-['Neue_Augenblick:Medium',sans-serif] leading-[20px] not-italic relative shrink-0 text-[18px] text-black text-center text-nowrap whitespace-pre">Continuar en Yobel {selectedCountry}</p>
+          <p className="font-['Neue_Augenblick:Medium',sans-serif] leading-[20px] not-italic relative shrink-0 text-[18px] text-black text-center text-nowrap whitespace-pre">{ t("popup_lang.continues" )} {selectedCountry}</p>
         </div>
       </div>
     </button>
@@ -69,7 +73,7 @@ function Secundary({ selectedCountry, isExpanded, onToggle, onSelectCountry }: {
         data-name="Secundary"
       >
         <div aria-hidden="true" className="absolute border-[0px_0px_1.5px] border-black border-solid bottom-[-0.75px] left-0 pointer-events-none right-0 top-0" />
-        <div className="basis-0 flex flex-col font-['Neue_Augenblick:Medium',sans-serif] grow justify-center leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[24px] text-black">
+        <div className="basis-0 flex flex-col grow justify-center leading-[0] min-h-px min-w-px not-italic relative shrink-0 text-[24px] text-black">
           <p className="leading-[24px]">{selectedCountry}</p>
         </div>
         <div className={`transition-transform ${isExpanded ? 'rotate-[-90deg]' : ''}`}>
@@ -128,7 +132,7 @@ function Form({ selectedCountry, isExpanded, onToggle, onSelectCountry }: {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-name="Form">
       <div aria-hidden="true" className="absolute border-[0px_0px_1px] border-black border-solid bottom-[-0.5px] left-0 pointer-events-none right-0 top-0" />
-      <p className="font-['Neue_Augenblick:Medium',sans-serif] leading-[18px] not-italic relative shrink-0 text-[16px] text-[rgba(73,73,73,0.5)] text-nowrap whitespace-pre">Selecciona un país diferente</p>
+      <p className="font-['Neue_Augenblick:Medium',sans-serif] leading-[18px] not-italic relative shrink-0 text-[16px] text-[rgba(73,73,73,0.5)] text-nowrap whitespace-pre">{t("popup_lang.select")}</p>
       <Secundary 
         selectedCountry={selectedCountry} 
         isExpanded={isExpanded}
@@ -210,8 +214,8 @@ export function CountryPopup({ isOpen, onClose }: CountryPopupProps) {
             </div>
             <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full">
               <div className="content-stretch flex flex-col gap-[20px] items-start justify-center relative shrink-0 w-full">
-                <p className="font-['Neue_Augenblick:Medium',sans-serif] leading-[24px] min-w-full not-italic relative shrink-0 text-[24px] text-black w-[min-content]">Estás en {countryLabel}</p>
-                <p className="font-['Neue_Augenblick:Regular',sans-serif] leading-[22px] min-w-full not-italic relative shrink-0 text-[18px] text-black w-[min-content]">Mostramos la información de servicios y contacto de Yobel en tu país.</p>
+                <p className="font-['Neue_Augenblick:Medium',sans-serif] leading-[24px] min-w-full not-italic relative shrink-0 text-[24px] text-black w-[min-content]"> {t("popup_lang.current", { country: countryLabel })} </p>
+                <p className="font-['Neue_Augenblick:Regular',sans-serif] leading-[22px] min-w-full not-italic relative shrink-0 text-[18px] text-black w-[min-content]">{ t("popup_lang.pais")} </p>
               </div>
               <Form 
                 selectedCountry={countryLabel}
@@ -219,10 +223,10 @@ export function CountryPopup({ isOpen, onClose }: CountryPopupProps) {
                 onToggle={() => setIsExpanded(!isExpanded)}
                 onSelectCountry={handleSelectCountry}
               />
-              <p className="font-['Neue_Montreal:Regular',sans-serif] leading-[16px] not-italic relative shrink-0 text-[14px] text-black text-center w-full">O</p>
+              <p className="leading-[16px] not-italic relative shrink-0 text-[14px] text-black text-center w-full">O</p>
               <Primary selectedCountry={countryLabel} onContinue={onClose} />
               <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full" data-name="Idioma">
-                <p className="basis-0 font-['Neue_Augenblick:Medium_Italic',sans-serif] grow italic leading-[18px] min-h-px min-w-px relative shrink-0 text-[14px] text-[rgba(73,73,73,0.5)]">Selecciona el idioma</p>
+                <p className="basis-0 grow italic leading-[18px] min-h-px min-w-px relative shrink-0 text-[14px] text-[rgba(73,73,73,0.5)]">{ t("popup_lang.lang") }</p>
                 <LangSelector />
               </div>
             </div>

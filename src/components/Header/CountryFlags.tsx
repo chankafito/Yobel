@@ -210,8 +210,6 @@ export function CountryFlag({ country }: { country: string }) {
   const flag = flagMap[countryCode] || '🏳️';
 
   return (
-    <div className="text-6xl">
-      {flag}
-    </div>
+    <div className="text-6xl"> {flag} </div>
   );
 }
