@@ -192,26 +192,28 @@ export function MexicoFlag() {
 
 // Componente principal que selecciona la bandera según el país
 export function CountryFlag({ country }: { country: string }) {
-  switch (country) {
-    case "Perú":
-      return <PeruFlag />;
-    case "Ecuador":
-      return <EcuadorFlag />;
-    case "Colombia":
-      return <ColombiaFlag />;
-    case "Panamá":
-      return <PanamaFlag />;
-    case "Costa Rica":
-      return <CostaRicaFlag />;
-    case "Rep. Dominicana":
-      return <DominicanRepublicFlag />;
-    case "El Salvador":
-      return <ElSalvadorFlag />;
-    case "Guatemala":
-      return <GuatemalaFlag />;
-    case "México":
-      return <MexicoFlag />;
-    default:
-      return <PeruFlag />;
-  }
+  // Asegurar que el código del país esté en minúsculas
+  const countryCode = country?.toLowerCase() || 'pe';
+  
+  // Mapeo de códigos de país a banderas
+  const flagMap: Record<string, string> = {
+    pe: '🇵🇪',
+    cl: '🇨🇱',
+    co: '🇨🇴',
+    mx: '🇲🇽',
+    ec: '🇪🇨',
+    pa: '🇵🇦',
+    cr: '🇨🇷',
+    sv: '🇸🇻',
+    gt: '🇬🇹',
+    // ...agregar más países según necesites
+  };
+
+  const flag = flagMap[countryCode] || '🏳️';
+
+  return (
+    <div className="text-6xl">
+      {flag}
+    </div>
+  );
 }

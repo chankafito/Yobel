@@ -1,20 +1,30 @@
 import { useTranslation } from "react-i18next";
 import { LANGUAGES } from "../../config/constants";
-import { useParams, useNavigate } from "react-router-dom";
+import { useNavigate, useParams, useLocation } from "react-router-dom";
 
 export default function LangSelector() {
   const { i18n } = useTranslation();
   const { lang, country } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
 
   const currentLang = lang || "es";
+
+  // Obtener el path actual sin el prefijo de idioma/país
+  const currentPath = location.pathname
+    .replace(`/${lang}/${country}`, '')
+    .replace(`/${lang}`, '')
+    || '';
 
   const handleChange = (newLang: string) => {
     if (currentLang === newLang) return;
 
     i18n.changeLanguage(newLang);
 
-    navigate(`/${newLang}/${country}`);
+    const currentCountry = country || 'pe';
+    // Mantener la misma ruta al cambiar de idioma
+    const newPath = `/${newLang}/${currentCountry}${currentPath}`;
+    navigate(newPath);
   };
 
   return (

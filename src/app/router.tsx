@@ -32,7 +32,7 @@ export default function AppRouter() {
       <Routes>
 
         {/* 🔥 Redirección a idioma/país POR DEFECTO */}
-        <Route path="/" element={<Navigate to="/es/pe" replace />} />
+        <Route path="/" element={<Navigate to="/es/pe/" replace />} />
 
         {/* 🔥 TODA LA WEB con idioma + país */}
         <Route path="/:lang/:country" element={<Layout />}>

@@ -3,10 +3,10 @@ import { useTranslation } from 'react-i18next';
 import videoHero from "/src/assets/videos/fondo-horizontal.mp4";
 
 export function Hero() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('home');
 
-  const titleText = t('home.hero.title');
-  const subtitleText = t('home.hero.subtitle');
+  const titleText = t('hero.title', 'Ponemos tu negocio en movimiento');
+  const subtitleText = t('hero.subtitle', 'Soluciones logísticas integrales');
 
   const containerVariants = {
     hidden: { opacity: 0 },

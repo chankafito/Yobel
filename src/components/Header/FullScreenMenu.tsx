@@ -17,11 +17,11 @@ interface FullScreenMenuProps {
 }
 
 export function FullScreenMenu({ onClose, onSearchClick }: FullScreenMenuProps) {
-   const { t, i18n } = useTranslation();
-   const location = useLocation();
-   const { lang } = useParams();
-   const langCode = lang ?? i18n.language ?? "en";
-   const langPrefix = getLangPrefix(langCode);
+  const { t, i18n } = useTranslation();
+  const { lang, country } = useParams();
+  const langCode = lang || 'es';
+  const countryCode = country || 'pe';
+  const langPrefix = `/${langCode}/${countryCode}`;
 
    const menuItems = useMemo(() => {
      return t("header.navs", { returnObjects: true }) as {
@@ -167,9 +167,9 @@ export function FullScreenMenu({ onClose, onSearchClick }: FullScreenMenuProps) 
                               return (
                                   <Link 
                                       key={idx} 
-                                      to={linkPath}
+                                      to={`${langPrefix}${link.path}`}
                                       onClick={onClose}
-                                      className={`text-[22px] font-medium text-white ${hoverColor} transition-colors w-fit`}
+                                      className="text-[32px] font-light text-white hover:text-[#fff066] transition-colors w-fit"
                                   >
                                       {link.name}
                                   </Link>
@@ -197,10 +197,10 @@ export function FullScreenMenu({ onClose, onSearchClick }: FullScreenMenuProps) 
 
                   {/* Legal Links */}
                   <div className="flex gap-4">
-                      <Link to="/terminos-y-condiciones" onClick={onClose} className="px-0 py-2 hover:text-white transition-colors">Términos y Condiciones</Link>
-                      <Link to="/libro-reclamaciones" onClick={onClose} className="px-0 py-2 hover:text-white transition-colors">Libro de Reclamaciones</Link>
-                      <Link to="/politicas-de-privacidad" onClick={onClose} className="px-0 py-2 hover:text-white transition-colors">Privacidad</Link>
-                      <Link to="/politicas-de-cookies" onClick={onClose} className="px-0 py-2 hover:text-white transition-colors">Políticas de Cookies</Link>
+                      <Link to={`${langPrefix}/terminos-y-condiciones`} onClick={onClose} className="hover:text-white transition-colors">Términos y Condiciones</Link>
+                      <Link to={`${langPrefix}/libro-reclamaciones`} onClick={onClose} className="hover:text-white transition-colors">Libro de Reclamaciones</Link>
+                      <Link to={`${langPrefix}/politicas-de-privacidad`} onClick={onClose} className="hover:text-white transition-colors">Privacidad</Link>
+                      <Link to={`${langPrefix}/politicas-de-cookies`} onClick={onClose} className="hover:text-white transition-colors">Políticas de Cookies</Link>
                   </div>
               </div>
            </div>

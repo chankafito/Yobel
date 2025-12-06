@@ -4,13 +4,11 @@ import Logo from "../Logo";
 import { Link, useParams } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "../../utils/cn";
-import { getLangPrefix } from "../../utils/path";
 
 export default function Footer() {
   const { t, i18n } = useTranslation();
-  const { lang } = useParams();
-  const langCode = lang ?? i18n.language ?? "en";
-  const langPrefix = getLangPrefix(langCode);
+  const { lang, country } = useParams();
+  const langPrefix = `/${lang || 'es'}/${country || 'pe'}`;
 
   // Obtener items del menú desde locales (header.navs)
   const menuItems = useMemo(() => {
@@ -32,7 +30,6 @@ export default function Footer() {
   const activeItems = menuItems.find(item => item.title === activeCategory)?.items || [];
 
   return (
-    
     <footer className="bg-black text-white w-full overflow-hidden py-12 md:py-20 font-augenblick">
       <div className="max-w-[1440px] mx-auto px-6 md:px-12 flex flex-col gap-16 md:gap-24">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-12 lg:gap-20">
@@ -105,13 +102,12 @@ export default function Footer() {
                             transition={{ duration: 0.3, ease: "easeInOut" }}
                             className="flex flex-col gap-6"
                         >
-                            {/* Spacer to align with the list on the left (approximate visual alignment) */}
                              <p className="text-[16px] text-white/50 font-medium mb-2 opacity-0 select-none">SUBMENU</p> 
                             
                             {activeItems.map((link, idx) => (
                                 <Link 
                                     key={idx} 
-                                    to={link.path}
+                                    to={`${langPrefix}${link.path}`}
                                     className="text-[22px] text-white hover:text-[#fff066] transition-colors"
                                 >
                                     {link.name}

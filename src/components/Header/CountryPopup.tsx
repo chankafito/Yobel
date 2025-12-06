@@ -4,6 +4,8 @@ import { CountryFlag } from "./CountryFlags";
 import { useCountry } from "../../contexts/CountryContext";
 
 import LangSelector from "./LangSelector";
+import { useNavigate, useParams, useLocation } from "react-router-dom";
+
 import { COUNTRIES } from "../../config/constants";
 
 interface CountryPopupProps {
@@ -105,7 +107,7 @@ function Secundary({ selectedCountry, isExpanded, onToggle, onSelectCountry }: {
           {COUNTRIES.map((country) => (
             <button
               key={country.code}
-              onClick={() => onSelectCountry(country.label)}
+              onClick={() => onSelectCountry(country.code)}
               className="w-full text-left px-4 py-2 hover:bg-black/5 rounded-lg font-['Neue_Augenblick:Regular',sans-serif] text-[18px] text-black transition-colors"
             >
               {country.label}
@@ -140,11 +142,34 @@ function Form({ selectedCountry, isExpanded, onToggle, onSelectCountry }: {
 export function CountryPopup({ isOpen, onClose }: CountryPopupProps) {
   const { selectedCountry, setSelectedCountry } = useCountry();
   const [isExpanded, setIsExpanded] = useState(false);
+  const { lang, country } = useParams();
+  const navigate = useNavigate();
+  const location = useLocation();
 
-  const handleSelectCountry = (country: string) => {
-    setSelectedCountry(country);
+  // Obtener el path actual sin el prefijo de idioma/país
+  const currentPath = location.pathname
+    .replace(`/${lang}/${country}`, '')
+    .replace(`/${lang}`, '')
+    || '';
+
+  // Obtener el país actual desde params o usar selectedCountry del contexto
+  const currentCountryCode = country || selectedCountry;
+  const currentCountry = COUNTRIES.find(c => c.code === currentCountryCode);
+  const countryLabel = currentCountry?.label || 'Perú';
+
+  const handleSelectCountry = (newCountry: string) => {
+    if (newCountry === currentCountryCode) {
+      setIsExpanded(false);
+      return;
+    }
+    
+    const currentLang = lang || 'es';
+    // Mantener la misma ruta al cambiar de país
+    const newPath = `/${currentLang}/${newCountry}${currentPath}`;
+    navigate(newPath);
+    setSelectedCountry(newCountry);
     setIsExpanded(false);
-    onClose(); // Cerrar el popup después de seleccionar el país
+    onClose();
   };
 
   if (!isOpen) return null;
@@ -180,22 +205,22 @@ export function CountryPopup({ isOpen, onClose }: CountryPopupProps) {
         <div className="flex flex-col items-end size-full">
           <div className="box-border content-stretch flex flex-col gap-[36px] items-end p-[32px] relative size-full">
             <div className="flex items-start justify-between w-full">
-              <CountryFlag country={selectedCountry} />
+              <CountryFlag country={currentCountryCode} />
               <Icon onClick={onClose} />
             </div>
             <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full">
               <div className="content-stretch flex flex-col gap-[20px] items-start justify-center relative shrink-0 w-full">
-                <p className="font-['Neue_Augenblick:Medium',sans-serif] leading-[24px] min-w-full not-italic relative shrink-0 text-[24px] text-black w-[min-content]">Estás en {selectedCountry.toUpperCase()}</p>
+                <p className="font-['Neue_Augenblick:Medium',sans-serif] leading-[24px] min-w-full not-italic relative shrink-0 text-[24px] text-black w-[min-content]">Estás en {countryLabel}</p>
                 <p className="font-['Neue_Augenblick:Regular',sans-serif] leading-[22px] min-w-full not-italic relative shrink-0 text-[18px] text-black w-[min-content]">Mostramos la información de servicios y contacto de Yobel en tu país.</p>
               </div>
               <Form 
-                selectedCountry={selectedCountry}
+                selectedCountry={countryLabel}
                 isExpanded={isExpanded}
                 onToggle={() => setIsExpanded(!isExpanded)}
                 onSelectCountry={handleSelectCountry}
               />
               <p className="font-['Neue_Montreal:Regular',sans-serif] leading-[16px] not-italic relative shrink-0 text-[14px] text-black text-center w-full">O</p>
-              <Primary selectedCountry={selectedCountry} onContinue={onClose} />
+              <Primary selectedCountry={countryLabel} onContinue={onClose} />
               <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full" data-name="Idioma">
                 <p className="basis-0 font-['Neue_Augenblick:Medium_Italic',sans-serif] grow italic leading-[18px] min-h-px min-w-px relative shrink-0 text-[14px] text-[rgba(73,73,73,0.5)]">Selecciona el idioma</p>
                 <LangSelector />

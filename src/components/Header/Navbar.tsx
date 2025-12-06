@@ -4,14 +4,17 @@ import { useTranslation } from "react-i18next";
 import { Search, User, ChevronDown } from "lucide-react";
 import { FullScreenMenu } from "./FullScreenMenu";
 import { SearchOverlay } from "./SearchOverlay";
-import LangSelector from "../LangSelector";
 import { useCountry } from "../../contexts/CountryContext";
 import { getCountryCode } from "../../utils/countryUtils";
 import { CountryPopup } from "./CountryPopup";
 import Logo from "../Logo";
+import { Link, useParams } from "react-router-dom";
+import { COUNTRIES } from "../../config/constants";
 
 export function Navbar() {
   const { t } = useTranslation();
+  const { lang, country } = useParams<{ lang?: string; country?: string }>();
+  const { selectedCountry } = useCountry();
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -19,7 +22,6 @@ export function Navbar() {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [hasScrolled, setHasScrolled] = useState(false);
-  const { selectedCountry } = useCountry();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -46,6 +48,11 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
+  // Obtener el código del país actual desde params o contexto
+  const currentLang = lang || 'es';
+  const currentCountryCode = country || selectedCountry || 'pe';
+  const langPrefix = `/${currentLang}/${currentCountryCode}`;
+
   return (
     <>
       <motion.div 
@@ -65,19 +72,18 @@ export function Navbar() {
             : 'bg-white/50 backdrop-blur-md shadow-sm'
         }`}>
           {/* Logo */}
-          <a href="/" className="h-[30px] w-20 relative block hover:opacity-70 transition-opacity">
+          <Link to={langPrefix} className="h-[30px] w-20 relative block hover:opacity-70 transition-opacity">
             <Logo />
-          </a>
+          </Link>
 
           {/* Right Actions */}
           <div className="flex items-center gap-2 md:gap-6">
-            {/* Lang */}
-            {/* <LangSelector /> */}
+            {/* Country Selector */}
             <button 
               className="flex items-center gap-2 cursor-pointer hover:opacity-70 transition-opacity"
               onClick={() => setIsCountryPopupOpen(true)}
             >
-              <span className="text-lg text-black">{getCountryCode(selectedCountry)}</span>
+              <span className="text-lg text-black uppercase">{currentCountryCode}</span>
               <ChevronDown className="w-3 h-3 text-black" />
             </button>
 
