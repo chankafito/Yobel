@@ -1,18 +1,26 @@
 import { useTranslation } from "react-i18next";
 import { LANGUAGES } from "../../config/constants";
+import { useParams, useNavigate } from "react-router-dom";
 
 export default function LangSelector() {
   const { i18n } = useTranslation();
-  const current = i18n.language;
+  const { lang, country } = useParams();
+  const navigate = useNavigate();
 
-  const handleChange = (code: string) => {
-    i18n.changeLanguage(code);
+  const currentLang = lang || "es";
+
+  const handleChange = (newLang: string) => {
+    if (currentLang === newLang) return;
+
+    i18n.changeLanguage(newLang);
+
+    navigate(`/${newLang}/${country}`);
   };
 
   return (
     <div className="flex gap-[32px]">
       {LANGUAGES.map(lang => {
-        const selected = current === lang.code;
+        const selected = currentLang === lang.code;
 
         return (
           <div

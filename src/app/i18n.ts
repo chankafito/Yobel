@@ -44,11 +44,14 @@ const resources = {
   }
 };
 
+const segments = window.location.pathname.split("/"); 
+const urlLang = segments[1] || "es";
+
 i18n.use(initReactI18next).init({
   resources,
   fallbackLng: "es",
   interpolation: { escapeValue: false },
-  lng: "es",
+  lng: urlLang,
 });
 
 export default i18n;
