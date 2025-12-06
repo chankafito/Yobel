@@ -3,24 +3,13 @@ import { motion } from "framer-motion";
 import { CountryFlag } from "./CountryFlags";
 import { useCountry } from "../../contexts/CountryContext";
 
-import LangSelector from "../LangSelector";
+import LangSelector from "./LangSelector";
+import { COUNTRIES } from "../../config/constants";
 
 interface CountryPopupProps {
   isOpen: boolean;
   onClose: () => void;
 }
-
-const countries = [
-  { name: "Perú", code: "PE" },
-  { name: "Ecuador", code: "EC" },
-  { name: "Colombia", code: "CO" },
-  { name: "Panamá", code: "PA" },
-  { name: "Costa Rica", code: "CR" },
-  { name: "Rep. Dominicana", code: "DO" },
-  { name: "El Salvador", code: "SV" },
-  { name: "Guatemala", code: "GT" },
-  { name: "México", code: "MX" },
-];
 
 function Plus() {
   return (
@@ -53,7 +42,7 @@ function Icon({ onClick }: { onClick: () => void }) {
 
 function Primary({ selectedCountry, onContinue }: { selectedCountry: string; onContinue: () => void }) {
   return (
-    <button onClick={onContinue} className="relative rounded-[30px] shrink-0 w-full hover:opacity-80 transition-opacity" data-name="Primary">
+    <button onClick={onContinue} className="relative rounded-[30px] shrink-0 w-full hover:opacity-80 transition-opacity" >
       <div aria-hidden="true" className="absolute border-[1.5px] border-black border-solid inset-[-0.75px] pointer-events-none rounded-[30.75px]" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="box-border content-stretch flex gap-[12px] items-center justify-center p-[16px] relative w-full">
@@ -61,32 +50,6 @@ function Primary({ selectedCountry, onContinue }: { selectedCountry: string; onC
         </div>
       </div>
     </button>
-  );
-}
-
-function Icon1() {
-  return (
-    <div className="relative size-full" data-name="icon">
-      <div className="absolute inset-[-2.84%_-8.04%_-2.84%_-5.68%]">
-        <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 11 20">
-          <g id="icon">
-            <path d="M0.53033 0.53033L9.86366 9.86366L0.53033 19.197" id="Vector" stroke="black" strokeLinejoin="round" strokeWidth="1.5" />
-          </g>
-        </svg>
-      </div>
-    </div>
-  );
-}
-
-function ArrowRight() {
-  return (
-    <div className="overflow-clip relative shrink-0 size-[32px]" data-name="arrow-right">
-      <div className="absolute flex inset-[36.67%_21.67%_34.17%_20%] items-center justify-center">
-        <div className="flex-none h-[18.667px] rotate-[90deg] w-[9.333px]">
-          <Icon1 />
-        </div>
-      </div>
-    </div>
   );
 }
 
@@ -108,7 +71,22 @@ function Secundary({ selectedCountry, isExpanded, onToggle, onSelectCountry }: {
           <p className="leading-[24px]">{selectedCountry}</p>
         </div>
         <div className={`transition-transform ${isExpanded ? 'rotate-[-90deg]' : ''}`}>
-          <ArrowRight />
+          <div className="overflow-clip relative shrink-0 size-[32px]" data-name="arrow-right">
+            <div className="absolute flex inset-[36.67%_21.67%_34.17%_20%] items-center justify-center">
+              <div className="flex-none h-[18.667px] rotate-[90deg] w-[9.333px]">
+                <div className="relative size-full" data-name="icon">
+                  <div className="absolute inset-[-2.84%_-8.04%_-2.84%_-5.68%]">
+                    <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 11 20">
+                      <g id="icon">
+                        <path d="M0.53033 0.53033L9.86366 9.86366L0.53033 19.197" id="Vector" stroke="black" strokeLinejoin="round" strokeWidth="1.5" />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </button>
       
@@ -124,13 +102,13 @@ function Secundary({ selectedCountry, isExpanded, onToggle, onSelectCountry }: {
           animate={{ opacity: 1, height: "auto" }}
           exit={{ opacity: 0, height: 0 }}
         >
-          {countries.map((country) => (
+          {COUNTRIES.map((country) => (
             <button
               key={country.code}
-              onClick={() => onSelectCountry(country.name)}
+              onClick={() => onSelectCountry(country.label)}
               className="w-full text-left px-4 py-2 hover:bg-black/5 rounded-lg font-['Neue_Augenblick:Regular',sans-serif] text-[18px] text-black transition-colors"
             >
-              {country.name}
+              {country.label}
             </button>
           ))}
         </motion.div>

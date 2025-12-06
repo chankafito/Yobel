@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { LANGUAGES } from "../config/constants";
+import { LANGUAGES } from "../../config/constants";
 
 export default function LangSelector() {
   const { i18n } = useTranslation();

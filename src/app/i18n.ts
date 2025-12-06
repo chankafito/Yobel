@@ -46,9 +46,9 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
-  fallbackLng: "en",
+  fallbackLng: "es",
   interpolation: { escapeValue: false },
-  lng: "en",
+  lng: "es",
 });
 
 export default i18n;
